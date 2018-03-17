@@ -53,7 +53,7 @@ module.exports = {
 
   handleRequest: function(request, res) {
     return new Promise((resolve, reject) => {
-      console.log("request" + request);
+      console.log("request" + JSON.stringify(request));
       if(!request.body) {
         console.error("Empty body in request")
         return;
