@@ -1,5 +1,5 @@
 const quoteModule = require('../functional-logic/quotes/quotes.js');
-const euInfoModule = require('../functional-logic/quotes/quotes.js');
+const euInfoModule = require('../functional-logic/eu-info/eu-info.js');
 var response = {};
 
 
