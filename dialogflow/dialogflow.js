@@ -126,14 +126,13 @@ module.exports = {
         },
         'QUOTE_joke': () => {
           console.log("intenHandlers called")
-          this.getRandomJokeV2()((text) => {
+          let text = quoteModule.getRandomJoke();
             let responseToUser = {
               //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
               //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
               fulfillmentText: text
             }
             sendResponse(responseToUser)
-          });
         },
       };
 
