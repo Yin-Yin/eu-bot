@@ -131,7 +131,6 @@ module.exports = {
               //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
               //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
               fulfillmentText: text
-              //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
             }
             sendResponse(responseToUser)
           });
