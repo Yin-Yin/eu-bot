@@ -53,10 +53,10 @@ module.exports = {
 
   handleRequest: function(request, res) {
     return new Promise((resolve, reject) => {
-      console.log("request",request);
+      console.log("request",request.body);
       if(!request.body) {
         console.error("Empty body in request")
-        return;
+        reject;
       }
       // An action is a string used to identify what needs to be done in fulfillment
       let action = (request.body.queryResult.action) ? request.body.queryResult.action : 'default';
@@ -110,7 +110,7 @@ module.exports = {
         if (typeof responseToUser === 'string') {
           let responseJson = { fulfillmentText: responseToUser }; // displayed response
           //response.json(responseJson); // Send response to Dialogflow
-          return responseJson;
+          resolve(responseJson);
         }
         else {
           // If the response to the user includes rich responses or contexts send them to Dialogflow
@@ -128,7 +128,7 @@ module.exports = {
           // Send the response to Dialogflow
           console.log('Response to Dialogflow: ' + JSON.stringify(responseJson));
           //response.json(responseJson);
-          return responseJson;
+          resolve(responseJson);
         }
       }
     })

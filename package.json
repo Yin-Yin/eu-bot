@@ -1,19 +1,17 @@
 {
-  "name": "zodiacsingbot",
-  "version": "1.0.0",
-  "description": "A bot that gives you the zodiac sign for the date you provide it.",
+  "name": "eubot",
+  "version": "0.0.1",
+  "description": "An informational bot.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [
-    "zodiac",
-    "sign",
-    "star",
+    "eu",
     "chatbot"
   ],
-  "author": "Schwein",
+  "author": "Yin Yin",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.1",
