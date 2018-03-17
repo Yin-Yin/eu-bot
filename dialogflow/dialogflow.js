@@ -192,10 +192,7 @@ module.exports = {
   },
 
   getRandomJokeV2: function() {
-    return new Promise((resolve, reject) => {
-      let text = quoteModule.getRandomJoke();
-      resolve(text)
-    })
+    return quoteModule.getRandomJoke();
   },
 
   // old code
