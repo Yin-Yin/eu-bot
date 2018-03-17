@@ -17,7 +17,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
   console.log("app get /");
-  res.send('Hi there, this is the webhook for the quote bot. For more info got to: <a href="https://github.com/Yin-Yin/eu-bot/">Quote Bot GitHub Page</a>');
+  res.send('Hi there, this is the webhook for the EU bot. For more info got to: <a href="https://github.com/Yin-Yin/eu-bot/">EU Bot GitHub Page</a>');
 });
 
 app.post('/dialogflow', function(req, res) {

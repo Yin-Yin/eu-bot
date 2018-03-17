@@ -104,7 +104,8 @@ module.exports = {
         // if the response is a string send it as a response to the user
         if (typeof responseToUser === 'string') {
           let responseJson = { fulfillmentText: responseToUser }; // displayed response
-          return response.json(responseJson); // Send response to Dialogflow
+          response.json(responseJson); // Send response to Dialogflow
+          return response;
         }
         else {
           // If the response to the user includes rich responses or contexts send them to Dialogflow
@@ -121,7 +122,8 @@ module.exports = {
           }
           // Send the response to Dialogflow
           console.log('Response to Dialogflow: ' + JSON.stringify(responseJson));
-          return response.json(responseJson);
+          response.json(responseJson);
+          return response;
         }
       }
     })
