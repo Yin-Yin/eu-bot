@@ -5,7 +5,7 @@ var app = express();
 var dialogflowModule = require('./dialogflow/dialogflow.js')
 
 
-console.log("starting server");
+console.log("starting server ..");
 
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }));

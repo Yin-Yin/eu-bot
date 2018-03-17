@@ -134,6 +134,16 @@ module.exports = {
             }
             sendResponse(responseToUser)
         },
+        'QUOTE_eu-fact': () => {
+          console.log("intenHandlers called")
+          let text = quoteModule.getRandomJoke();
+            let responseToUser = {
+              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+              fulfillmentText: text
+            }
+            sendResponse(responseToUser)
+        },
       };
 
 
