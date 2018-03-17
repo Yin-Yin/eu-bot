@@ -53,6 +53,11 @@ module.exports = {
 
   handleRequest: function(request, res) {
     return new Promise((resolve, reject) => {
+      console.log("request" + request);
+      if(!request.body) {
+        console.error("Empty body in request")
+        return;
+      }
       // An action is a string used to identify what needs to be done in fulfillment
       let action = (request.body.queryResult.action) ? request.body.queryResult.action : 'default';
       // Parameters are any entites that Dialogflow has extracted from the request.
