@@ -53,8 +53,8 @@ module.exports = {
 
   handleRequest: function(request, res) {
     return new Promise((resolve, reject) => {
-      console.log("request",request.body);
-      if(!request.body) { // do we really need this?
+      console.log("request", request.body);
+      if (!request.body) { // do we really need this?
         console.error("Empty body in request");
         reject("Reject Promise: Empty body in request");
       }
@@ -68,11 +68,11 @@ module.exports = {
       let requestSource = (request.body.originalDetectIntentRequest) ? request.body.originalDetectIntentRequest.source : undefined;
       // Get the session ID to differentiate calls from different users
       let session = (request.body.session) ? request.body.session : undefined;
-      
+
       let intent = request.body.queryResult.intent.displayName; // toDo: is it cleaner to add here something in case it is undefined?
-      
-      
-      
+
+
+
       // Create handlers for Dialogflow actions as well as a 'default' handler
       const actionHandlers = {
         // The default welcome intent has been matched, welcome the user (https://dialogflow.com/docs/events#default_welcome_intent)
@@ -86,14 +86,14 @@ module.exports = {
         },
         // Default handler for unknown or undefined actions
         'default': () => {
-          this.getRandomTrumpQuoteV2().then((text)=>{
-          let responseToUser = {
-            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
-            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-            fulfillmentText: text
-            //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
-          }
-          sendResponse(responseToUser)          
+          this.getRandomTrumpQuoteV2().then((text) => {
+            let responseToUser = {
+              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+              fulfillmentText: text
+              //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
+            }
+            sendResponse(responseToUser)
           });
         },
         // Trump Quote
@@ -106,41 +106,43 @@ module.exports = {
           sendResponse(responseToUser);
         }
       };
-      
-      
+
+
       const intenHandlers = {
         // Do we really need another handler for this???
         'QUOTE_trump-quote': () => {
           console.log("intenHandlers called")
-          this.getRandomTrumpQuoteV2().then((text)=>{
-          let responseToUser = {
-            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
-            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-            fulfillmentText: text
-            //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
-          }
-          sendResponse(responseToUser)          
+          this.getRandomTrumpQuoteV2().then((text) => {
+            let responseToUser = {
+              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+              fulfillmentText: text
+              //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
+            }
+            sendResponse(responseToUser)
           });
         },
       };
-      
-      
-      
+
+
+
 
       if (!intent) {
-      // If undefined or unknown action use the default handler
-      if (!actionHandlers[action]) {
-        action = 'default';
+        // If undefined or unknown action use the default handler
+        if (!actionHandlers[action]) {
+          action = 'default';
+        }
+
+        // Run the proper handler function to handle the request from Dialogflow
+        actionHandlers[action]();
       }
-      
-      // Run the proper handler function to handle the request from Dialogflow
-      actionHandlers[action]();
-      } else {
-        
-      }intenHandlers[intent]();
-      
-      
-      
+      else {
+        console.log("Fullfilling: ", intent)
+        intenHandlers[intent]();
+      }
+
+
+
       // Function to send correctly formatted responses to Dialogflow which are then sent to the user
       function sendResponse(responseToUser) {
         // if the response is a string send it as a response to the user
