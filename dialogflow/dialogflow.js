@@ -83,13 +83,15 @@ module.exports = {
         },
         // Default handler for unknown or undefined actions
         'default': () => {
+          this.getRandomTrumpQuoteV2().then((text)=>{
           let responseToUser = {
             //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
             //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-            fulfillmentText: this.getRandomTrumpQuote()
+            fulfillmentText: text
             //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
-          };
-          sendResponse(responseToUser);
+          }
+          sendResponse(responseToUser)          
+          });
         },
         // Trump Quote
         'QUOTE_trump-quote': () => {
@@ -156,6 +158,16 @@ module.exports = {
     })
   },
 
+
+  getRandomTrumpQuoteV2: function() {
+    return new Promise((resolve, reject) => {
+      quoteModule.getRandomTrumpQuote().then(
+        (text) => {
+          resolve(text)
+        }
+      )
+    })
+  },
 
   // old code
 
