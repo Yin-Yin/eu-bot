@@ -22,7 +22,7 @@ app.get('/', function(req, res) {
 
 app.post('/dialogflow', function(req, res) {
   console.log("app post /");
-  dialogflowModule.handleRequest(req).then((responseJSON) => res.send(responseJSON));
+  dialogflowModule.handleRequest(req).then((responseJSON) => {res.send(responseJSON); console.log("responding with" + responseJSON)});
   
   /*
   // console.log("req.body",req.body)
