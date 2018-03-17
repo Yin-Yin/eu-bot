@@ -5,19 +5,23 @@ var app = express();
 var dialogflowModule = require('./dialogflow/dialogflow.js')
 
 
+console.log("starting server");
+
 // parse application/x-www-form-urlencoded 
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
+  console.log("app get /");
   res.send('Hi there, this is the webhook for the quote bot. For more info got to: <a href="https://github.com/Yin-Yin/eu-bot/">Quote Bot GitHub Page</a>');
 });
 
 app.post('/dialogflow', function(req, res) {
+  console.log("app post /");
   dialogflowModule.handleRequest(req).then((responseJSON) => res.send(responseJSON));
   
   /*
