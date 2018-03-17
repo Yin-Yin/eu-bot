@@ -1,5 +1,6 @@
-const quoteModule = require('../quotes/quotes.js')
-var response = {}
+const quoteModule = require('../functional-logic/quotes/quotes.js');
+const euInfoModule = require('../functional-logic/quotes/quotes.js');
+var response = {};
 
 
 // new Code
@@ -73,6 +74,7 @@ module.exports = {
 
 
 
+      /*
       // Create handlers for Dialogflow actions as well as a 'default' handler
       const actionHandlers = {
         // The default welcome intent has been matched, welcome the user (https://dialogflow.com/docs/events#default_welcome_intent)
@@ -96,16 +98,16 @@ module.exports = {
             sendResponse(responseToUser)
           });
         },
-        // Trump Quote
-        'QUOTE_trump-quote': () => {
-          let responseToUser = {
-            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
-            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-            fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
-          };
-          sendResponse(responseToUser);
-        }
       };
+
+      // If undefined or unknown action use the default handler
+      if (!actionHandlers[action]) {
+        action = 'default';
+      }
+
+      // Run the proper handler function to handle the request from Dialogflow
+      actionHandlers[action]();
+      */
 
 
       const intenHandlers = {
@@ -122,19 +124,24 @@ module.exports = {
             sendResponse(responseToUser)
           });
         },
+        'QUOTE_joke': () => {
+          console.log("intenHandlers called")
+          this.getRandomJokeV2()((text) => {
+            let responseToUser = {
+              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+              fulfillmentText: text
+              //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
+            }
+            sendResponse(responseToUser)
+          });
+        },
       };
 
 
-
-
       if (!intent) {
-        // If undefined or unknown action use the default handler
-        if (!actionHandlers[action]) {
-          action = 'default';
-        }
 
-        // Run the proper handler function to handle the request from Dialogflow
-        actionHandlers[action]();
+
       }
       else {
         console.log("Fullfilling: ", intent)
@@ -184,7 +191,16 @@ module.exports = {
     })
   },
 
+  getRandomJokeV2: function() {
+    return new Promise((resolve, reject) => {
+      let text = quoteModule.getRandomJoke();
+      resolve(text)
+    })
+  },
+
   // old code
+
+  /*
 
   // ## dialogflow intents ##
   getResponse: function(intentName, parameters, contexts) {
@@ -249,6 +265,8 @@ module.exports = {
   /*
   Fetch a quote from an API.
   */
+
+  /*
   getRandomJoke: function() {
     let text = quoteModule.getRandomJoke();
     console.log("quoteModule.getRandomJoke()", text);
@@ -397,4 +415,6 @@ module.exports = {
       "lifespan": lifespan
     }
   },
+  */
+
 }

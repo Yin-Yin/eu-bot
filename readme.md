@@ -1,6 +1,12 @@
 # EU Bot #
 
-Webhook for a EU bot. Based on the quoteBot project
+Webhook for a EU bot. Based on the quoteBot project.
+
+
+Current functionality: 
+    -Trump Quote
+    -Joke
+
 
 Demo: https://bot.dialogflow.com/ ...
 
