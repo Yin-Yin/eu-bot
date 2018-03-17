@@ -55,8 +55,8 @@ module.exports = {
     return new Promise((resolve, reject) => {
       console.log("request",request.body);
       if(!request.body) {
-        console.error("Empty body in request")
-        reject;
+        console.error("Empty body in request");
+        reject("Reject Promise: Empty body in request");
       }
       // An action is a string used to identify what needs to be done in fulfillment
       let action = (request.body.queryResult.action) ? request.body.queryResult.action : 'default';
@@ -86,11 +86,31 @@ module.exports = {
           let responseToUser = {
             //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
             //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+            fulfillmentText: this.getRandomTrumpQuote()
+            //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
+          };
+          sendResponse(responseToUser);
+        },
+        // Trump Quote
+        'QUOTE_trump-quote': () => {
+          let responseToUser = {
+            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
             fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
           };
           sendResponse(responseToUser);
         }
       };
+      
+      /*
+      const intenHandler = {
+        // Do we really need another handler for this???
+        'QUOTE_trump-quote': () => {
+          sendResponse('Answer to intent'); // 
+        },
+      };
+      
+      */
 
 
       // If undefined or unknown action use the default handler
@@ -102,6 +122,8 @@ module.exports = {
       
       // Run the proper handler function to handle the request from Dialogflow
       actionHandlers[action]();
+      
+      
       
       
       // Function to send correctly formatted responses to Dialogflow which are then sent to the user
