@@ -144,7 +144,20 @@ module.exports = {
             }
             sendResponse(responseToUser)
         },
+        
+        'EU_abbreviation': () => {
+          console.log("intenHandlers called")
+          let text = "This is the reply for the EU_abbreviation intent .. ";
+            let responseToUser = {
+              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+              fulfillmentText: text
+            }
+            sendResponse(responseToUser)
+        },
       };
+
+
 
 
       if (!intent) {
