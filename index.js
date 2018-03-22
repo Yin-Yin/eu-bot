@@ -2,10 +2,12 @@
 var bodyParser = require('body-parser')
 var express = require('express');
 var app = express();
-var dialogflowModule = require('./dialogflow/dialogflow.js')
+var dialogflowModule = require('./dialogflow/dialogflow.js');
+var firestoreModule = require('./database-logic/firestore.js');
 
 
 console.log("starting server ..");
+firestoreModule.initializeDatabase();
 
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }));
