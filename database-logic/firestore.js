@@ -27,6 +27,7 @@ module.exports = {
 
         this.db = admin.firestore();
         
+        this.readFromFirestore(); // just for testing .. 
 
 
     },
