@@ -150,6 +150,7 @@ module.exports = {
           console.log("EU_abbreviation case: _________");
           console.log("parameters from dialogflow: ", parameters.abbreviations);
           let text = firestoreModule.readFromFirestore('abbreviations',parameters.abbreviations);
+          console.log("Text that is being sent to user: ", text);
             let responseToUser = {
               //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
               //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
