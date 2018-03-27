@@ -155,9 +155,9 @@ module.exports = {
               let responseToUser = {
                 //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
                 //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-                fulfillmentText: text
+                fulfillmentText: result
               }
-              sendResponse(responseToUser)
+              sendResponse(responseToUser);
             }
           )
 
