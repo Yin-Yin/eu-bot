@@ -128,35 +128,39 @@ module.exports = {
         'QUOTE_joke': () => {
           console.log("intenHandlers called")
           let text = quoteModule.getRandomJoke();
-            let responseToUser = {
-              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
-              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-              fulfillmentText: text
-            }
-            sendResponse(responseToUser)
+          let responseToUser = {
+            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+            fulfillmentText: text
+          }
+          sendResponse(responseToUser)
         },
         'QUOTE_eu-fact': () => {
           console.log("intenHandlers called")
           let text = euInfoModule.getRandomEUFact();
-            let responseToUser = {
-              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
-              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-              fulfillmentText: text
-            }
-            sendResponse(responseToUser)
+          let responseToUser = {
+            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+            fulfillmentText: text
+          }
+          sendResponse(responseToUser)
         },
-        
+
         'EU_abbreviation': () => {
           console.log("EU_abbreviation case: _________");
           console.log("parameters from dialogflow: ", parameters.abbreviations);
-          let text = firestoreModule.readFromFirestore('abbreviations',parameters.abbreviations);
-          console.log("Text that is being sent to user: ", text);
-            let responseToUser = {
-              //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
-              //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-              fulfillmentText: text
+          let text = firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
+            result => {
+              console.log("Text that is being sent to user: ", result);
+              let responseToUser = {
+                //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+                //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+                fulfillmentText: text
+              }
+              sendResponse(responseToUser)
             }
-            sendResponse(responseToUser)
+          )
+
         },
       };
 
