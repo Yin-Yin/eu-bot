@@ -46,13 +46,15 @@ module.exports = {
         
     },
 
-    readFromFirestore: function(firestoreCollection, documentField) {
-                //this is to get sth out of the database 
+    readFromFirestore: function(firestoreCollection, documentField) {   //this is to get sth out of the database 
         this.db.collection(firestoreCollection).get(documentField)
             .then((snapshot) => {
                 snapshot.forEach((doc) => {
                     console.log("readFromFirestore: ",doc.id, '=>', doc.data());
-                    console.log("documentField ", doc.data().documentField)
+                    let returnObject = doc.data();
+                    console.log("returnObject ", returnObject);
+                    console.log("returnObject.documentField ", returnObject.documentField);
+                    return returnObject;
                 });
             })
             .catch((err) => {
