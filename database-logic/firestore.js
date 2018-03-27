@@ -27,12 +27,12 @@ module.exports = {
 
         this.db = admin.firestore();
         
-        this.readFromFirestore(); // just for testing .. 
+        //this.readFromFirestore(); // just for testing .. 
 
 
     },
 
-    readFromFirestore: function() {
+    readFromFirestoreHarcCoded: function() {
                 //this is to get sth out of the database 
         this.db.collection('abbreviations').get()
             .then((snapshot) => {
@@ -44,5 +44,19 @@ module.exports = {
                 console.log('Error getting documents', err);
             });
         
+    },
+
+    readFromFirestore: function(firestoreCollection, documentField) {
+                //this is to get sth out of the database 
+        this.db.collection(firestoreCollection).get(documentField)
+            .then((snapshot) => {
+                snapshot.forEach((doc) => {
+                    console.log("readFromFirestore: ",doc.id, '=>', doc.data());
+                });
+            })
+            .catch((err) => {
+                console.log('Error getting documents', err);
+            });
     }
+     
 }

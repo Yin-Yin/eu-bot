@@ -1,5 +1,6 @@
 const quoteModule = require('../functional-logic/quotes/quotes.js');
 const euInfoModule = require('../functional-logic/eu-info/eu-info.js');
+const firestoreModule = require('../database-logic/firestore.js');
 var response = {};
 
 
@@ -146,8 +147,9 @@ module.exports = {
         },
         
         'EU_abbreviation': () => {
-          console.log("intenHandlers called")
-          let text = "This is the reply for the EU_abbreviation intent .. ";
+          console.log("EU_abbreviation case: _________");
+          console.log("parameters from dialogflow: ", parameters);
+          let text = firestoreModule.readFromFirestore('abbreviations','MEP');
             let responseToUser = {
               //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
               //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
