@@ -58,6 +58,7 @@ module.exports = {
                     let returnValue = 'this is the return value';
                     for (var key in returnObject) {
                         console.log("key", key);
+                        console.log("returnObject.key", returnObject.key);
                         returnValue = returnObject.key;
                     }
                     resolve(returnValue);
