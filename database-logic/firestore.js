@@ -54,6 +54,9 @@ module.exports = {
                     let returnObject = doc.data();
                     console.log("returnObject ", returnObject);
                     console.log("returnObject.documentField ", returnObject.documentField);
+                    for (var key in returnObject) {
+                        console.log("key", key);
+                    }
                     return returnObject;
                 });
             })
