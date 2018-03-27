@@ -55,13 +55,15 @@ module.exports = {
                     let returnObject = doc.data();
                     console.log("returnObject ", returnObject);
                     //console.log("returnObject.documentField ", returnObject.documentField);
+                    /*
                     let returnValue = 'this is the return value';
                     for (var key in returnObject) {
                         console.log("key", key);
                         console.log("returnObject.key", returnObject.key);
                         returnValue = returnObject.key;
                     }
-                    resolve(returnValue);
+                    */
+                    resolve(JSON.stringify(returnObject));
                 });
             })
             .catch((err) => {
