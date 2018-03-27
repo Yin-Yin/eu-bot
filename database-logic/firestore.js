@@ -54,10 +54,12 @@ module.exports = {
                     let returnObject = doc.data();
                     console.log("returnObject ", returnObject);
                     console.log("returnObject.documentField ", returnObject.documentField);
+                    let returnValue = 'this is the return value';
                     for (var key in returnObject) {
                         console.log("key", key);
+                        returnValue = returnObject.key;
                     }
-                    return returnObject;
+                    return returnValue;
                 });
             })
             .catch((err) => {
