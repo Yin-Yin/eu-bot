@@ -149,7 +149,7 @@ module.exports = {
         'EU_abbreviation': () => {
           console.log("EU_abbreviation case: _________");
           console.log("parameters from dialogflow: ", parameters.abbreviations);
-          let text = firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
+          firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
             returnObject => {
               let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
               console.log("Text that is being sent to user: ", text);
