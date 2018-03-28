@@ -38,14 +38,15 @@ module.exports = {
         for (var key in abbreviationJSON) {
             //console.log("key: ", key);
             //console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
-            /* 
-            this.db.collection('abbreviations').doc(abbreviationJSON[key].abbreviation).set({
+            let data = {
                 abbreviation: abbreviationJSON[key].abbreviation,
                 meaning: abbreviationJSON[key].meaning
-            }).then(ref => {
-                console.log('Added document with ID: ', ref.id);
-            });
-             /**/
+            };
+            this.db.collection('abbreviations').doc(abbreviationJSON[key].abbreviation).set(data)
+                .then(ref => {
+                    console.log('Added document with ID: ', ref.id);
+                });
+            /*
             this.db.collection('abbreviations').add({
                 abbreviation: abbreviationJSON[key].abbreviation,
                 meaning: abbreviationJSON[key].meaning
@@ -73,8 +74,25 @@ module.exports = {
 
     readFromFirestore: function(firestoreCollection, documentField) { //this is to get sth out of the database 
         return new Promise((resolve, reject) => {
-            this.db.collection(firestoreCollection).get(documentField)
-                .then((snapshot) => {
+
+            let databaseRef = this.db.collection(firestoreCollection).doc(documentField);
+            databaseRef.get()
+                .then(doc => {
+                    if (!doc.exists) {
+                        console.log('No such document!');
+                    }
+                    else {
+                        console.log('Document data:', doc.data());
+                        let returnObject = doc.data();
+                        resolve(returnObject);
+                    }
+                })
+                .catch(err => {
+                    console.log('Error getting document', err);
+                    reject('Error getting documents', err);
+                });
+/*
+            .then((snapshot) => {
                     snapshot.forEach((doc) => {
                         console.log("readFromFirestore: ", doc.id, '=>', doc.data());
 
@@ -89,7 +107,7 @@ module.exports = {
                             console.log("returnObject.key", returnObject.key);
                             returnValue = returnObject.key;
                         }
-                        */
+                        *//*
                         resolve(returnObject);
                     });
                 })
@@ -97,6 +115,7 @@ module.exports = {
                     console.log('Error getting documents', err);
                     reject('Error getting documents', err);
                 });
+                */
         })
     }
 
