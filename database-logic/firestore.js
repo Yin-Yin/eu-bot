@@ -52,6 +52,8 @@ module.exports = {
             .then((snapshot) => {
                 snapshot.forEach((doc) => {
                     console.log("readFromFirestore: ",doc.id, '=>', doc.data());
+                    
+                    console.log("doc: ",doc);
                     let returnObject = doc.data();
                     console.log("returnObject ", returnObject);
                     //console.log("returnObject.documentField ", returnObject.documentField);
