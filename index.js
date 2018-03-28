@@ -8,7 +8,7 @@ var firestoreModule = require('./database-logic/firestore.js');
 
 console.log("starting server ..");
 firestoreModule.initializeDatabase();
-firestoreModule.addAbbreviationData();
+firestoreModule.addAbbreviationData(); // to reload the data into the database uncomment this
 
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }));

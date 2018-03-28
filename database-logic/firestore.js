@@ -38,8 +38,11 @@ module.exports = {
         for (var key in abbreviationJSON) {
             //console.log("key: ", key);
             //console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
-            //db.collection('abbreviations').doc(abbreviationJSON[key].meaning).set(key.);
-            // /*
+            this.db.collection('abbreviations').doc(abbreviationJSON[key].abbreviation).set({
+                abbreviation: abbreviationJSON[key].abbreviation,
+                meaning: abbreviationJSON[key].meaning
+            });
+             /*
             this.db.collection('abbreviations').add({
                 abbreviation: abbreviationJSON[key].abbreviation,
                 meaning: abbreviationJSON[key].meaning
