@@ -169,10 +169,10 @@ module.exports = {
           console.log("random EU_abbreviation case: _________");
           //console.log("parameters from dialogflow: ", parameters.abbreviations);
           
-          let euAbbreviationArraySize = euData.euAbbreviationArraySize;
           let euAbbreviationArray = euData.euAbbreviationArray;
+          let euAbbreviationArraySize = euAbbreviationArray.size;
           let randomAbbreviationNumber = Math.floor(Math.random() * euAbbreviationArraySize) + 1;
-          console.log("map.size: ", euAbbreviationArraySize);
+          console.log("Array.size: ", euAbbreviationArraySize);
           console.log("Getting nr.: ",randomAbbreviationNumber);
           let randomAbbreviation = euAbbreviationArray[randomAbbreviationNumber]; // get a random joke from the jokesMap
           console.log("Random abbreviation is: ", randomAbbreviation);
