@@ -166,8 +166,8 @@ module.exports = {
         },
 
         'EU_abbreviation_random': () => {
-          console.log("EU_abbreviation case: _________");
-          console.log("parameters from dialogflow: ", parameters.abbreviations);
+          console.log("random EU_abbreviation case: _________");
+          //console.log("parameters from dialogflow: ", parameters.abbreviations);
           
           let euAbbreviationArraySize = euData.euAbbreviationArraySize;
           let euAbbreviationArray = euData.euAbbreviationArray;
@@ -176,7 +176,7 @@ module.exports = {
           console.log("Getting nr.: ",randomAbbreviationNumber);
           let randomAbbreviation = euAbbreviationArray[randomAbbreviationNumber]; // get a random joke from the jokesMap
           console.log("Random abbreviation is: ", randomAbbreviation);
-          firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
+          firestoreModule.readFromFirestore('abbreviations', randomAbbreviation).then(
             returnObject => {
               let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
               console.log("Text that is being sent to user: ", text);
