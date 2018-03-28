@@ -1,6 +1,7 @@
 const quoteModule = require('../functional-logic/quotes/quotes.js');
 const euInfoModule = require('../functional-logic/eu-info/eu-info.js');
 const firestoreModule = require('../database-logic/firestore.js');
+const euData = require('../data/eu-data.js');
 var response = {};
 
 
@@ -149,6 +150,32 @@ module.exports = {
         'EU_abbreviation': () => {
           console.log("EU_abbreviation case: _________");
           console.log("parameters from dialogflow: ", parameters.abbreviations);
+          firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
+            returnObject => {
+              let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
+              console.log("Text that is being sent to user: ", text);
+              let responseToUser = {
+                //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+                //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+                fulfillmentText: text
+              }
+              sendResponse(responseToUser);
+            }
+          )
+
+        },
+
+        'random_EU_abbreviation': () => {
+          console.log("EU_abbreviation case: _________");
+          console.log("parameters from dialogflow: ", parameters.abbreviations);
+          
+          let euAbbreviationArraySize = euData.euAbbreviationArraySize;
+          let euAbbreviationArray = euData.euAbbreviationArray;
+          let randomAbbreviationNumber = Math.floor(Math.random() * euAbbreviationArraySize) + 1;
+          console.log("map.size: ", euAbbreviationArraySize);
+          console.log("Getting nr.: ",randomAbbreviationNumber);
+          let randomAbbreviation = euAbbreviationArray[randomAbbreviationNumber]; // get a random joke from the jokesMap
+          console.log("Random abbreviation is: ", randomAbbreviation);
           firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
             returnObject => {
               let text = returnObject.abbreviation + " is short for " + returnObject.meaning;

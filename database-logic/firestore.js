@@ -33,7 +33,7 @@ module.exports = {
     },
 
     addAbbreviationData: function() {
-        var abbreviationJSON = require('../import-data/eu-abbreviations.json');
+        var abbreviationJSON = require('../data/eu-abbreviations.json');
         console.log("Adding abbreviationJSON ... _______-")
 
     //    this.db.collection('abbreviations').doc('CCN/CSI').set({ test: "terst" });
