@@ -40,7 +40,7 @@ module.exports = {
             //console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
             //db.collection('abbreviations').doc(abbreviationJSON[key].meaning).set(key.);
             // /*
-            db.collection('abbreviations').add({
+            this.db.collection('abbreviations').add({
                 abbreviation: abbreviationJSON[key].abbreviation,
                 meaning: abbreviationJSON[key].meaning
             }).then(ref => {
