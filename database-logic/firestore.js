@@ -41,6 +41,8 @@ module.exports = {
             this.db.collection('abbreviations').doc(abbreviationJSON[key].abbreviation).set({
                 abbreviation: abbreviationJSON[key].abbreviation,
                 meaning: abbreviationJSON[key].meaning
+            }).then(ref => {
+                console.log('Added document with ID: ', ref.id);
             });
              /*
             this.db.collection('abbreviations').add({
