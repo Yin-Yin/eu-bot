@@ -36,16 +36,17 @@ module.exports = {
         var abbreviationJSON = require('../import-data/eu-abbreviations.json');
         console.log("Looping through abbreviationJSON ... _______-")
         for (var key in abbreviationJSON) {
-            console.log("key: ", key);
-            console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
-            /*db.collection('abbreviations').doc(key).set(key.);
+            //console.log("key: ", key);
+            //console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
+            //db.collection('abbreviations').doc(abbreviationJSON[key].meaning).set(key.);
+            // /*
             db.collection('abbreviations').add({
-                name: 'Tokyo',
-                country: 'Japan'
+                abbreviation: abbreviationJSON[key].abbreviation,
+                meaning: abbreviationJSON[key].meaning
             }).then(ref => {
                 console.log('Added document with ID: ', ref.id);
             });
-            */
+            //*/
         }
 
     },
@@ -83,7 +84,7 @@ module.exports = {
                             returnValue = returnObject.key;
                         }
                         */
-                        resolve(JSON.stringify(returnObject));
+                        resolve(returnObject);
                     });
                 })
                 .catch((err) => {
