@@ -1,0 +1,4365 @@
+[
+  {
+     "abbreviation":"AAP"
+    ,"meaning":"Absolute agricultural prices"
+  },
+  {
+     "abbreviation":"AAR"
+    ,"meaning":"Annual Activity Report (A Director-General’s management report to the Commission, concerning the performance of his/her duties, the realisation of policy objectives and the use of resources during one year's activities)"
+  },
+  {
+     "abbreviation":"AAU"
+    ,"meaning":"Agricultural area in use"
+  },
+  {
+     "abbreviation":"ABAC"
+    ,"meaning":"Accrual-based Accounting System"
+  },
+  {
+     "abbreviation":"ABB"
+    ,"meaning":"Activity Based Budgetting"
+  },
+  {
+     "abbreviation":"ABM"
+    ,"meaning":"Activity Based Management"
+  },
+  {
+     "abbreviation":"ABS"
+    ,"meaning":"Australian Bureau of Statistics"
+  },
+  {
+     "abbreviation":"ACC"
+    ,"meaning":"Acceding Countries"
+  },
+  {
+     "abbreviation":"ACP"
+    ,"meaning":"African, Caribbean and Pacific Group of States"
+  },
+  {
+     "abbreviation":"Acquis communautaire"
+    ,"meaning":"The \"acquis\" refers to the body of existing EU legislation to be adopted by countries before they can become full members of the European Union. The statistical 'acquis' refers to EU legislation in the field of statistics, but is often interpreted as including also the agreed definitions, nomenclatures, methods and questionnaires for collecting data in other statistical fields not covered by legislation and usually referred to as data collected by Gentlemen's agreement"
+  },
+  {
+     "abbreviation":"AD"
+    ,"meaning":"Administrator (Commission function level)"
+  },
+  {
+     "abbreviation":"ADB15"
+    ,"meaning":"December 2015 away day of Eurostat's Directorate B (Methodology; corporate statistical and IT services)"
+  },
+  {
+     "abbreviation":"ADMIN"
+    ,"meaning":"Administrative data sources (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"ADMS"
+    ,"meaning":"Asset Description Metadata Schema"
+  },
+  {
+     "abbreviation":"AEA"
+    ,"meaning":"Air Emissions Accounts"
+  },
+  {
+     "abbreviation":"AEI"
+    ,"meaning":"Agri-environmental indicator"
+  },
+  {
+     "abbreviation":"AES"
+    ,"meaning":"Adult Education Survey"
+  },
+  {
+     "abbreviation":"Afristat"
+    ,"meaning":"Economic and Statistical Observatory of Sub-Saharan Africa"
+  },
+  {
+     "abbreviation":"AGRI"
+    ,"meaning":"Directorate-General \"Agriculture and Rural Development\""
+  },
+  {
+     "abbreviation":"AGRIS"
+    ,"meaning":"Agricultural Information System"
+  },
+  {
+     "abbreviation":"AHC"
+    ,"meaning":"Advisor \"hors classe\""
+  },
+  {
+     "abbreviation":"AIDCO"
+    ,"meaning":"EuropeAid"
+  },
+  {
+     "abbreviation":"AIF"
+    ,"meaning":"Alternative Investment Funds"
+  },
+  {
+     "abbreviation":"ALA"
+    ,"meaning":"Asia and Latin America"
+  },
+  {
+     "abbreviation":"ALI"
+    ,"meaning":"Agricultural Labour Input"
+  },
+  {
+     "abbreviation":"ALM"
+    ,"meaning":"Application Lifecycle Management"
+  },
+  {
+     "abbreviation":"AMC"
+    ,"meaning":"Account Management Centre"
+  },
+  {
+     "abbreviation":"AMP"
+    ,"meaning":"Annual Management Plan"
+  },
+  {
+     "abbreviation":"AMR"
+    ,"meaning":"Alert Mechanism Report"
+  },
+  {
+     "abbreviation":"ANSI"
+    ,"meaning":"American National Standards Institute"
+  },
+  {
+     "abbreviation":"IEEE"
+    ,"meaning":"Institute of Electrical and Electronics Engineers"
+  },
+  {
+     "abbreviation":"AOD"
+    ,"meaning":"Authorising Officer by Delegation"
+  },
+  {
+     "abbreviation":"AOSD"
+    ,"meaning":"Authorising Officer by Sub-Delegation"
+  },
+  {
+     "abbreviation":"API"
+    ,"meaning":"Agricultural price indices/Application Programming Interface"
+  },
+  {
+     "abbreviation":"APS"
+    ,"meaning":"Annual Policy Strategy"
+  },
+  {
+     "abbreviation":"ARES"
+    ,"meaning":"Advanced REcords System (electronic document management system)"
+  },
+  {
+     "abbreviation":"Asean"
+    ,"meaning":"Association of Southeast Asian Nations"
+  },
+  {
+     "abbreviation":"ASSIST"
+    ,"meaning":"Application used for handling user requests"
+  },
+  {
+     "abbreviation":"ASSOC"
+    ,"meaning":"Associated Service"
+  },
+  {
+     "abbreviation":"AST"
+    ,"meaning":"Assistant (Commission function level)"
+  },
+  {
+     "abbreviation":"ASWP"
+    ,"meaning":"Annual statistical work programme"
+  },
+  {
+     "abbreviation":"AWP"
+    ,"meaning":"Annual Work Programme"
+  },
+  {
+     "abbreviation":"AWU"
+    ,"meaning":"Annual work unit"
+  },
+  {
+     "abbreviation":"BARG"
+    ,"meaning":"Business Architecture Reflection Group"
+  },
+  {
+     "abbreviation":"BASIS"
+    ,"meaning":"Briefings And Speeches Information System"
+  },
+  {
+     "abbreviation":"BB"
+    ,"meaning":"Building Block"
+  },
+  {
+     "abbreviation":"BC"
+    ,"meaning":"Business Continuity/Business Correspondent"
+  },
+  {
+     "abbreviation":"BCC"
+    ,"meaning":"Business Cycle Clock"
+  },
+  {
+     "abbreviation":"BCC2"
+    ,"meaning":"Business Cycle Clock v. 2"
+  },
+  {
+     "abbreviation":"BCL"
+    ,"meaning":"Banque centrale du Luxembourg / Central Bank of Luxembourg"
+  },
+  {
+     "abbreviation":"BCM"
+    ,"meaning":"Business Capability Model/Business Continuity Management"
+  },
+  {
+     "abbreviation":"BCP"
+    ,"meaning":"Business Continuity Plan"
+  },
+  {
+     "abbreviation":"BEA"
+    ,"meaning":"Bureau of Economic Analysis (US)"
+  },
+  {
+     "abbreviation":"BEC"
+    ,"meaning":"Broad Economic Categories"
+  },
+  {
+     "abbreviation":"BEPA"
+    ,"meaning":"Bureau of European Policy Advisers"
+  },
+  {
+     "abbreviation":"BERDR"
+    ,"meaning":"R&D Expenditure in the Business Enterprise Sector in a given year at the regional level"
+  },
+  {
+     "abbreviation":"BES"
+    ,"meaning":"Business enterprise sector"
+  },
+  {
+     "abbreviation":"BIF"
+    ,"meaning":"Directors meeting on financial matters"
+  },
+  {
+     "abbreviation":"BIFI"
+    ,"meaning":"Budget Implementation Follow-up IT tool"
+  },
+  {
+     "abbreviation":"BIGD"
+    ,"meaning":"Big data (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"BIG data"
+    ,"meaning":"Big data sets"
+  },
+  {
+     "abbreviation":"BIS"
+    ,"meaning":"Bank of International Settlements"
+  },
+  {
+     "abbreviation":"BLEU"
+    ,"meaning":"Belgo-Luxembourg Economic Union"
+  },
+  {
+     "abbreviation":"BOP"
+    ,"meaning":"Balance Of Payments"
+  },
+  {
+     "abbreviation":"BPM"
+    ,"meaning":"Business Process Model(ling)"
+  },
+  {
+     "abbreviation":"BPM6"
+    ,"meaning":"Balance of Payments and International Investment Position Manual, 6th edition"
+  },
+  {
+     "abbreviation":"BPMN"
+    ,"meaning":"Business Process Modelling Notation"
+  },
+  {
+     "abbreviation":"BRIS"
+    ,"meaning":"Business Registers Interconnection System"
+  },
+  {
+     "abbreviation":"BSDG"
+    ,"meaning":"Business Statistics Directors Group"
+  },
+  {
+     "abbreviation":"BSDG-SDG"
+    ,"meaning":"Business Statistics Directors Group — Strategic Development Group"
+  },
+  {
+     "abbreviation":"BUDG"
+    ,"meaning":"Directorate-General \"Budget\""
+  },
+  {
+     "abbreviation":"BUS"
+    ,"meaning":"Business-driven projects (examples: ADMIN, ICT, CDVP, etc.)"
+  },
+  {
+     "abbreviation":"BYOD"
+    ,"meaning":"Bring Your Own Device"
+  },
+  {
+     "abbreviation":"CAB"
+    ,"meaning":"Cabinet/Change Advisory Board"
+  },
+  {
+     "abbreviation":"CAD"
+    ,"meaning":"Document Management Centre (from French \"Centre d'administration des documents)"
+  },
+  {
+     "abbreviation":"CAESAR"
+    ,"meaning":"World Conference on Agricultural and Environmental Statistical Applications"
+  },
+  {
+     "abbreviation":"CAF"
+    ,"meaning":"Common Assessment Framework"
+  },
+  {
+     "abbreviation":"CAFS"
+    ,"meaning":"Commission's Anti-Fraud Strategy"
+  },
+  {
+     "abbreviation":"CAN"
+    ,"meaning":"Competent National Administration/Andean Community"
+  },
+  {
+     "abbreviation":"CAP"
+    ,"meaning":"Common Agricultural Policy"
+  },
+  {
+     "abbreviation":"CAPI"
+    ,"meaning":"Computer Aided Personal Interviewing"
+  },
+  {
+     "abbreviation":"CASI"
+    ,"meaning":"Computer Aided Self Interviewing"
+  },
+  {
+     "abbreviation":"CATI"
+    ,"meaning":"Computer Aided Telephone Interviewing"
+  },
+  {
+     "abbreviation":"CAPSIM"
+    ,"meaning":"Common Agricultural Policy Simulation Model"
+  },
+  {
+     "abbreviation":"Cards"
+    ,"meaning":"EU Assistance Programme for Reconstruction Development and Stabilisation in the Western Balkans"
+  },
+  {
+     "abbreviation":"CARE"
+    ,"meaning":"Community road accident database"
+  },
+  {
+     "abbreviation":"Caricom"
+    ,"meaning":"Caribbean Community and Common Market"
+  },
+  {
+     "abbreviation":"CARP"
+    ,"meaning":"Countries and Regions Profiles"
+  },
+  {
+     "abbreviation":"CB"
+    ,"meaning":"Central Bank"
+  },
+  {
+     "abbreviation":"CBNE"
+    ,"meaning":"Classification of Branches of the National Economy (COMECON)"
+  },
+  {
+     "abbreviation":"CBS"
+    ,"meaning":"Centraal Bureau voor de Statistiek (Statistical office of The Netherlands)"
+  },
+  {
+     "abbreviation":"CC"
+    ,"meaning":"Candidate Country/Classification of types of Constructions"
+  },
+  {
+     "abbreviation":"CCC"
+    ,"meaning":"Customs Cooperation Council"
+  },
+  {
+     "abbreviation":"CCCN"
+    ,"meaning":"Customs Cooperation Council Nomenclature"
+  },
+  {
+     "abbreviation":"CCIO"
+    ,"meaning":"Classification of Commodities by Industrial Origin"
+  },
+  {
+     "abbreviation":"CCN/CSI"
+    ,"meaning":"Common Communication Network & Common System Interface (network alternative like sTesta)"
+  },
+  {
+     "abbreviation":"CCSA"
+    ,"meaning":"Committee for the Co-ordination of Statistical Activities (United Nations)"
+  },
+  {
+     "abbreviation":"CCT"
+    ,"meaning":"Common Customs Tariff"
+  },
+  {
+     "abbreviation":"CDR"
+    ,"meaning":"Career Development Review"
+  },
+  {
+     "abbreviation":"CDVP"
+    ,"meaning":"Common Data Validation Policy"
+  },
+  {
+     "abbreviation":"CEI"
+    ,"meaning":"Classification of Trade in Invisibles"
+  },
+  {
+     "abbreviation":"CEIES"
+    ,"meaning":"The European Advisory Committee on Statistical Information in the Economic and Social Spheres"
+  },
+  {
+     "abbreviation":"Cemac"
+    ,"meaning":"Economic and Monetary Community of Central Africa"
+  },
+  {
+     "abbreviation":"CEN"
+    ,"meaning":"European Committee for Standardisation"
+  },
+  {
+     "abbreviation":"CENEX"
+    ,"meaning":"Centres of Excellence"
+  },
+  {
+     "abbreviation":"Census hub"
+    ,"meaning":"Conceptually new system to achieve the dissemination of the 2011 census data. It is based on the concept of data sharing, where a group of partners agree on providing access to their data according to standard processes, formats and technologies"
+  },
+  {
+     "abbreviation":"CERN"
+    ,"meaning":"European centre for nuclear research"
+  },
+  {
+     "abbreviation":"CES"
+    ,"meaning":"Conference of European Statisticians"
+  },
+  {
+     "abbreviation":"CESAR"
+    ,"meaning":"Community of European Semantic Asset Repositories"
+  },
+  {
+     "abbreviation":"CESS"
+    ,"meaning":"Conference of European Statistics Stakeholders"
+  },
+  {
+     "abbreviation":"CET"
+    ,"meaning":"Central European Time"
+  },
+  {
+     "abbreviation":"CF"
+    ,"meaning":"Chef de File"
+  },
+  {
+     "abbreviation":"CFI"
+    ,"meaning":"Classification of Financial Instruments"
+  },
+  {
+     "abbreviation":"CFT"
+    ,"meaning":"Call for Tender"
+  },
+  {
+     "abbreviation":"CG1"
+    ,"meaning":"Coordination Group (CG1 \"New Vision for European Statistics\", CG2 \"GDP and Beyond \", CG3 \"Spatial Dimension in Statistics\", CG 4 \"EU KLEMS\", CG5 \"Coordination of Quality Work\", CG6 \"Principal European Economic Indicators (PEEIs) including the EFC Status Report\", CG7 \"Single Market Monitoring\")"
+  },
+  {
+     "abbreviation":"CG2"
+    ,"meaning":"Coordination Group (CG1 \"New Vision for European Statistics\", CG2 \"GDP and Beyond \", CG3 \"Spatial Dimension in Statistics\", CG 4 \"EU KLEMS\", CG5 \"Coordination of Quality Work\", CG6 \"Principal European Economic Indicators (PEEIs) including the EFC Status Report\", CG7 \"Single Market Monitoring\")"
+  },
+  {
+     "abbreviation":"CG3"
+    ,"meaning":"Coordination Group (CG1 \"New Vision for European Statistics\", CG2 \"GDP and Beyond \", CG3 \"Spatial Dimension in Statistics\", CG 4 \"EU KLEMS\", CG5 \"Coordination of Quality Work\", CG6 \"Principal European Economic Indicators (PEEIs) including the EFC Status Report\", CG7 \"Single Market Monitoring\")"
+  },
+  {
+     "abbreviation":"CG4"
+    ,"meaning":"Coordination Group (CG1 \"New Vision for European Statistics\", CG2 \"GDP and Beyond \", CG3 \"Spatial Dimension in Statistics\", CG 4 \"EU KLEMS\", CG5 \"Coordination of Quality Work\", CG6 \"Principal European Economic Indicators (PEEIs) including the EFC Status Report\", CG7 \"Single Market Monitoring\")"
+  },
+  {
+     "abbreviation":"CG5"
+    ,"meaning":"Coordination Group (CG1 \"New Vision for European Statistics\", CG2 \"GDP and Beyond \", CG3 \"Spatial Dimension in Statistics\", CG 4 \"EU KLEMS\", CG5 \"Coordination of Quality Work\", CG6 \"Principal European Economic Indicators (PEEIs) including the EFC Status Report\", CG7 \"Single Market Monitoring\")"
+  },
+  {
+     "abbreviation":"CG6"
+    ,"meaning":"Coordination Group (CG1 \"New Vision for European Statistics\", CG2 \"GDP and Beyond \", CG3 \"Spatial Dimension in Statistics\", CG 4 \"EU KLEMS\", CG5 \"Coordination of Quality Work\", CG6 \"Principal European Economic Indicators (PEEIs) including the EFC Status Report\", CG7 \"Single Market Monitoring\")"
+  },
+  {
+     "abbreviation":"CG7"
+    ,"meaning":"Coordination Group (CG1 \"New Vision for European Statistics\", CG2 \"GDP and Beyond \", CG3 \"Spatial Dimension in Statistics\", CG 4 \"EU KLEMS\", CG5 \"Coordination of Quality Work\", CG6 \"Principal European Economic Indicators (PEEIs) including the EFC Status Report\", CG7 \"Single Market Monitoring\")"
+  },
+  {
+     "abbreviation":"CGB"
+    ,"meaning":"Central Government Budget"
+  },
+  {
+     "abbreviation":"CGST"
+    ,"meaning":"Coordination Group for Statistics on Transport"
+  },
+  {
+     "abbreviation":"CIF"
+    ,"meaning":"Cost, insurance, freight"
+  },
+  {
+     "abbreviation":"CIO"
+    ,"meaning":"Chief Information Officer"
+  },
+  {
+     "abbreviation":"CIRCA"
+    ,"meaning":"Communication and Information Resource Centre Administrator (an Internet based groupware tool)"
+  },
+  {
+     "abbreviation":"CIRCABC"
+    ,"meaning":"Communication and Information Resource Centre for Administrations, Businesses and Citizens (https://circabc.europa.eu/faces/jsp/extension/wai/navigation/container.jsp)"
+  },
+  {
+     "abbreviation":"CIS"
+    ,"meaning":"Commonwealth of Independent States/Community Innovation Survey"
+  },
+  {
+     "abbreviation":"CISnet"
+    ,"meaning":"Computer application for Interservice consultations"
+  },
+  {
+     "abbreviation":"CITES"
+    ,"meaning":"Convention on International Trade in Endangered Species of Wild Fauna and Flora"
+  },
+  {
+     "abbreviation":"CLA"
+    ,"meaning":"Classification of Learning Activities"
+  },
+  {
+     "abbreviation":"CLASET"
+    ,"meaning":"An EDI message - for the exchange of classification structures and definition, correspondence tables, codelists and lifecycle"
+  },
+  {
+     "abbreviation":"CLOUD EC"
+    ,"meaning":"Platform that provides an environment supporting volume spikes, peak periods, new programs, work-from-home agents, etc, with no additional on-site hardware and no new software requirements (http://www.noblesys.com/Files/PDF/Products/PS_Noble_Cloud_EC.pdf)"
+  },
+  {
+     "abbreviation":"CLRTAP"
+    ,"meaning":"Convention on Long-Range, Transboundary Air Pollution"
+  },
+  {
+     "abbreviation":"CLSD"
+    ,"meaning":"Current lifestyle deprivation index"
+  },
+  {
+     "abbreviation":"CLUSTERS"
+    ,"meaning":"Classification for Land Use Statistics: Eurostat Remote Sensing"
+  },
+  {
+     "abbreviation":"CMDB"
+    ,"meaning":"Configuration Management DataBase"
+  },
+  {
+     "abbreviation":"CMFB"
+    ,"meaning":"Committee for Monetary, Financial and Balance of Payments Statistics"
+  },
+  {
+     "abbreviation":"CN"
+    ,"meaning":"Combined Nomenclature"
+  },
+  {
+     "abbreviation":"CN8"
+    ,"meaning":"Combined Nomenclature (at eight digit level)"
+  },
+  {
+     "abbreviation":"CNA"
+    ,"meaning":"Competent National Authority"
+  },
+  {
+     "abbreviation":"CNRS"
+    ,"meaning":"National centre for scientific research (France)"
+  },
+  {
+     "abbreviation":"COBIT"
+    ,"meaning":"Common Objectives for Business Information Technology"
+  },
+  {
+     "abbreviation":"CODED"
+    ,"meaning":"Concepts and Definitions Database"
+  },
+  {
+     "abbreviation":"CODIF"
+    ,"meaning":"Dissemination Committee (Comité de diffusion)"
+  },
+  {
+     "abbreviation":"CoE"
+    ,"meaning":"Centre of Excellence (collaborative network to support implementation in the ESS)"
+  },
+  {
+     "abbreviation":"COFO"
+    ,"meaning":"Training Manager (Correspondant Formation)"
+  },
+  {
+     "abbreviation":"COFOG"
+    ,"meaning":"Classification of the Functions of Government"
+  },
+  {
+     "abbreviation":"COG"
+    ,"meaning":"Content-Oriented Guidelines (SDMX)"
+  },
+  {
+     "abbreviation":"COICOP"
+    ,"meaning":"Classification of Individual Consumption by Purpose"
+  },
+  {
+     "abbreviation":"COICOP HBS"
+    ,"meaning":"Classification of Individual Consumption by Purpose Adapted to the Needs of Household Budget Surveys"
+  },
+  {
+     "abbreviation":"COICOP HICP"
+    ,"meaning":"Classification of Individual Consumption by Purpose Adapted to the Needs of Harmonized Indices of Consumer Prices"
+  },
+  {
+     "abbreviation":"COLI"
+    ,"meaning":"Cost of Living Index"
+  },
+  {
+     "abbreviation":"Comesa"
+    ,"meaning":"Common Market for Eastern and Southern Africa"
+  },
+  {
+     "abbreviation":"COMET"
+    ,"meaning":"Committee for Metadata"
+  },
+  {
+     "abbreviation":"COMEXT"
+    ,"meaning":"Eurostat reference database for external trade statistics production and dissemination"
+  },
+  {
+     "abbreviation":"COMM"
+    ,"meaning":"Directorate-General \"Communication\""
+  },
+  {
+     "abbreviation":"COMP"
+    ,"meaning":"Directorate-General \"Competition\""
+  },
+  {
+     "abbreviation":"COMTRADE"
+    ,"meaning":"United Nations Commodity Trade Statistics Database"
+  },
+  {
+     "abbreviation":"CONVAL"
+    ,"meaning":"Content Validation"
+  },
+  {
+     "abbreviation":"COOL"
+    ,"meaning":"Corporate Orchestration and Overview Layer (IT related)"
+  },
+  {
+     "abbreviation":"CoP"
+    ,"meaning":"Code of Practice"
+  },
+  {
+     "abbreviation":"COPNI"
+    ,"meaning":"Classification of the purposes of non-profit institutions"
+  },
+  {
+     "abbreviation":"COPP"
+    ,"meaning":"Classification of outlays of producers by purpose"
+  },
+  {
+     "abbreviation":"CORA"
+    ,"meaning":"COmmon Reference Architecture"
+  },
+  {
+     "abbreviation":"CoRD"
+    ,"meaning":"Coordination of Raw Data Collection"
+  },
+  {
+     "abbreviation":"CORE"
+    ,"meaning":"Common Reference Environment"
+  },
+  {
+     "abbreviation":"CoSSI"
+    ,"meaning":"Common Structure of Statistical Information"
+  },
+  {
+     "abbreviation":"COST"
+    ,"meaning":"European Cooperation in Science and Technology"
+  },
+  {
+     "abbreviation":"COTS"
+    ,"meaning":"Commercial off-the-shelf products"
+  },
+  {
+     "abbreviation":"CP"
+    ,"meaning":"Commercial Paper"
+  },
+  {
+     "abbreviation":"CPA"
+    ,"meaning":"Country Profile Application/Statistical Classification of Products by Activity in the European Economic Community"
+  },
+  {
+     "abbreviation":"CPC"
+    ,"meaning":"Central Product Classification"
+  },
+  {
+     "abbreviation":"CPI"
+    ,"meaning":"Consumer Price Index"
+  },
+  {
+     "abbreviation":"CPO"
+    ,"meaning":"Corporate Project Office"
+  },
+  {
+     "abbreviation":"CPSA"
+    ,"meaning":"Standing Committee for Agricultural Statistics"
+  },
+  {
+     "abbreviation":"CRA"
+    ,"meaning":"Common Reference Architecture"
+  },
+  {
+     "abbreviation":"CRC"
+    ,"meaning":"Cross-cutting projects (examples: ESDEN, SERV, etc.)"
+  },
+  {
+     "abbreviation":"CR LCS"
+    ,"meaning":"Council Regulation on Labour Cost Structure"
+  },
+  {
+     "abbreviation":"CRM"
+    ,"meaning":"Customer Relationship Management"
+  },
+  {
+     "abbreviation":"CROS"
+    ,"meaning":"Portal on Collaboration in Research and Methodology for Official Statistics"
+  },
+  {
+     "abbreviation":"CR SBR"
+    ,"meaning":"Council Regulation on Statistical Business Registers"
+  },
+  {
+     "abbreviation":"CR SBS"
+    ,"meaning":"Council Regulation on Structural Business Statistics"
+  },
+  {
+     "abbreviation":"CR STS"
+    ,"meaning":"Council Regulation on Short Term Statistics"
+  },
+  {
+     "abbreviation":"CRSU"
+    ,"meaning":"Council Regulation on Statistical Units"
+  },
+  {
+     "abbreviation":"CSB"
+    ,"meaning":"Assistants at Directorate level working mainly on finance issues (Contacts sectoriels budgétaires)"
+  },
+  {
+     "abbreviation":"CSD"
+    ,"meaning":"Central Securities Depository"
+  },
+  {
+     "abbreviation":"CSDB"
+    ,"meaning":"Centralised Securities DataBase"
+  },
+  {
+     "abbreviation":"CSF"
+    ,"meaning":"Community Support Framework"
+  },
+  {
+     "abbreviation":"CSIS"
+    ,"meaning":"Center for Strategic and International Studies"
+  },
+  {
+     "abbreviation":"CSO"
+    ,"meaning":"Central Statistics Office (Statistical office of Ireland)"
+  },
+  {
+     "abbreviation":"CSPA"
+    ,"meaning":"Common Statistical Production Architecture"
+  },
+  {
+     "abbreviation":"CSSF"
+    ,"meaning":"Commisson de Surveillance du Secteur Financier / Luxembourg Financial Supervision Authority"
+  },
+  {
+     "abbreviation":"CSSP"
+    ,"meaning":"Committee on Statistics and Statistical Policy"
+  },
+  {
+     "abbreviation":"CST"
+    ,"meaning":"Statistical and Tariff Classification for International Trade"
+  },
+  {
+     "abbreviation":"CSTAT"
+    ,"meaning":"Committee on Statistics"
+  },
+  {
+     "abbreviation":"CSTE"
+    ,"meaning":"Commodity Classification for Statistics of Transport in Europe"
+  },
+  {
+     "abbreviation":"StBa"
+    ,"meaning":"Czech Statistical Office (Český statistický úřad)"
+  },
+  {
+     "abbreviation":"CTI"
+    ,"meaning":"Informatics Technical Committee (CTI = Comité Technique Informatique) (replaced with DSF = Digital Stakeholder Forum)"
+  },
+  {
+     "abbreviation":"CUDD"
+    ,"meaning":"Heads of Unit of Directorate D (Chefs d'unité de la Direction D)"
+  },
+  {
+     "abbreviation":"CUSIP"
+    ,"meaning":"Committee on Uniform Securities Identification Procedures / US securities identifier"
+  },
+  {
+     "abbreviation":"CVD"
+    ,"meaning":"Cycle de Vie des Données (Data Life Cycle) (French abbreviation for \"Data Life Cycle\": strategic project which aims to rationalise the statistical production chain in Eurostat from data collection to dissemination)"
+  },
+  {
+     "abbreviation":"CVD-MH"
+    ,"meaning":"CVD Metadata Handler"
+  },
+  {
+     "abbreviation":"CVDSC"
+    ,"meaning":"CVD Steering Committee"
+  },
+  {
+     "abbreviation":"CVT"
+    ,"meaning":"Continuing Vocational Training"
+  },
+  {
+     "abbreviation":"CVTS"
+    ,"meaning":"Continuing Vocational Training Survey"
+  },
+  {
+     "abbreviation":"CWP"
+    ,"meaning":"Coordinating Working Party on Fisheries Statistics"
+  },
+  {
+     "abbreviation":"CYBERNEWS"
+    ,"meaning":"Eurostat's intranet network"
+  },
+  {
+     "abbreviation":"DA"
+    ,"meaning":"Differentiated Appropriations"
+  },
+  {
+     "abbreviation":"DAC"
+    ,"meaning":"Development Assistance Committee of the OECD"
+  },
+  {
+     "abbreviation":"DARA"
+    ,"meaning":"Decentralised and remote access to confidential data in the ESS"
+  },
+  {
+     "abbreviation":"DatQAM"
+    ,"meaning":"Data Quality Assessment Methods and Tools"
+  },
+  {
+     "abbreviation":"DBB"
+    ,"meaning":"Derivation building block"
+  },
+  {
+     "abbreviation":"DCBB"
+    ,"meaning":"Statistical disclosure control building block"
+  },
+  {
+     "abbreviation":"DCRO"
+    ,"meaning":"Data Collection Responsible Officer"
+  },
+  {
+     "abbreviation":"DCS"
+    ,"meaning":"Data Checking Service"
+  },
+  {
+     "abbreviation":"DDI"
+    ,"meaning":"Data Documentation Initiative"
+  },
+  {
+     "abbreviation":"DE"
+    ,"meaning":"Data Explorer"
+  },
+  {
+     "abbreviation":"DESAP"
+    ,"meaning":"Development of a Self-Assessment Programme"
+  },
+  {
+     "abbreviation":"DESI"
+    ,"meaning":"Digital Economy and Society Index"
+  },
+  {
+     "abbreviation":"DESIS"
+    ,"meaning":"External service provision for DEvelopment, Studies and support for Information Systems (DIGIT Framework contracts: a contractual way of satisfying the needs for information systems development, maintenance, studies and support)"
+  },
+  {
+     "abbreviation":"DEV"
+    ,"meaning":"Directorate-General \"Development\""
+  },
+  {
+     "abbreviation":"DEVCO"
+    ,"meaning":"Directorate-General \"Development and Cooperation - EuropeAid\""
+  },
+  {
+     "abbreviation":"DG"
+    ,"meaning":"Director General or Directorate General"
+  },
+  {
+     "abbreviation":"DGAS"
+    ,"meaning":"Directors' Group on Agricultural Statistics"
+  },
+  {
+     "abbreviation":"DGINS"
+    ,"meaning":"Directors General of the National Statistical Institutes"
+  },
+  {
+     "abbreviation":"DGSI"
+    ,"meaning":"Directors Group on System Integration"
+  },
+  {
+     "abbreviation":"DGT"
+    ,"meaning":"Directorate-General \"Translation\""
+  },
+  {
+     "abbreviation":"DIF"
+    ,"meaning":"Data in focus"
+  },
+  {
+     "abbreviation":"DIGICOM"
+    ,"meaning":"Digital communication, User analytics and Innovative products (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"DIGIT"
+    ,"meaning":"Directorate-General for Informatics"
+  },
+  {
+     "abbreviation":"DIME"
+    ,"meaning":"Directors of Methodology Group"
+  },
+  {
+     "abbreviation":"DIME-ITDG "
+    ,"meaning":"Combined steering group of Directors of Methodology and Information technologies Directors"
+  },
+  {
+     "abbreviation":"DIMES"
+    ,"meaning":"Directors of macroeconomic statistics"
+  },
+  {
+     "abbreviation":"DIMESA"
+    ,"meaning":"Directors of sectoral and environmental statistics and accounts"
+  },
+  {
+     "abbreviation":"DISC"
+    ,"meaning":"Database for International Statistical Cooperation"
+  },
+  {
+     "abbreviation":"DL"
+    ,"meaning":"Distribution List"
+  },
+  {
+     "abbreviation":"DLBB"
+    ,"meaning":"Data Loader Building Block"
+  },
+  {
+     "abbreviation":"DLPS"
+    ,"meaning":"Data Leakage Prevention System"
+  },
+  {
+     "abbreviation":"DM"
+    ,"meaning":"Directors' meeting (has an advisory function to the Director General; it is a forum for discussion on the basis of which the Director General takes decisions)"
+  },
+  {
+     "abbreviation":"DMA"
+    ,"meaning":"Domain Manager"
+  },
+  {
+     "abbreviation":"DMC"
+    ,"meaning":"Direct material consumption"
+  },
+  {
+     "abbreviation":"DMES"
+    ,"meaning":"Director Group for Macroeconomic Statistics"
+  },
+  {
+     "abbreviation":"DMO"
+    ,"meaning":"Document Management Officer"
+  },
+  {
+     "abbreviation":"DOI"
+    ,"meaning":"Digital Object Identifier (www.doi.org)"
+  },
+  {
+     "abbreviation":"DOR"
+    ,"meaning":"Demande d'Organisation de Réunion / request for organising a meeting"
+  },
+  {
+     "abbreviation":"DORIS"
+    ,"meaning":"Data Oriented Services"
+  },
+  {
+     "abbreviation":"DORIS Public Consultation Dashboard"
+    ,"meaning":"Tool for visualizing and analysing the data submitted by citizens through online public consultations"
+  },
+  {
+     "abbreviation":"DOSIS"
+    ,"meaning":"Development Of Statistical Information Systems"
+  },
+  {
+     "abbreviation":"DOSME"
+    ,"meaning":"Demography of Small and Medium Enterprises"
+  },
+  {
+     "abbreviation":"DOUCEUR"
+    ,"meaning":"DOcument Utiles et Commun à EURostat"
+  },
+  {
+     "abbreviation":"DPC"
+    ,"meaning":"Data Protection Coordinator"
+  },
+  {
+     "abbreviation":"DQAF"
+    ,"meaning":"Data Quality Assessment Framework (IMF)"
+  },
+  {
+     "abbreviation":"DQM"
+    ,"meaning":"Data Quality Management"
+  },
+  {
+     "abbreviation":"DRP"
+    ,"meaning":"Disaster Recovery Plan"
+  },
+  {
+     "abbreviation":"DRS"
+    ,"meaning":"Debtor Reporting System"
+  },
+  {
+     "abbreviation":"DS"
+    ,"meaning":"Dedicated Section"
+  },
+  {
+     "abbreviation":"DSD"
+    ,"meaning":"Data Structure Definition"
+  },
+  {
+     "abbreviation":"DSF"
+    ,"meaning":"Digital Stakeholder Forum (fromer CTI = Comité Technique Informatique)"
+  },
+  {
+     "abbreviation":"DSS"
+    ,"meaning":"Directors of Social Statistics"
+  },
+  {
+     "abbreviation":"DSWS"
+    ,"meaning":"Dissemination Web Service"
+  },
+  {
+     "abbreviation":"DTA"
+    ,"meaning":"Desktop Administrator"
+  },
+  {
+     "abbreviation":"DTC"
+    ,"meaning":"Data Transmission Courier"
+  },
+  {
+     "abbreviation":"DTS"
+    ,"meaning":"DIGIT Training Service (DIGIT = Directorate-General \"Informatics\")"
+  },
+  {
+     "abbreviation":"DW"
+    ,"meaning":"Data Warehouse"
+  },
+  {
+     "abbreviation":"j+1,2,1"
+    ,"meaning":"Data without Boundaries"
+  },
+  {
+     "abbreviation":"DWG"
+    ,"meaning":"Dissemination Working Group"
+  },
+  {
+     "abbreviation":"DWH"
+    ,"meaning":"Data Warehouse"
+  },
+  {
+     "abbreviation":"DWS"
+    ,"meaning":"Data warehouse system"
+  },
+  {
+     "abbreviation":"EA"
+    ,"meaning":"Enterprise Architecture"
+  },
+  {
+     "abbreviation":"EAA"
+    ,"meaning":"Economic Accounts for Agriculture"
+  },
+  {
+     "abbreviation":"EAC"
+    ,"meaning":"Directorate-General \"Education and Culture\""
+  },
+  {
+     "abbreviation":"EACT"
+    ,"meaning":"Enterprise Architecture Core Team"
+  },
+  {
+     "abbreviation":"EA ECT"
+    ,"meaning":"Enterprise Architecture Extended Core Team"
+  },
+  {
+     "abbreviation":"EARF"
+    ,"meaning":"Enterprise Architecture Reference Framework"
+  },
+  {
+     "abbreviation":"EAS"
+    ,"meaning":"Directorate-General \"Agriculture and Rural Development\"/European Administrative School"
+  },
+  {
+     "abbreviation":"EBB"
+    ,"meaning":"Editing building block"
+  },
+  {
+     "abbreviation":"EBR"
+    ,"meaning":"European Business Register"
+  },
+  {
+     "abbreviation":"EBS"
+    ,"meaning":"European Business Statistics"
+  },
+  {
+     "abbreviation":"EC"
+    ,"meaning":"European Commission"
+  },
+  {
+     "abbreviation":"ECA"
+    ,"meaning":"European Court of Auditors"
+  },
+  {
+     "abbreviation":"ECAS"
+    ,"meaning":"European Commission Authentication Service"
+  },
+  {
+     "abbreviation":"ECB"
+    ,"meaning":"European Central Bank"
+  },
+  {
+     "abbreviation":"ECB SD"
+    ,"meaning":"European Central Bank / Statistics Division"
+  },
+  {
+     "abbreviation":"ECE"
+    ,"meaning":"Economic Commission for Europe - of the United Nations"
+  },
+  {
+     "abbreviation":"ECFIN"
+    ,"meaning":"Directorate-General \"Economic and Financial Affairs\""
+  },
+  {
+     "abbreviation":"ECHO"
+    ,"meaning":"Directorate-General \"Humanitarian Aid\""
+  },
+  {
+     "abbreviation":"ECHP"
+    ,"meaning":"European Community Household Panel (replaced by SILC)"
+  },
+  {
+     "abbreviation":"ECIDES"
+    ,"meaning":"European Commission Corporate Information and Data Exchange System"
+  },
+  {
+     "abbreviation":"eCOLLECT"
+    ,"meaning":"Component of Edamis"
+  },
+  {
+     "abbreviation":"Ecowas"
+    ,"meaning":"Economic Community Of West African States"
+  },
+  {
+     "abbreviation":"ECSC"
+    ,"meaning":"European Community of Steel and Coal"
+  },
+  {
+     "abbreviation":"ECU"
+    ,"meaning":"European Currency Unit - Replaced by the Euro"
+  },
+  {
+     "abbreviation":"EDAF"
+    ,"meaning":"European Data Access Forum"
+  },
+  {
+     "abbreviation":"eDAMIS"
+    ,"meaning":"Electronic Dataflow Administration and Management Information System"
+  },
+  {
+     "abbreviation":"EDC"
+    ,"meaning":"Enhanced Dissemination Chain"
+  },
+  {
+     "abbreviation":"EDI"
+    ,"meaning":"Electronic Data Interchange"
+  },
+  {
+     "abbreviation":"EDICOM"
+    ,"meaning":"Electronic Data Interchange on COMmerce"
+  },
+  {
+     "abbreviation":"EDIFACT"
+    ,"meaning":"Electronic Data Interchange For Administration, Commerce and Transport"
+  },
+  {
+     "abbreviation":"EDIFLOW"
+    ,"meaning":"Database describing dataflows received by Eurostat, the senders and the receivers of the data"
+  },
+  {
+     "abbreviation":"EDIT"
+    ,"meaning":"Data EDITing Validation Tool (Software developed by Eurostat for data editing)"
+  },
+  {
+     "abbreviation":"EDMS"
+    ,"meaning":"Electronic Document Management System"
+  },
+  {
+     "abbreviation":"e-DOMEC"
+    ,"meaning":"Electronic Archiving and Document Management in the European Commission"
+  },
+  {
+     "abbreviation":"EDP"
+    ,"meaning":"Eurostat Dissemination Processes/Excessive Deficit Procedure"
+  },
+  {
+     "abbreviation":"EDPIM"
+    ,"meaning":"Eurostat Dissemination Processes - Impact Manager (ex SIM = Service Impact Manager)"
+  },
+  {
+     "abbreviation":"EEA"
+    ,"meaning":"European Economic Area/European Environment Agency"
+  },
+  {
+     "abbreviation":"EEAICP"
+    ,"meaning":"European Economic Area Index of Consumer Prices"
+  },
+  {
+     "abbreviation":"EEAS"
+    ,"meaning":"European External Action Service"
+  },
+  {
+     "abbreviation":"EEC"
+    ,"meaning":"Eurasian Economic Commission/European Economic Community"
+  },
+  {
+     "abbreviation":"EEEA"
+    ,"meaning":"European Environmental Economic Accounts"
+  },
+  {
+     "abbreviation":"EFC"
+    ,"meaning":"Economic and Financial Committee"
+  },
+  {
+     "abbreviation":"EFF"
+    ,"meaning":"Extended fund facility"
+  },
+  {
+     "abbreviation":"EFGS"
+    ,"meaning":"European Forum for Geography and Statistics"
+  },
+  {
+     "abbreviation":"EFICS"
+    ,"meaning":"European Forestry Information and Communication System"
+  },
+  {
+     "abbreviation":"EFQM"
+    ,"meaning":"European Foundation for Quality Management"
+  },
+  {
+     "abbreviation":"EFSA"
+    ,"meaning":"European Food Safety Authority"
+  },
+  {
+     "abbreviation":"EFSI"
+    ,"meaning":"European Fund for Strategic Investments"
+  },
+  {
+     "abbreviation":"EFTA"
+    ,"meaning":"European Free Trade Association"
+  },
+  {
+     "abbreviation":"EGR"
+    ,"meaning":"EuroGroups Register"
+  },
+  {
+     "abbreviation":"EGSS"
+    ,"meaning":"Environmental Goods and Services Sector"
+  },
+  {
+     "abbreviation":"EHQR"
+    ,"meaning":"ESS Handbook for Quality Reports"
+  },
+  {
+     "abbreviation":"EIB"
+    ,"meaning":"European Investment Bank"
+  },
+  {
+     "abbreviation":"EIBB"
+    ,"meaning":"Economic Indices Building Block"
+  },
+  {
+     "abbreviation":"EICP"
+    ,"meaning":"European Index of Consumer Prices"
+  },
+  {
+     "abbreviation":"EIF"
+    ,"meaning":"European Interoperability Framework"
+  },
+  {
+     "abbreviation":"EIGE"
+    ,"meaning":"European Institute for Gender Equality"
+  },
+  {
+     "abbreviation":"EIMS"
+    ,"meaning":"European Innovation Monitoring System"
+  },
+  {
+     "abbreviation":"EIP"
+    ,"meaning":"Excessive Imbalances Procedure"
+  },
+  {
+     "abbreviation":"EIPA"
+    ,"meaning":"European Institute of Public Administration"
+  },
+  {
+     "abbreviation":"EIS"
+    ,"meaning":"European Interoperability Strategy"
+  },
+  {
+     "abbreviation":"EISP"
+    ,"meaning":"Eurostat Information Security Policy"
+  },
+  {
+     "abbreviation":"ELARG"
+    ,"meaning":"Directorate-General \"Enlargement\""
+  },
+  {
+     "abbreviation":"eLink"
+    ,"meaning":"Middelware building block of IDABC services"
+  },
+  {
+     "abbreviation":"ELTIF"
+    ,"meaning":"European Long-Term Investment Fund"
+  },
+  {
+     "abbreviation":"EMAS"
+    ,"meaning":"Eco-Management and Audit Scheme"
+  },
+  {
+     "abbreviation":"EMI"
+    ,"meaning":"European Monetary Institute"
+  },
+  {
+     "abbreviation":"EMIS"
+    ,"meaning":"Explanatory Metadata Information System"
+  },
+  {
+     "abbreviation":"EMOS"
+    ,"meaning":"European Master in Official Statistics"
+  },
+  {
+     "abbreviation":"EMPL"
+    ,"meaning":"Directorate-General \"Employment, Social Affairs and Equal Opportunities\""
+  },
+  {
+     "abbreviation":"EMU"
+    ,"meaning":"Economic and Monetary Union"
+  },
+  {
+     "abbreviation":"ENP"
+    ,"meaning":"European Neighbourhood Policy"
+  },
+  {
+     "abbreviation":"ENTR"
+    ,"meaning":"Directorate-General \"Enterprise and Industry\""
+  },
+  {
+     "abbreviation":"ENV"
+    ,"meaning":"Directorate-General \"Environment\""
+  },
+  {
+     "abbreviation":"EO"
+    ,"meaning":"Equal Opportunities"
+  },
+  {
+     "abbreviation":"EODS"
+    ,"meaning":"European Occupational Diseases Statistics"
+  },
+  {
+     "abbreviation":"EoV"
+    ,"meaning":"Exchange of Views"
+  },
+  {
+     "abbreviation":"EOWG"
+    ,"meaning":"Equal Opportunities Group"
+  },
+  {
+     "abbreviation":"EP"
+    ,"meaning":"European Parliament"
+  },
+  {
+     "abbreviation":"EPC"
+    ,"meaning":"European Patent Convention (=Munich Convention)"
+  },
+  {
+     "abbreviation":"EPE"
+    ,"meaning":"Environmental Protection Expenditure"
+  },
+  {
+     "abbreviation":"EPI"
+    ,"meaning":"Équipe de première intervention (first response rescue team)"
+  },
+  {
+     "abbreviation":"EPIS"
+    ,"meaning":"Environmental Pressure Information System"
+  },
+  {
+     "abbreviation":"EPMS"
+    ,"meaning":"Eurostat Process Metadata Structure"
+  },
+  {
+     "abbreviation":"EPO"
+    ,"meaning":"European Patent Office"
+  },
+  {
+     "abbreviation":"EPROS"
+    ,"meaning":"European Plan for Research in Official Statistics"
+  },
+  {
+     "abbreviation":"EPSAS"
+    ,"meaning":"European Public Sector Accounting Standards"
+  },
+  {
+     "abbreviation":"EPSC"
+    ,"meaning":"European Political Strategy Centre"
+  },
+  {
+     "abbreviation":"EPSO"
+    ,"meaning":"European Personnel Selection Office"
+  },
+  {
+     "abbreviation":"EPSS"
+    ,"meaning":"European Programme of Social Surveys"
+  },
+  {
+     "abbreviation":"ERA"
+    ,"meaning":"European Research Area"
+  },
+  {
+     "abbreviation":"ERDF"
+    ,"meaning":"European Regional Development Fund"
+  },
+  {
+     "abbreviation":"ERDR TF"
+    ,"meaning":"Task Force on Electronic Data Reporting (aimed at sharing solutions and experiences of electronic reporting of raw data, covering issues related to the content, techniques and management)"
+  },
+  {
+     "abbreviation":"ERETES"
+    ,"meaning":"Software programme for national accounts"
+  },
+  {
+     "abbreviation":"ERIS"
+    ,"meaning":"European Regional Innovation Survey"
+  },
+  {
+     "abbreviation":"ES"
+    ,"meaning":"Enterprise Surveys"
+  },
+  {
+     "abbreviation":"ESA"
+    ,"meaning":"European System of Accounts"
+  },
+  {
+     "abbreviation":"ESA 95"
+    ,"meaning":"European System of Accounts (Version 1995)"
+  },
+  {
+     "abbreviation":"ESA 2010"
+    ,"meaning":"European System of Accounts (Version 2010)"
+  },
+  {
+     "abbreviation":"ESAC"
+    ,"meaning":"European Statistical Advisory Committee"
+  },
+  {
+     "abbreviation":"ESAF"
+    ,"meaning":"Enhanced Structural Adjustment Facility"
+  },
+  {
+     "abbreviation":"ESAW"
+    ,"meaning":"European Statistics on Accidents at Work"
+  },
+  {
+     "abbreviation":"ESBRs"
+    ,"meaning":"European System of Interoperable Statistical Business Registers (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"ESC"
+    ,"meaning":"Eurostat \"Safe Centre\""
+  },
+  {
+     "abbreviation":"EESC"
+    ,"meaning":"European Economic and Social Committee"
+  },
+  {
+     "abbreviation":"ESCB"
+    ,"meaning":"European System of Central Banks"
+  },
+  {
+     "abbreviation":"ESDEN"
+    ,"meaning":"European Statistical Data Exchange Network (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"ESDS"
+    ,"meaning":"Economic and Social Data Service/European Statistical Data Support"
+  },
+  {
+     "abbreviation":"ESEA"
+    ,"meaning":"European Strategy for Environmental Accounts"
+  },
+  {
+     "abbreviation":"ESeC"
+    ,"meaning":"European Socio-economic Classification"
+  },
+  {
+     "abbreviation":"ESF"
+    ,"meaning":"European Statistical Forum"
+  },
+  {
+     "abbreviation":"ESGAB"
+    ,"meaning":"European Statistical Governance Advisory Board"
+  },
+  {
+     "abbreviation":"ESHSI"
+    ,"meaning":"European Survey on Health and Social Integration"
+  },
+  {
+     "abbreviation":"ESI"
+    ,"meaning":"Economic Sentiment Indicator"
+  },
+  {
+     "abbreviation":"ESM"
+    ,"meaning":"European Stability Mechanism"
+  },
+  {
+     "abbreviation":"ESMS"
+    ,"meaning":"Euro-SDMX Metadata Structure"
+  },
+  {
+     "abbreviation":"ESMS INV"
+    ,"meaning":"Euro-SDMX Metadata Structure for Inventories"
+  },
+  {
+     "abbreviation":"ESMS IP"
+    ,"meaning":"Euro-SDMX Metadata Structure Indicator Profile"
+  },
+  {
+     "abbreviation":"ESOD"
+    ,"meaning":"European schedule of occupational diseases"
+  },
+  {
+     "abbreviation":"ESP"
+    ,"meaning":"Eurostat Statistical Programme"
+  },
+  {
+     "abbreviation":"ESPAC"
+    ,"meaning":"Eurostat Statistical Process Assessment Checklist"
+  },
+  {
+     "abbreviation":"ESQR"
+    ,"meaning":"ESS Standard for Quality Reports"
+  },
+  {
+     "abbreviation":"ESQRS"
+    ,"meaning":"ESS Standard for Quality Reports Structure"
+  },
+  {
+     "abbreviation":"ESS"
+    ,"meaning":"European Statistical System"
+  },
+  {
+     "abbreviation":"ESSC"
+    ,"meaning":"European Statistical System Committee"
+  },
+  {
+     "abbreviation":"ESS-CVD"
+    ,"meaning":"Extension of the CVD (Cycle de Vie des Données - Data Life Cycle) concept to the ESS"
+  },
+  {
+     "abbreviation":"ESS-DISC"
+    ,"meaning":"European Statistical System DISsemination and Communication strategy"
+  },
+  {
+     "abbreviation":"ESS EA"
+    ,"meaning":"European Statistical System Enterprise Architecture"
+  },
+  {
+     "abbreviation":"ESS EARF"
+    ,"meaning":"European Statistical System Enterprise Architecture Reference Framework"
+  },
+  {
+     "abbreviation":"ESS-MH"
+    ,"meaning":"European Statistical System Metadata Handler"
+  },
+  {
+     "abbreviation":"ESSNets"
+    ,"meaning":"European Statistical System collaboration networks (projects carried out by a team of institutions aiming at developing results which can be used by the whole ESS community)"
+  },
+  {
+     "abbreviation":"ESS-PMS"
+    ,"meaning":"European Statistical Syste Process Metadata Structure"
+  },
+  {
+     "abbreviation":"ESSPROS"
+    ,"meaning":"European system of intregrated social protection statistics"
+  },
+  {
+     "abbreviation":"ESS-SGF"
+    ,"meaning":"European version of the Statistical Geospatial Framework (SGF)"
+  },
+  {
+     "abbreviation":"ESS.VIP"
+    ,"meaning":"European Statistical System Vision Implementation Programme"
+  },
+  {
+     "abbreviation":"ESTAT"
+    ,"meaning":"Eurostat"
+  },
+  {
+     "abbreviation":"ESTP"
+    ,"meaning":"European Statistical Training System"
+  },
+  {
+     "abbreviation":"ESU"
+    ,"meaning":"European size unit"
+  },
+  {
+     "abbreviation":"eTF"
+    ,"meaning":"Electronic Task Force"
+  },
+  {
+     "abbreviation":"EU"
+    ,"meaning":"European Union"
+  },
+  {
+     "abbreviation":"EU-DCMAP"
+    ,"meaning":"EU Data Collection Multi-Annual Programme under the Common Fishery Policy"
+  },
+  {
+     "abbreviation":"EU-KLEMS"
+    ,"meaning":"EU level analysis of capital (K), labour (L), energy (E), materials (M) and service (S) inputs on a detailed activity level: statistical and analytical research project to analyse productivity and growth across Europe"
+  },
+  {
+     "abbreviation":"EUR"
+    ,"meaning":"Euro"
+  },
+  {
+     "abbreviation":"EUREKA"
+    ,"meaning":"European Research Co-ordination Agency"
+  },
+  {
+     "abbreviation":"EUROBASE"
+    ,"meaning":"Eurostat reference database (has replaced NewCronos)"
+  },
+  {
+     "abbreviation":"EUROCUBE"
+    ,"meaning":"Statistical production system managing mulidimensional data, based on Oracle Olap (on line analytical processing)"
+  },
+  {
+     "abbreviation":"EUROFARM"
+    ,"meaning":"Project for standardisation of methods for obtaining agricultural statistics"
+  },
+  {
+     "abbreviation":"EUROIND"
+    ,"meaning":"European and national short term indicators"
+  },
+  {
+     "abbreviation":"EURONA"
+    ,"meaning":"Eurostat Review of National Accounts and Macroeconomic Indicators"
+  },
+  {
+     "abbreviation":"EUROSTAT"
+    ,"meaning":"Statistical Office of the European Communities"
+  },
+  {
+     "abbreviation":"Eurotrace"
+    ,"meaning":"Software programme for external trade"
+  },
+  {
+     "abbreviation":"EUSA"
+    ,"meaning":"European School of Administration"
+  },
+  {
+     "abbreviation":"EU-SILC"
+    ,"meaning":"Community Statistics on Income and Living Conditions"
+  },
+  {
+     "abbreviation":"EU TPR"
+    ,"meaning":"EU Trade Policy Review"
+  },
+  {
+     "abbreviation":"EVA"
+    ,"meaning":"Family of end-user interfaces operating on NewCronos data for advanced or occasional users"
+  },
+  {
+     "abbreviation":"eVE"
+    ,"meaning":"eDAMIS Validation Engine"
+  },
+  {
+     "abbreviation":"EVUG"
+    ,"meaning":"eDAMIS and Validation Services User Group"
+  },
+  {
+     "abbreviation":"eWA"
+    ,"meaning":"eDAMIS Web Access"
+  },
+  {
+     "abbreviation":"eWF"
+    ,"meaning":"eDAMIS Web Forms"
+  },
+  {
+     "abbreviation":"EWoC"
+    ,"meaning":"European Wheel of Competitiveness"
+  },
+  {
+     "abbreviation":"eWP"
+    ,"meaning":"eDAMIS Web Portal"
+  },
+  {
+     "abbreviation":"EXTRASTAT"
+    ,"meaning":"Statistics of Member States' trade in goods with non Member States"
+  },
+  {
+     "abbreviation":"F4F"
+    ,"meaning":"Figures for the Future (Eurostat publication)"
+  },
+  {
+     "abbreviation":"FADN"
+    ,"meaning":"Farm Accountancy Data Network"
+  },
+  {
+     "abbreviation":"FAME"
+    ,"meaning":"Forecasting Analytical Modelling Environment (Statistical production system specialised in processing time series)"
+  },
+  {
+     "abbreviation":"FAO"
+    ,"meaning":"Food and Agriculture Organisation of the United Nations"
+  },
+  {
+     "abbreviation":"FATS"
+    ,"meaning":"Foreign Affiliates Statistics"
+  },
+  {
+     "abbreviation":"FD"
+    ,"meaning":"Financing Decision"
+  },
+  {
+     "abbreviation":"FDES"
+    ,"meaning":"Framework for the Development of Environment Statistics"
+  },
+  {
+     "abbreviation":"FDI"
+    ,"meaning":"Foreign direct investment"
+  },
+  {
+     "abbreviation":"FENSTATS"
+    ,"meaning":"Federation of European National Statistical Societies"
+  },
+  {
+     "abbreviation":"FGP"
+    ,"meaning":"Factoryless Goods Producers"
+  },
+  {
+     "abbreviation":"FIDES"
+    ,"meaning":"Financing Decision System"
+  },
+  {
+     "abbreviation":"FIFO"
+    ,"meaning":"First-in-first-out"
+  },
+  {
+     "abbreviation":"FIPREP"
+    ,"meaning":"Financial Initiation of Payments REPorting"
+  },
+  {
+     "abbreviation":"FISIM"
+    ,"meaning":"Financial intermediation services indirectly measured"
+  },
+  {
+     "abbreviation":"FMB"
+    ,"meaning":"Functional Mail Box"
+  },
+  {
+     "abbreviation":"FOB"
+    ,"meaning":"Free on board"
+  },
+  {
+     "abbreviation":"FP6"
+    ,"meaning":"Sixth Framework Programme"
+  },
+  {
+     "abbreviation":"FP7"
+    ,"meaning":"Seventh Framework Programme"
+  },
+  {
+     "abbreviation":"FPFIS"
+    ,"meaning":"Flexible Platform for Internet Services"
+  },
+  {
+     "abbreviation":"FRAME"
+    ,"meaning":"Framework for Resource Allocation Management in Eurostat"
+  },
+  {
+     "abbreviation":"FRIBS"
+    ,"meaning":"Framework Regulation Integrating Business Statistics"
+  },
+  {
+     "abbreviation":"FRIC"
+    ,"meaning":"Framework Regulation Integrating Classifications"
+  },
+  {
+     "abbreviation":"FRIM"
+    ,"meaning":"Framework Regulation Integrating processes, standards and metadata"
+  },
+  {
+     "abbreviation":"FRIS"
+    ,"meaning":"Framework Regulation Integrating Social Statistics"
+  },
+  {
+     "abbreviation":"FROCH"
+    ,"meaning":"FRiends Of the CHair group"
+  },
+  {
+     "abbreviation":"FROOP"
+    ,"meaning":"Frequent out-of-pocket purchases"
+  },
+  {
+     "abbreviation":"FSC"
+    ,"meaning":"Food supply chain"
+  },
+  {
+     "abbreviation":"FSS"
+    ,"meaning":"Farm Structure Survey"
+  },
+  {
+     "abbreviation":"FTE"
+    ,"meaning":"Full Time Equivalent"
+  },
+  {
+     "abbreviation":"GA"
+    ,"meaning":"Guided Access"
+  },
+  {
+     "abbreviation":"GBAORD"
+    ,"meaning":"Government budget appropriations or outlays on research and development"
+  },
+  {
+     "abbreviation":"GBI"
+    ,"meaning":"Gestionnaire des biens inventoriés"
+  },
+  {
+     "abbreviation":"GCOMX"
+    ,"meaning":"Generic COMEXT"
+  },
+  {
+     "abbreviation":"GDDS"
+    ,"meaning":"General Data Dissemination System (IMF)"
+  },
+  {
+     "abbreviation":"GDP"
+    ,"meaning":"Gross Domestic Product"
+  },
+  {
+     "abbreviation":"GEONOM"
+    ,"meaning":"Nomenclature of countries and territories for the External Trade Statistics of the Community and Statistics of Trade between Member States"
+  },
+  {
+     "abbreviation":"GERD"
+    ,"meaning":"Gross domestic expenditure on R&D"
+  },
+  {
+     "abbreviation":"GERDR"
+    ,"meaning":"Gross Domestic Expenditure on R&D in a given year at the regional level"
+  },
+  {
+     "abbreviation":"GESMES"
+    ,"meaning":"GEneral Statistical MESsage"
+  },
+  {
+     "abbreviation":"GFCF"
+    ,"meaning":"Gross fixed capital formation"
+  },
+  {
+     "abbreviation":"GFS"
+    ,"meaning":"Government Finance Statistics"
+  },
+  {
+     "abbreviation":"GGIM"
+    ,"meaning":"See \"UN-GGIM\""
+  },
+  {
+     "abbreviation":"GHG"
+    ,"meaning":"Greenhouse gas"
+  },
+  {
+     "abbreviation":"GIC"
+    ,"meaning":"Gross inland (energy) consumption"
+  },
+  {
+     "abbreviation":"GIS"
+    ,"meaning":"Geographical Information System"
+  },
+  {
+     "abbreviation":"GISCO"
+    ,"meaning":"Geographical Information System of the Commission"
+  },
+  {
+     "abbreviation":"GLC"
+    ,"meaning":"Group of Local Coordinators"
+  },
+  {
+     "abbreviation":"GLEIF"
+    ,"meaning":"Global Legal Entity Identifier Foundation"
+  },
+  {
+     "abbreviation":"GNI"
+    ,"meaning":"Gross National Income"
+  },
+  {
+     "abbreviation":"GNP"
+    ,"meaning":"Gross National Product"
+  },
+  {
+     "abbreviation":"GOV"
+    ,"meaning":"Government sector"
+  },
+  {
+     "abbreviation":"GOVERD"
+    ,"meaning":"R&D Expenditure in the Government Sector"
+  },
+  {
+     "abbreviation":"GOVERDR"
+    ,"meaning":"R&D Expenditure in the Government Sector in a given year at the regional level"
+  },
+  {
+     "abbreviation":"GOVIS"
+    ,"meaning":"GOVernance for Information Systems (IT tool for the maintenance of the inventory of IS systems)"
+  },
+  {
+     "abbreviation":"GPO"
+    ,"meaning":"Group Policies Object"
+  },
+  {
+     "abbreviation":"GPS"
+    ,"meaning":"Generic Production System, based on MDT"
+  },
+  {
+     "abbreviation":"GRM"
+    ,"meaning":"Global Registry Manager"
+  },
+  {
+     "abbreviation":"GSAST"
+    ,"meaning":"Generic SAS Tool, a generic system for treating micro-data and operations of micro and macro-data from surveys"
+  },
+  {
+     "abbreviation":"GSBPM"
+    ,"meaning":"Generic Statistical Business Process Model"
+  },
+  {
+     "abbreviation":"GSG"
+    ,"meaning":"Global Strategic Goal"
+  },
+  {
+     "abbreviation":"GSIM"
+    ,"meaning":"Generic Statistical Information Model"
+  },
+  {
+     "abbreviation":"GSS"
+    ,"meaning":"Global Statistical System"
+  },
+  {
+     "abbreviation":"GTFOR"
+    ,"meaning":"Group of REFOI from all DGs in the Commission (REFOI = Responsible for Informatics Training)"
+  },
+  {
+     "abbreviation":"GUF"
+    ,"meaning":"General university funds"
+  },
+  {
+     "abbreviation":"GUI"
+    ,"meaning":"Graphical User Interface"
+  },
+  {
+     "abbreviation":"GVA"
+    ,"meaning":"Gross value added"
+  },
+  {
+     "abbreviation":"HAN"
+    ,"meaning":"HERMES, ARES, NOMCOM"
+  },
+  {
+     "abbreviation":"HAS"
+    ,"meaning":"Historical Archives Service"
+  },
+  {
+     "abbreviation":"HBS"
+    ,"meaning":"Household Budget Survey"
+  },
+  {
+     "abbreviation":"HERD"
+    ,"meaning":"R&D expenditure in the Higher Education Sector"
+  },
+  {
+     "abbreviation":"HERDR"
+    ,"meaning":"R&D expenditure in the Higher Education Sector in a given year at the regional level"
+  },
+  {
+     "abbreviation":"HERMES"
+    ,"meaning":"HERMES is a technological platform which harmonises the Commission's various digital document and file management applications in a common structure [through the Hermes Repository Services (HRS)]"
+  },
+  {
+     "abbreviation":"HES"
+    ,"meaning":"Higher education sector"
+  },
+  {
+     "abbreviation":"HETUS"
+    ,"meaning":"Harmonised European Time Use Survey"
+  },
+  {
+     "abbreviation":"HFCE"
+    ,"meaning":"Household Final Consumption Expenditure"
+  },
+  {
+     "abbreviation":"HFMCE"
+    ,"meaning":"Household Final Monetary Consumption Expenditure"
+  },
+  {
+     "abbreviation":"HICP"
+    ,"meaning":"Harmonised Indices of Consumer Prices"
+  },
+  {
+     "abbreviation":"HICP-AP"
+    ,"meaning":"Harmonised Indices of Consumer Prices - Administered Prices"
+  },
+  {
+     "abbreviation":"HICP-CT"
+    ,"meaning":"Harmonized Indices of Consumer Prices at Constant Taxes"
+  },
+  {
+     "abbreviation":"HIPCs"
+    ,"meaning":"Heavily Indebted Poor Countries"
+  },
+  {
+     "abbreviation":"HLCIT"
+    ,"meaning":"High Level Committee on IT (Information Technologies) (highest IT body in the Commission)"
+  },
+  {
+     "abbreviation":"HLG"
+    ,"meaning":"High-Level Group for the Modernisation of Statistical Production and Services (originally called HLG-BAS)"
+  },
+  {
+     "abbreviation":"HLG-BAS"
+    ,"meaning":"High-Level Group for Strategic Developments in Business Architecture in Statistics (replaced with HLG)"
+  },
+  {
+     "abbreviation":"HLG-MOS"
+    ,"meaning":"High-Level Group \"Modernisation of Statistical Production and Services\""
+  },
+  {
+     "abbreviation":"HMP"
+    ,"meaning":"Programme of Community action on health monitoring"
+  },
+  {
+     "abbreviation":"HORECA"
+    ,"meaning":"Hotel and restaurant sector (HORECA is an acronym for Hotel, Restaurant, Café)"
+  },
+  {
+     "abbreviation":"HoS"
+    ,"meaning":"Head of Section"
+  },
+  {
+     "abbreviation":"HOS"
+    ,"meaning":"Hardware and Operating Systems"
+  },
+  {
+     "abbreviation":"HoU"
+    ,"meaning":"Head of Unit"
+  },
+  {
+     "abbreviation":"HPC"
+    ,"meaning":"High Performance Computing"
+  },
+  {
+     "abbreviation":"HPI"
+    ,"meaning":"House Price Indices"
+  },
+  {
+     "abbreviation":"HPS"
+    ,"meaning":"Hermes Preservation Services"
+  },
+  {
+     "abbreviation":"HR"
+    ,"meaning":"Human resources/Directorate-General \"Human Resources and Security\""
+  },
+  {
+     "abbreviation":"HRS"
+    ,"meaning":"Hermes Repository Services"
+  },
+  {
+     "abbreviation":"HRST"
+    ,"meaning":"Human resources in Science and Technology"
+  },
+  {
+     "abbreviation":"HRSTC"
+    ,"meaning":"Human resources in Science and Technology Core"
+  },
+  {
+     "abbreviation":"HRSTE"
+    ,"meaning":"Human Resources in Science and Technology Education"
+  },
+  {
+     "abbreviation":"HRSTI"
+    ,"meaning":"Human Resources in Science and Technology Inactive"
+  },
+  {
+     "abbreviation":"HRSTN"
+    ,"meaning":"Human resources in Science and Technology employed in a non S&T occupation"
+  },
+  {
+     "abbreviation":"HRSTO"
+    ,"meaning":"Human resources in Science and Technology Occupation"
+  },
+  {
+     "abbreviation":"HRSTU"
+    ,"meaning":"Human Resources in Science and Technology Unemployed"
+  },
+  {
+     "abbreviation":"HRSTW"
+    ,"meaning":"Human resources in Science and Technology without third level education"
+  },
+  {
+     "abbreviation":"HS"
+    ,"meaning":"Harmonized Commodity Description and Coding System"
+  },
+  {
+     "abbreviation":"HUB"
+    ,"meaning":"Meeting of Heads of Units of Directorate B"
+  },
+  {
+     "abbreviation":"HUM"
+    ,"meaning":"Meeting of Heads of Units (meeting composed of the Director-General, the deputy Director-General, the Directors, the Principle Adviser, the Heads of Unit, the Advisers and the Assistant to the Director-General)"
+  },
+  {
+     "abbreviation":"IAC"
+    ,"meaning":"Internal Audit Capacity"
+  },
+  {
+     "abbreviation":"IACS"
+    ,"meaning":"Integrated Administration and Control System"
+  },
+  {
+     "abbreviation":"IAEG-SDG"
+    ,"meaning":"Inter-Agency and Expert Group on Sustainable Development Goal Indicators"
+  },
+  {
+     "abbreviation":"IAG"
+    ,"meaning":"Inter-Agency Group on Economic and Financial Statistics"
+  },
+  {
+     "abbreviation":"IAOS"
+    ,"meaning":"International Association for Official Statistics"
+  },
+  {
+     "abbreviation":"IAS"
+    ,"meaning":"International Accounting Standards/Internal Audit Service"
+  },
+  {
+     "abbreviation":"IASB"
+    ,"meaning":"International Accounting Standards Board"
+  },
+  {
+     "abbreviation":"IASC"
+    ,"meaning":"International Accounting Standards Committee"
+  },
+  {
+     "abbreviation":"IASS"
+    ,"meaning":"International Association for Statistical Computing"
+  },
+  {
+     "abbreviation":"IATA"
+    ,"meaning":"International Air Transport Association"
+  },
+  {
+     "abbreviation":"IBRD"
+    ,"meaning":"SeeInternational Bank for Reconstruction and Development"
+  },
+  {
+     "abbreviation":"IBSFC"
+    ,"meaning":"International Baltic Sea Fishery Commission"
+  },
+  {
+     "abbreviation":"ICAO"
+    ,"meaning":"International Civil Aviation Organisation"
+  },
+  {
+     "abbreviation":"ICAS"
+    ,"meaning":"International Conference on Agricultural Statistics"
+  },
+  {
+     "abbreviation":"ICD"
+    ,"meaning":"International Classification of Diseases and Related Health Problems"
+  },
+  {
+     "abbreviation":"ICES"
+    ,"meaning":"International Council for the Exploration of the Sea"
+  },
+  {
+     "abbreviation":"ICGS"
+    ,"meaning":"International standard Classification of all Goods and Services"
+  },
+  {
+     "abbreviation":"ICS"
+    ,"meaning":"Internal Control Standards"
+  },
+  {
+     "abbreviation":"ICSA"
+    ,"meaning":"Internal Control Standards Assessment"
+  },
+  {
+     "abbreviation":"ICSD"
+    ,"meaning":"International Central Securities Depository"
+  },
+  {
+     "abbreviation":"ICSE"
+    ,"meaning":"International standard Classification of Status in Employment"
+  },
+  {
+     "abbreviation":"ICST"
+    ,"meaning":"International Classification of Ships by Type, Revised 1994"
+  },
+  {
+     "abbreviation":"ICT"
+    ,"meaning":"Information and Communication Technologies"
+  },
+  {
+     "abbreviation":"IDA"
+    ,"meaning":"Interchange of Data between Administrations/International Development Association"
+  },
+  {
+     "abbreviation":"IDABC"
+    ,"meaning":"Interoperable Delivery of European eGovernment Services to public Administrations, Businesses and Citizens (a Community programme managed by the European Commission's Directorate General for Informatics)"
+  },
+  {
+     "abbreviation":"IDB"
+    ,"meaning":"Injury Database (https://webgate.ec.europa.eu/sanco/heidi/index.php/IDB)"
+  },
+  {
+     "abbreviation":"IEA"
+    ,"meaning":"Illegal Economic Activities/International Energy Agency"
+  },
+  {
+     "abbreviation":"IEEAF"
+    ,"meaning":"Integrated Environmental and Economic Accounting for Forestry"
+  },
+  {
+     "abbreviation":"IESS"
+    ,"meaning":"Integrated European Social Statistics"
+  },
+  {
+     "abbreviation":"IFFIM"
+    ,"meaning":"International Finance Facility for Immunisation"
+  },
+  {
+     "abbreviation":"IFRS 2 Share-based Payment"
+    ,"meaning":"International Financial Reporting Standard 2 Share-based Payment"
+  },
+  {
+     "abbreviation":"IFRS"
+    ,"meaning":"International Financial Reporting Standard"
+  },
+  {
+     "abbreviation":"IFS"
+    ,"meaning":"Integrated Farming Statistics"
+  },
+  {
+     "abbreviation":"IGA"
+    ,"meaning":"Integrated Global Accounts"
+  },
+  {
+     "abbreviation":"IIP"
+    ,"meaning":"International investment position"
+  },
+  {
+     "abbreviation":"ILO"
+    ,"meaning":"International Labour Organization"
+  },
+  {
+     "abbreviation":"IM"
+    ,"meaning":"Information Model/Intramuros"
+  },
+  {
+     "abbreviation":"IMF"
+    ,"meaning":"International Monetary Fund"
+  },
+  {
+     "abbreviation":"IMS"
+    ,"meaning":"Information Models and Standards"
+  },
+  {
+     "abbreviation":"IMSB"
+    ,"meaning":"Information Management Steering Board"
+  },
+  {
+     "abbreviation":"ICST"
+    ,"meaning":"Instituto Nacional de Estadística (Statistical office of Spain)"
+  },
+  {
+     "abbreviation":"ICST"
+    ,"meaning":"Instituto Nacional de Estatística  (Statistical office of Portugal)"
+  },
+  {
+     "abbreviation":"INFSO"
+    ,"meaning":"Directorate-General \"Information Society and Media\""
+  },
+  {
+     "abbreviation":"Insee"
+    ,"meaning":"Institut National de la Statistique et des Études Économiques / French National Institute for Statistics and Economic Studies"
+  },
+  {
+     "abbreviation":"INSPIRE"
+    ,"meaning":"Infrastructure for Spatial Information in Europe"
+  },
+  {
+     "abbreviation":"INTRASTAT"
+    ,"meaning":"Statistics of Member States' trade in goods with other Member States"
+  },
+  {
+     "abbreviation":"IOP"
+    ,"meaning":"Inter Operability"
+  },
+  {
+     "abbreviation":"IPA"
+    ,"meaning":"Instrument for Pre-Accession Assistance"
+  },
+  {
+     "abbreviation":"IPC"
+    ,"meaning":"International Patent Classification"
+  },
+  {
+     "abbreviation":"IPCIS"
+    ,"meaning":"Interoperability Platform for Corporate Information Systems"
+  },
+  {
+     "abbreviation":"IPD"
+    ,"meaning":"Implicit price deflator"
+  },
+  {
+     "abbreviation":"IPG"
+    ,"meaning":"Information Providers Guide"
+  },
+  {
+     "abbreviation":"IPM"
+    ,"meaning":"Interactive Policy Making (two Internet-based instruments which enable Commission to collect feedback directly from citizens)"
+  },
+  {
+     "abbreviation":"IPP"
+    ,"meaning":"Intellectual Property Products"
+  },
+  {
+     "abbreviation":"IPPE"
+    ,"meaning":"Index of purchasing power of the euro"
+  },
+  {
+     "abbreviation":"IPR"
+    ,"meaning":"Intellectual Property Rights"
+  },
+  {
+     "abbreviation":"IPSAS"
+    ,"meaning":"International Public Sector Accounting Standards"
+  },
+  {
+     "abbreviation":"IPSIS"
+    ,"meaning":"Commission corporate integration platform"
+  },
+  {
+     "abbreviation":"IPT"
+    ,"meaning":"Interactive Profiling Tool"
+  },
+  {
+     "abbreviation":"IRM"
+    ,"meaning":"IT Resource Manager (IT = Information technology)"
+  },
+  {
+     "abbreviation":"IS"
+    ,"meaning":"Information System"
+  },
+  {
+     "abbreviation":"IS4SP"
+    ,"meaning":"Information Systems for Statistical Purposes"
+  },
+  {
+     "abbreviation":"IS4STAT"
+    ,"meaning":"Information System for Statistics"
+  },
+  {
+     "abbreviation":"ISA"
+    ,"meaning":"Interoperability Solutions for European Public Administrations (http://ec.europa.eu/isa/)"
+  },
+  {
+     "abbreviation":"ISC"
+    ,"meaning":"Inter-Service Consultation"
+  },
+  {
+     "abbreviation":"ISCED"
+    ,"meaning":"International Standard Classification of Education"
+  },
+  {
+     "abbreviation":"ISCO"
+    ,"meaning":"International Standard Classification of Occupations"
+  },
+  {
+     "abbreviation":"ISCO-88"
+    ,"meaning":"International Standard Classification of Occupations"
+  },
+  {
+     "abbreviation":"ISG"
+    ,"meaning":"Interinstitutional Style Guide"
+  },
+  {
+     "abbreviation":"ISI"
+    ,"meaning":"Information Systems Infrastructure/International Statistical Institute"
+  },
+  {
+     "abbreviation":"ISIC"
+    ,"meaning":"International Standard Industrial Classification"
+  },
+  {
+     "abbreviation":"ISIN"
+    ,"meaning":"International Security Identification Number"
+  },
+  {
+     "abbreviation":"ISMP"
+    ,"meaning":"Information Systems Management Policy"
+  },
+  {
+     "abbreviation":"ISO"
+    ,"meaning":"International Organization for Standardization"
+  },
+  {
+     "abbreviation":"ISPMB"
+    ,"meaning":"Information System Project Management Board"
+  },
+  {
+     "abbreviation":"ICST"
+    ,"meaning":"Istituto Nazionale di Statistica / Italian National Institute of Statistics"
+  },
+  {
+     "abbreviation":"ISWG"
+    ,"meaning":"Inter Secretariat Working Group"
+  },
+  {
+     "abbreviation":"IT"
+    ,"meaning":"Information Technologies"
+  },
+  {
+     "abbreviation":"ITAC"
+    ,"meaning":"IT Advisory Committee"
+  },
+  {
+     "abbreviation":"IT AGE"
+    ,"meaning":"IT Architecture Group of Experts"
+  },
+  {
+     "abbreviation":"ITDB"
+    ,"meaning":"IT Design Board"
+  },
+  {
+     "abbreviation":"ITDG"
+    ,"meaning":"Information Technologies Directors Group"
+  },
+  {
+     "abbreviation":"ITGS"
+    ,"meaning":"International Trade in Goods Statistics"
+  },
+  {
+     "abbreviation":"ITIC"
+    ,"meaning":"IT Infrastructure Consolidation"
+  },
+  {
+     "abbreviation":"ITIL"
+    ,"meaning":"Information Technology Infrastructure Library"
+  },
+  {
+     "abbreviation":"ITMP"
+    ,"meaning":"Information Technologies Master Plan"
+  },
+  {
+     "abbreviation":"ITRS"
+    ,"meaning":"International transaction reporting system"
+  },
+  {
+     "abbreviation":"ITS"
+    ,"meaning":"International Trade Statistics/International Trade in Services"
+  },
+  {
+     "abbreviation":"ITSC"
+    ,"meaning":"IT Steering Committee (internal to Eurostat) (The high-level group for IT governance in Eurostat. It represents the view of the business units in IT decisions, and takes decisions in the implementation of the IT strategy as expressed in the IT Master Plan)"
+  },
+  {
+     "abbreviation":"ITSG"
+    ,"meaning":"IT Strategic Goal"
+  },
+  {
+     "abbreviation":"ITU"
+    ,"meaning":"Intermodal transport unit"
+  },
+  {
+     "abbreviation":"IWT"
+    ,"meaning":"Inland waterways transport"
+  },
+  {
+     "abbreviation":"IWWP"
+    ,"meaning":"Industrial waste water plants"
+  },
+  {
+     "abbreviation":"JAMIE"
+    ,"meaning":"Joint Action on Monitoring Injuries in Europe (http://ec.europa.eu/eahc/projects/database.html?prjno=20102205)"
+  },
+  {
+     "abbreviation":"JFSQ"
+    ,"meaning":"Joint Forest Sector Questionnaire"
+  },
+  {
+     "abbreviation":"JIS"
+    ,"meaning":"Joint Initiative on Standardisation"
+  },
+  {
+     "abbreviation":"JLS"
+    ,"meaning":"Directorate-General \"Justice, Freedom and Security\""
+  },
+  {
+     "abbreviation":"JMO"
+    ,"meaning":"Jean Monnet Building"
+  },
+  {
+     "abbreviation":"JOINUP"
+    ,"meaning":"Collaborative platform created by the European Commission in order to offer a new set of services to help e-Government professionals share their experience with interoperability solutions and support them to find, choose, re-use, develop, and implement open source software and semantic interoperability assets (http://joinup.ec.europa.eu/)"
+  },
+  {
+     "abbreviation":"JOSGAP"
+    ,"meaning":"Joint Overall Statistical Greek Action Plan"
+  },
+  {
+     "abbreviation":"JRC"
+    ,"meaning":"Joint Research Centre"
+  },
+  {
+     "abbreviation":"JSG"
+    ,"meaning":"Joint Steering Group"
+  },
+  {
+     "abbreviation":"JSIS"
+    ,"meaning":"Joint Sickness Insurance Scheme"
+  },
+  {
+     "abbreviation":"JSON"
+    ,"meaning":"JavaScript Object Notation (data-interchange format)"
+  },
+  {
+     "abbreviation":"KAU"
+    ,"meaning":"Kind-of-activity-unit"
+  },
+  {
+     "abbreviation":"KI"
+    ,"meaning":"Key Initiative"
+  },
+  {
+     "abbreviation":"KIS"
+    ,"meaning":"Classification of knowledge intensive services"
+  },
+  {
+     "abbreviation":"KLEMS"
+    ,"meaning":"EU level analysis of capital (K), labour (L), energy (E), materials (M) and service (S) inputs on a detailed activity level: statistical and analytical research project to analyse productivity and growth across Europe"
+  },
+  {
+     "abbreviation":"KPI"
+    ,"meaning":"Key Performance Indicator"
+  },
+  {
+     "abbreviation":"LAB"
+    ,"meaning":"Eurostat Laboratory for developments in cross-cutting statistical domains"
+  },
+  {
+     "abbreviation":"LAMAS"
+    ,"meaning":"Labour Market Statistics Working Group"
+  },
+  {
+     "abbreviation":"LAS"
+    ,"meaning":"Legislative Advancement Sheet"
+  },
+  {
+     "abbreviation":"LAU"
+    ,"meaning":"Local administrative units"
+  },
+  {
+     "abbreviation":"LC"
+    ,"meaning":"Local Coordinator (the main contact point to Eurostat for the effective implementation of electronic data transmission and a contact point for members of their own organisation)"
+  },
+  {
+     "abbreviation":"LCI"
+    ,"meaning":"Labour cost index"
+  },
+  {
+     "abbreviation":"LCS-R"
+    ,"meaning":"Council Regulation on Labour Cost Structure"
+  },
+  {
+     "abbreviation":"LDAP"
+    ,"meaning":"Lightweight Directory Access Protocol (Internet protocol that email and other programs use to look up information from a server)"
+  },
+  {
+     "abbreviation":"LDF"
+    ,"meaning":"Learning & Development Framework"
+  },
+  {
+     "abbreviation":"LEG"
+    ,"meaning":"Leadership Expert Group"
+  },
+  {
+     "abbreviation":"LEI"
+    ,"meaning":"Legal Entity Identifier"
+  },
+  {
+     "abbreviation":"LFS"
+    ,"meaning":"Labour Force Survey"
+  },
+  {
+     "abbreviation":"LIBOR"
+    ,"meaning":"London Interbank Offered Rate"
+  },
+  {
+     "abbreviation":"LIFO"
+    ,"meaning":"Last-in-first-out"
+  },
+  {
+     "abbreviation":"LIM"
+    ,"meaning":"Logical Implementation Model"
+  },
+  {
+     "abbreviation":"LISO"
+    ,"meaning":"Local Informatics Security Officer"
+  },
+  {
+     "abbreviation":"LLL"
+    ,"meaning":"Life Long Learning"
+  },
+  {
+     "abbreviation":"LMP"
+    ,"meaning":"Labour Market Policy"
+  },
+  {
+     "abbreviation":"Local KAU"
+    ,"meaning":"Local kind-of-activity unit"
+  },
+  {
+     "abbreviation":"Local UHP"
+    ,"meaning":"Local unit of homogeneous production"
+  },
+  {
+     "abbreviation":"LOD"
+    ,"meaning":"Linked Open Data"
+  },
+  {
+     "abbreviation":"LOMAT"
+    ,"meaning":"LOan MAnagement Tool"
+  },
+  {
+     "abbreviation":"LRA"
+    ,"meaning":"Local Registration Authority"
+  },
+  {
+     "abbreviation":"LSA"
+    ,"meaning":"Local System Administration"
+  },
+  {
+     "abbreviation":"LSE"
+    ,"meaning":"London Stock Exchange"
+  },
+  {
+     "abbreviation":"LSO"
+    ,"meaning":"Local Security Officer"
+  },
+  {
+     "abbreviation":"LSU"
+    ,"meaning":"Livestock Unit"
+  },
+  {
+     "abbreviation":"LTAA"
+    ,"meaning":"Long term annual average"
+  },
+  {
+     "abbreviation":"LTP"
+    ,"meaning":"Lunchtime presentation"
+  },
+  {
+     "abbreviation":"LUCAS"
+    ,"meaning":"Land Use and Cover by Area frame Sampling"
+  },
+  {
+     "abbreviation":"LuxSE"
+    ,"meaning":"Bourse de Luxembourg / Luxembourg Stock Exchange"
+  },
+  {
+     "abbreviation":"LUZ"
+    ,"meaning":"Larger Urban Zones (Urban Audit)"
+  },
+  {
+     "abbreviation":"MAP"
+    ,"meaning":"Methodology Architecture and Portfolio Management Working Group/Multi-Annual Programming"
+  },
+  {
+     "abbreviation":"MAPS"
+    ,"meaning":"Marrakech Action Plan for Statistics"
+  },
+  {
+     "abbreviation":"MARE"
+    ,"meaning":"Directorate-General \"Maritime Affairs and Fisheries\""
+  },
+  {
+     "abbreviation":"MARKT"
+    ,"meaning":"Directorate-General \"Internal Market and Services\""
+  },
+  {
+     "abbreviation":"MATIS"
+    ,"meaning":"Management of time Series"
+  },
+  {
+     "abbreviation":"MBE"
+    ,"meaning":"Model based estimation"
+  },
+  {
+     "abbreviation":"MBP"
+    ,"meaning":"Multi-Beneficiary Programme"
+  },
+  {
+     "abbreviation":"MCS"
+    ,"meaning":"Modernization Committee on Standards"
+  },
+  {
+     "abbreviation":"MCV"
+    ,"meaning":"Metadata Common Vocabulary"
+  },
+  {
+     "abbreviation":"MDG"
+    ,"meaning":"Millennium Development Goal"
+  },
+  {
+     "abbreviation":"MDT"
+    ,"meaning":"Statistical production system for multi-dimensional tables (MDT = Multi-dimensional tables)"
+  },
+  {
+     "abbreviation":"Medstat"
+    ,"meaning":"An EU regional programme for co-operation between Euro-Mediterranean statistical institutes"
+  },
+  {
+     "abbreviation":"MEDTOUR"
+    ,"meaning":"Euro-Mediterranean co-operation in tourism statistics"
+  },
+  {
+     "abbreviation":"MEETS"
+    ,"meaning":"Modernisation of European Enterprise and Trade Statistics"
+  },
+  {
+     "abbreviation":"MEP"
+    ,"meaning":"Member of European Parliament"
+  },
+  {
+     "abbreviation":"Mercosur"
+    ,"meaning":"Southern Common Market (Mercado común del Sur)"
+  },
+  {
+     "abbreviation":"MESH"
+    ,"meaning":"Manual for statistics on energy consumption in households"
+  },
+  {
+     "abbreviation":"METAC"
+    ,"meaning":"Methodology Advisory Committee"
+  },
+  {
+     "abbreviation":"METIS"
+    ,"meaning":"Statistical Metadata (Eurostat/UNECE – Metadata Work Session)"
+  },
+  {
+     "abbreviation":"METNET"
+    ,"meaning":"Eurostat Methodological Network"
+  },
+  {
+     "abbreviation":"MFA"
+    ,"meaning":"Material Flow Accounts"
+  },
+  {
+     "abbreviation":"MFD"
+    ,"meaning":"Multi-Functional-Devices"
+  },
+  {
+     "abbreviation":"MFF"
+    ,"meaning":"Multi-Annual Financial Framework"
+  },
+  {
+     "abbreviation":"MFI"
+    ,"meaning":"Monetary Financial Institution"
+  },
+  {
+     "abbreviation":"MGDD"
+    ,"meaning":"Manual of Government Deficit and Debt"
+  },
+  {
+     "abbreviation":"MH"
+    ,"meaning":"Metadata Handler"
+  },
+  {
+     "abbreviation":"MIC"
+    ,"meaning":"Market Identifier Code"
+  },
+  {
+     "abbreviation":"MIGs"
+    ,"meaning":"Main Industrial Groupings"
+  },
+  {
+     "abbreviation":"MIMAC"
+    ,"meaning":"Middle Management Committee"
+  },
+  {
+     "abbreviation":"MIP"
+    ,"meaning":"Macroeconomic Imbalance Procedure"
+  },
+  {
+     "abbreviation":"MIPS"
+    ,"meaning":"Computer application for the management of missions"
+  },
+  {
+     "abbreviation":"MIT"
+    ,"meaning":"Matrix/mobility for IT"
+  },
+  {
+     "abbreviation":"MMM"
+    ,"meaning":"Middle Management Mobility"
+  },
+  {
+     "abbreviation":"MNE"
+    ,"meaning":"Multinational Enterprise"
+  },
+  {
+     "abbreviation":"MOOCs"
+    ,"meaning":"Massive Open Online Courses"
+  },
+  {
+     "abbreviation":"MoU"
+    ,"meaning":"Memorandum of Understanding"
+  },
+  {
+     "abbreviation":"Move"
+    ,"meaning":"Management of vision at Eurostat / European Statistical System"
+  },
+  {
+     "abbreviation":"MPP"
+    ,"meaning":"Main (public) power producer"
+  },
+  {
+     "abbreviation":"MS"
+    ,"meaning":"Member State"
+  },
+  {
+     "abbreviation":"MSD"
+    ,"meaning":"Metadata Structure Definition"
+  },
+  {
+     "abbreviation":"MSIS"
+    ,"meaning":"Management of statistical information systems"
+  },
+  {
+     "abbreviation":"MSITS"
+    ,"meaning":"Manual on Statistics of International Trade in Services"
+  },
+  {
+     "abbreviation":"MSW"
+    ,"meaning":"Municipal solid waste"
+  },
+  {
+     "abbreviation":"MTC"
+    ,"meaning":"Maritime Transport Commodity Classification"
+  },
+  {
+     "abbreviation":"MUICP"
+    ,"meaning":"Monetary Union Index of Consumer Prices"
+  },
+  {
+     "abbreviation":"MWG"
+    ,"meaning":"Metadata Working Group"
+  },
+  {
+     "abbreviation":"MYITS"
+    ,"meaning":"My IT Support"
+  },
+  {
+     "abbreviation":"MYRA"
+    ,"meaning":"Multiyear Rescheduling Agreement"
+  },
+  {
+     "abbreviation":"NA"
+    ,"meaning":"National Accounts"
+  },
+  {
+     "abbreviation":"NA/BOP"
+    ,"meaning":"National Accounts / Balance of Payments"
+  },
+  {
+     "abbreviation":"NABS"
+    ,"meaning":"Nomenclature for the Analysis and Comparison of Science Programmes and Budgets"
+  },
+  {
+     "abbreviation":"NACE"
+    ,"meaning":"EU statistical classification of economic activities - breakdown of ISIC"
+  },
+  {
+     "abbreviation":"NACE 1970"
+    ,"meaning":"Statistical classification of economic activities in the European Community, 1970 version (NACE stands for Nomenclature générale des activités économiques dans les Communautés européennes)"
+  },
+  {
+     "abbreviation":"NACE Rev. 1"
+    ,"meaning":"Statistical classification of economic activities in the European Community, Revision 1 (NACE stands for Nomenclature générale des activités économiques dans les Communautés européennes)"
+  },
+  {
+     "abbreviation":"NACE/CLIO"
+    ,"meaning":"General Industrial Classification of Economic Activities in the European Communities - version used for the input-output tables (European System of Accounts 1979)"
+  },
+  {
+     "abbreviation":"NAFO"
+    ,"meaning":"Northwest Atlantic Fisheries Organization"
+  },
+  {
+     "abbreviation":"Nafta"
+    ,"meaning":"North American Free Trade Association"
+  },
+  {
+     "abbreviation":"NAICS"
+    ,"meaning":"North American Industry Classification System"
+  },
+  {
+     "abbreviation":"NAMA"
+    ,"meaning":"National Accounts quarterly and annual Main Aggregates"
+  },
+  {
+     "abbreviation":"NAMEA"
+    ,"meaning":"National Accounting Matrix including Environmental Accounts"
+  },
+  {
+     "abbreviation":"NAPS"
+    ,"meaning":"National Account Production System"
+  },
+  {
+     "abbreviation":"NAPS-S"
+    ,"meaning":"National Accounts Production System - Services"
+  },
+  {
+     "abbreviation":"NCB"
+    ,"meaning":"National Central Bank"
+  },
+  {
+     "abbreviation":"NDA"
+    ,"meaning":"Non-Differentiated Appropriations"
+  },
+  {
+     "abbreviation":"NDP"
+    ,"meaning":"Net Domestic Product"
+  },
+  {
+     "abbreviation":"NEAFC"
+    ,"meaning":"North East Atlantic Fisheries Commission"
+  },
+  {
+     "abbreviation":"NEC"
+    ,"meaning":"Not elsewhere classified"
+  },
+  {
+     "abbreviation":"NEPT"
+    ,"meaning":"National Experts in Professional Training"
+  },
+  {
+     "abbreviation":"NEWCRONOS"
+    ,"meaning":"The New Cronos reference database contains around 100 million statistical data covering every economic and social sector. The information normally covers all European Union Member States; in many cases it is also available for Japan, the United States of America and other Union trade partners."
+  },
+  {
+     "abbreviation":"NG"
+    ,"meaning":"Network Group"
+  },
+  {
+     "abbreviation":"NGO"
+    ,"meaning":"Non-governmental organisation"
+  },
+  {
+     "abbreviation":"NIMEXE"
+    ,"meaning":"Nomenclature of Goods for the External Trade Statistics of the Community and Statistics of Trade between Member States"
+  },
+  {
+     "abbreviation":"NIS"
+    ,"meaning":"New Independent States (former Soviet Union republics)"
+  },
+  {
+     "abbreviation":"NMCA"
+    ,"meaning":"National Mapping and Cadastral Authorities"
+  },
+  {
+     "abbreviation":"NMR"
+    ,"meaning":"National Methodological Report"
+  },
+  {
+     "abbreviation":"NNAs"
+    ,"meaning":"National Numbering Agencies"
+  },
+  {
+     "abbreviation":"NOAH"
+    ,"meaning":"IT communication tool built for the specific needs of Business Continuity Management (BCM) in the Commission"
+  },
+  {
+     "abbreviation":"NOAP"
+    ,"meaning":"Next Office Automation Platform"
+  },
+  {
+     "abbreviation":"NOMCOM"
+    ,"meaning":"Nomenclature Commun - classification of master files"
+  },
+  {
+     "abbreviation":"NORIS"
+    ,"meaning":"Nomenclature Of Research In Statistics"
+  },
+  {
+     "abbreviation":"NOSE"
+    ,"meaning":"Nomenclature for Sources of Emissions"
+  },
+  {
+     "abbreviation":"NPIs"
+    ,"meaning":"Non-profit institution"
+  },
+  {
+     "abbreviation":"NPISHs"
+    ,"meaning":"Non-profit institutions serving households"
+  },
+  {
+     "abbreviation":"NPO"
+    ,"meaning":"National Patent Office"
+  },
+  {
+     "abbreviation":"NPV"
+    ,"meaning":"Net Present Value of Debt"
+  },
+  {
+     "abbreviation":"NQG"
+    ,"meaning":"NewCronos Query Generator"
+  },
+  {
+     "abbreviation":"NRME"
+    ,"meaning":"National Reference Metadata Editor"
+  },
+  {
+     "abbreviation":"NSA"
+    ,"meaning":"Not Seasonally Adjusted"
+  },
+  {
+     "abbreviation":"NSDS"
+    ,"meaning":"National Strategy for the Development of Statistics"
+  },
+  {
+     "abbreviation":"NSI"
+    ,"meaning":"National Statistical Institute"
+  },
+  {
+     "abbreviation":"NSS"
+    ,"meaning":"National statistical system"
+  },
+  {
+     "abbreviation":"NST/R"
+    ,"meaning":"Standard Goods Classification for Transport Statistics, revised"
+  },
+  {
+     "abbreviation":"NTTS"
+    ,"meaning":"New Techniques and Technologies for Statistics"
+  },
+  {
+     "abbreviation":"NUACs"
+    ,"meaning":"National Urban Audit Coordinators (Urban Audit)"
+  },
+  {
+     "abbreviation":"NUTS"
+    ,"meaning":"Nomenclature of Territorial Units for Statistics"
+  },
+  {
+     "abbreviation":"OADM"
+    ,"meaning":"Office Automation and Document Management"
+  },
+  {
+     "abbreviation":"OBT"
+    ,"meaning":"Online Booking Tool"
+  },
+  {
+     "abbreviation":"ODA"
+    ,"meaning":"Official Development Assistance"
+  },
+  {
+     "abbreviation":"ODBB"
+    ,"meaning":"Outlier Detection Building Block"
+  },
+  {
+     "abbreviation":"OECD"
+    ,"meaning":"Organisation for Economic Cooperation and Development"
+  },
+  {
+     "abbreviation":"OIB"
+    ,"meaning":"Office for Infrastructures and Logistics in Brussels"
+  },
+  {
+     "abbreviation":"OIL"
+    ,"meaning":"Office for Infrastructures and Logistics in Luxembourg"
+  },
+  {
+     "abbreviation":"OLAF"
+    ,"meaning":"European Anti-Fraud Office"
+  },
+  {
+     "abbreviation":"ONA"
+    ,"meaning":"Other Statistical Authority"
+  },
+  {
+     "abbreviation":"ONS"
+    ,"meaning":"Office of National Statistics (UK)"
+  },
+  {
+     "abbreviation":"OOH"
+    ,"meaning":"Owner Occupied Housing (Harmonised Indices of Consumer Prices)"
+  },
+  {
+     "abbreviation":"OP"
+    ,"meaning":"Publications Office"
+  },
+  {
+     "abbreviation":"OS"
+    ,"meaning":"Operating System"
+  },
+  {
+     "abbreviation":"OSOR"
+    ,"meaning":"Open Source Observatory and Repository project for European public administrations (OSOR and SEMIC merged into JOINUP in December 2011)"
+  },
+  {
+     "abbreviation":"OSS"
+    ,"meaning":"Open Source Software"
+  },
+  {
+     "abbreviation":"OST"
+    ,"meaning":"Office for Science and Technology"
+  },
+  {
+     "abbreviation":"ÖSTAT"
+    ,"meaning":"Österreichisches Statistisches Zentralamt"
+  },
+  {
+     "abbreviation":"Palop"
+    ,"meaning":"African Countries of Portuguese Official Language"
+  },
+  {
+     "abbreviation":"PANORAMA"
+    ,"meaning":"A Eurostat reference database - includes profiles and analysis of over 25 major industrial sectors, the current market forces affecting them, environmental and regulatory considerations and trends for the future"
+  },
+  {
+     "abbreviation":"PARIS21"
+    ,"meaning":"Partnership in Statistics for Development in the 21st Century"
+  },
+  {
+     "abbreviation":"PCC"
+    ,"meaning":"Potential Candidate Country"
+  },
+  {
+     "abbreviation":"PCT"
+    ,"meaning":"Patent Co-operation Treaty"
+  },
+  {
+     "abbreviation":"PDA"
+    ,"meaning":"Personal digital assistant"
+  },
+  {
+     "abbreviation":"PDB"
+    ,"meaning":"Provisional Draft Budget"
+  },
+  {
+     "abbreviation":"PDU"
+    ,"meaning":"Unit Development Plan (PDU = Plan de développement de l'unité)"
+  },
+  {
+     "abbreviation":"PEEI"
+    ,"meaning":"Principal European Economic Indicators"
+  },
+  {
+     "abbreviation":"PEGSCO"
+    ,"meaning":"Pan-European eGovernment Services Committee (takes the decisions on IDABC projects)"
+  },
+  {
+     "abbreviation":"PFM"
+    ,"meaning":"Product Family Management"
+  },
+  {
+     "abbreviation":"PG"
+    ,"meaning":"Partnership Group (Group of Directors General of the National Statistical Institutes of the ESS whose mission is to further the development of the ESS through, mainly, facilitating the work of the ESS Committee)"
+  },
+  {
+     "abbreviation":"PGECON"
+    ,"meaning":"Planning Group on Economic issues (related to EU-DCMAP)"
+  },
+  {
+     "abbreviation":"PGI"
+    ,"meaning":"Principal Global Indicators"
+  },
+  {
+     "abbreviation":"PGTF2"
+    ,"meaning":"Partnership Group Task Force on Statistical Challenges (2) "
+  },
+  {
+     "abbreviation":"PGTF3"
+    ,"meaning":"Partnership Group Task Force on Use of Resources (3)"
+  },
+  {
+     "abbreviation":"Phare"
+    ,"meaning":"Action plan for coordinated aid to Poland and Hungary (subsequently extended to the remainder of the Central and East European countries). It comprises programmes financed by the EU since 1990 to assist with economic restructuring in the Central and East European countries."
+  },
+  {
+     "abbreviation":"PIAP"
+    ,"meaning":"Public Internet Access Point"
+  },
+  {
+     "abbreviation":"PIM"
+    ,"meaning":"Perpetual Inventory Method/Physical Implementation Model/Process Improvement Methodology"
+  },
+  {
+     "abbreviation":"PLANe"
+    ,"meaning":"Electronic Planification and Monitoring System (the letters which make up the acronym have no meaning as such)"
+  },
+  {
+     "abbreviation":"PLC"
+    ,"meaning":"Project Life Cycle"
+  },
+  {
+     "abbreviation":"PLI"
+    ,"meaning":"Price level index"
+  },
+  {
+     "abbreviation":"PMM"
+    ,"meaning":"Project Management Methodology"
+  },
+  {
+     "abbreviation":"PM²"
+    ,"meaning":"Project Management Methodology"
+  },
+  {
+     "abbreviation":"PMO"
+    ,"meaning":"Office for Administration and Payment of Individual Entitlements/Pay Master's Office/Project Management Office"
+  },
+  {
+     "abbreviation":"PMR"
+    ,"meaning":"Planning, Monitoring, Reporting"
+  },
+  {
+     "abbreviation":"PNC"
+    ,"meaning":"Procedure for negotiation with candidates (Budgetary term)"
+  },
+  {
+     "abbreviation":"PNP"
+    ,"meaning":"Private non-profit sector"
+  },
+  {
+     "abbreviation":"PNPERD"
+    ,"meaning":"R&D expenditure in the Private Non Profit Sector"
+  },
+  {
+     "abbreviation":"PNPERDR"
+    ,"meaning":"R&D expenditure in the Private Non Profit Sector in a given year at the regional level"
+  },
+  {
+     "abbreviation":"PPI"
+    ,"meaning":"Producer price indices"
+  },
+  {
+     "abbreviation":"PoC"
+    ,"meaning":"Points of Contact"
+  },
+  {
+     "abbreviation":"PPId"
+    ,"meaning":"Producer price indices of the domestic market"
+  },
+  {
+     "abbreviation":"PPIx"
+    ,"meaning":"Producer price indices on the export market"
+  },
+  {
+     "abbreviation":"PPM"
+    ,"meaning":"Project portfolio management"
+  },
+  {
+     "abbreviation":"PPP"
+    ,"meaning":"Purchasing Power Parity"
+  },
+  {
+     "abbreviation":"PPPs"
+    ,"meaning":"Public-private partnerships"
+  },
+  {
+     "abbreviation":"PPS"
+    ,"meaning":"Purchasing Power Standard"
+  },
+  {
+     "abbreviation":"PQ"
+    ,"meaning":"Parliamentary Question"
+  },
+  {
+     "abbreviation":"PRGF"
+    ,"meaning":"Poverty Reduction and Growth Facility"
+  },
+  {
+     "abbreviation":"PrinCESSe"
+    ,"meaning":"PrinCESSe - DIGIT framework contract for printers replacement"
+  },
+  {
+     "abbreviation":"PROCOME"
+    ,"meaning":"Classification and Coding of the Purposes of Final Consumption of Households"
+  },
+  {
+     "abbreviation":"PRODCOM"
+    ,"meaning":"European Comunity Industry Production (statistics of industrial production)"
+  },
+  {
+     "abbreviation":"PSI"
+    ,"meaning":"Provider of Statistical Information"
+  },
+  {
+     "abbreviation":"PSO"
+    ,"meaning":"Project Support Office"
+  },
+  {
+     "abbreviation":"PST"
+    ,"meaning":"Project Support Team"
+  },
+  {
+     "abbreviation":"PTM"
+    ,"meaning":"Proximity Times and Means"
+  },
+  {
+     "abbreviation":"PV/X"
+    ,"meaning":"Present Value of Debt-to-Exports Ratio"
+  },
+  {
+     "abbreviation":"QAF"
+    ,"meaning":"Quality Assurance Framework"
+  },
+  {
+     "abbreviation":"QBoP"
+    ,"meaning":"Quarterly Balance of Payments statistics"
+  },
+  {
+     "abbreviation":"Q-Conference"
+    ,"meaning":"Quality Conference"
+  },
+  {
+     "abbreviation":"QNA"
+    ,"meaning":"Quarterly National Accounts"
+  },
+  {
+     "abbreviation":"QPI's"
+    ,"meaning":"Quality and performance indicators"
+  },
+  {
+     "abbreviation":"QSA"
+    ,"meaning":"Quarterly Sector Accounts"
+  },
+  {
+     "abbreviation":"QTM"
+    ,"meaning":"Quoted Time and Means (form to be used for specific contracts under a framework contract)"
+  },
+  {
+     "abbreviation":"RAA"
+    ,"meaning":"Regional Agricultural Accounts"
+  },
+  {
+     "abbreviation":"RAIF"
+    ,"meaning":"Luxembourg Reserved Alternative Investment Fund"
+  },
+  {
+     "abbreviation":"R&D"
+    ,"meaning":"Research and Development"
+  },
+  {
+     "abbreviation":"RAMON"
+    ,"meaning":"Reference Architecture for Metadata Online (Eurostat's Metadata Server)"
+  },
+  {
+     "abbreviation":"RBAC"
+    ,"meaning":"Role-based access control"
+  },
+  {
+     "abbreviation":"RC"
+    ,"meaning":"Reference Configuration"
+  },
+  {
+     "abbreviation":"RDBMS"
+    ,"meaning":"Relational Database Management System"
+  },
+  {
+     "abbreviation":"RDF"
+    ,"meaning":"Resource Description Framework (Family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model. It has come to be used as a general method for conceptual description or modeling of information that is implemented in web resources, using a variety of syntax formats)"
+  },
+  {
+     "abbreviation":"RDG"
+    ,"meaning":"Resource Director's Group"
+  },
+  {
+     "abbreviation":"RDIS"
+    ,"meaning":"Rural Development Information System"
+  },
+  {
+     "abbreviation":"RDS"
+    ,"meaning":"Remote Desktop Services"
+  },
+  {
+     "abbreviation":"RE"
+    ,"meaning":"Reference Environment/Resource Efficiency"
+  },
+  {
+     "abbreviation":"REDESIGN"
+    ,"meaning":"Re-design of Intrastat (ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"REFOI"
+    ,"meaning":"Responsible for Informatics Training"
+  },
+  {
+     "abbreviation":"REGIO"
+    ,"meaning":"Eurostat database of regional statistics/Directorate-General \"Regional Policy\""
+  },
+  {
+     "abbreviation":"RELEX"
+    ,"meaning":"Directorate-General \"External relations\""
+  },
+  {
+     "abbreviation":"RELOP"
+    ,"meaning":"Local Career Guidance Officer"
+  },
+  {
+     "abbreviation":"REMI"
+    ,"meaning":"Renewal of e-mail infrastructure (DIGIT project; in practical terms, extension of mailbox quota to 500 MB and few other improvements)"
+  },
+  {
+     "abbreviation":"REPROM"
+    ,"meaning":"Re-engineering the production methods of EU statistics"
+  },
+  {
+     "abbreviation":"RFC"
+    ,"meaning":"Request For Change"
+  },
+  {
+     "abbreviation":"RFMO"
+    ,"meaning":"Regional Fisheries Management Organisation"
+  },
+  {
+     "abbreviation":"RICA"
+    ,"meaning":"Réseau d'Information Comptable Agricole (FADN = Farm Accountancy Data Network)"
+  },
+  {
+     "abbreviation":"RIDER"
+    ,"meaning":"Interdisciplinary Research on Regional Development"
+  },
+  {
+     "abbreviation":"RMC"
+    ,"meaning":"Raw material consumption"
+  },
+  {
+     "abbreviation":"RME"
+    ,"meaning":"Reference Metadata Editor"
+  },
+  {
+     "abbreviation":"RMF"
+    ,"meaning":"Reference Metadata File"
+  },
+  {
+     "abbreviation":"ROC"
+    ,"meaning":"Regulatory Oversight Committee"
+  },
+  {
+     "abbreviation":"ROS"
+    ,"meaning":"Research in Official Statistics"
+  },
+  {
+     "abbreviation":"RPPIs"
+    ,"meaning":"Residential Property Price Indices"
+  },
+  {
+     "abbreviation":"RR"
+    ,"meaning":"Rolling Review"
+  },
+  {
+     "abbreviation":"RTD"
+    ,"meaning":"Directorate-General \"Research\""
+  },
+  {
+     "abbreviation":"RUE"
+    ,"meaning":"(documents) Restreint UE (EU restricted documents)"
+  },
+  {
+     "abbreviation":"S&T"
+    ,"meaning":"Science and Technology"
+  },
+  {
+     "abbreviation":"SA"
+    ,"meaning":"Seasonal adjustment"
+  },
+  {
+     "abbreviation":"SAB"
+    ,"meaning":"Sharing Advisory Board"
+  },
+  {
+     "abbreviation":"SABB"
+    ,"meaning":"Seasonal Adjustment Building Block"
+  },
+  {
+     "abbreviation":"SAE"
+    ,"meaning":"Small area estimation"
+  },
+  {
+     "abbreviation":"SAF"
+    ,"meaning":"Structural Adjustment Facility"
+  },
+  {
+     "abbreviation":"SafeGuard LAN Crypt"
+    ,"meaning":"Ultimate data protection enabling secure team collaboration while protecting against internal threats"
+  },
+  {
+     "abbreviation":"SAM"
+    ,"meaning":"Directors meeting on staff and administrative matters/Social accounting matrix/Statistical production system managing multidimensional data, oriented more to simple domains (Statistical Administration and Management)"
+  },
+  {
+     "abbreviation":"SANCO"
+    ,"meaning":"Directorate-General \"Health and Consumer Protection\""
+  },
+  {
+     "abbreviation":"SAPM"
+    ,"meaning":"Survey on Agricultural Production Methods"
+  },
+  {
+     "abbreviation":"SASG"
+    ,"meaning":"Seasonal adjustment steering group"
+  },
+  {
+     "abbreviation":"SAUG"
+    ,"meaning":"Seasonal adjustment user group"
+  },
+  {
+     "abbreviation":"SBR"
+    ,"meaning":"Statistical Business Register"
+  },
+  {
+     "abbreviation":"SBR-R"
+    ,"meaning":"Council Regulation on Statistical Business Registers"
+  },
+  {
+     "abbreviation":"SBS"
+    ,"meaning":"Structural Business Statistics"
+  },
+  {
+     "abbreviation":"SBS-R"
+    ,"meaning":"Council Regulation on Structural Business Statistics"
+  },
+  {
+     "abbreviation":"SCB"
+    ,"meaning":"Statistical Capacity Building"
+  },
+  {
+     "abbreviation":"SCD"
+    ,"meaning":"Sub-City Districts (Urban Audit)"
+  },
+  {
+     "abbreviation":"SCFE"
+    ,"meaning":"Sharing common functionalities in the ESS (ESSnet)"
+  },
+  {
+     "abbreviation":"SCIC"
+    ,"meaning":"Directorate-General \"Interpretation\""
+  },
+  {
+     "abbreviation":"SCL"
+    ,"meaning":"Standard Code Lists"
+  },
+  {
+     "abbreviation":"SDC"
+    ,"meaning":"Statistical Disclosure Control"
+  },
+  {
+     "abbreviation":"SDDS"
+    ,"meaning":"Special Data Dissemination Standard"
+  },
+  {
+     "abbreviation":"SDG"
+    ,"meaning":"Sustainable Development Goals"
+  },
+  {
+     "abbreviation":"SDI"
+    ,"meaning":"Sustainable Development Indicators"
+  },
+  {
+     "abbreviation":"SDL"
+    ,"meaning":"Software Development Lifecycle"
+  },
+  {
+     "abbreviation":"SDMX"
+    ,"meaning":"Statistical Data and Metadata Exchange"
+  },
+  {
+     "abbreviation":"SDMX-DDI"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) + DDI (Data Documentation Initiative)"
+  },
+  {
+     "abbreviation":"SDMX-EDI"
+    ,"meaning":"EDIFACT format for exchange of SDMX-structured data and metadata"
+  },
+  {
+     "abbreviation":"SDMX-IM"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) Information Model"
+  },
+  {
+     "abbreviation":"SDMX-JSON"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) + JSON (JavaScript Object Notation)"
+  },
+  {
+     "abbreviation":"SDMX-ML"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) + XML (extensive mark-up language)"
+  },
+  {
+     "abbreviation":"SDMX-NA"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) in National Accounts"
+  },
+  {
+     "abbreviation":"SDMX-RI"
+    ,"meaning":"Statistical Data and Metadata Exchange - Reference Infrastructure"
+  },
+  {
+     "abbreviation":"SDMX-SWG"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) Statistical Working Group"
+  },
+  {
+     "abbreviation":"SDMX-TWG"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) Technical Working Group"
+  },
+  {
+     "abbreviation":"SDMX-WS"
+    ,"meaning":"SDMX (Statistical Data and Metadata Exchange) Web Services"
+  },
+  {
+     "abbreviation":"SDWS"
+    ,"meaning":"SDMX Dissemination Web Service"
+  },
+  {
+     "abbreviation":"SECEM"
+    ,"meaning":"Procedure for encrypting or digitally sign e-mails for exchanging sensitive information"
+  },
+  {
+     "abbreviation":"Sedol"
+    ,"meaning":"Stock Exchange Daily Official List / UK securities identifier"
+  },
+  {
+     "abbreviation":"SEEA"
+    ,"meaning":"System of Environmental-Economic Accounting (official name adopted by the UN Statistical Commission in 2012)"
+  },
+  {
+     "abbreviation":"SEMIC"
+    ,"meaning":"Semantic Interoperability Centre (SEMIC and OSOR merged into JOINUP in December 2011)"
+  },
+  {
+     "abbreviation":"SEP"
+    ,"meaning":"Single Entry Point"
+  },
+  {
+     "abbreviation":"SERT"
+    ,"meaning":"Business Statistics and Telematic Networks (Statistique d'Entreprises et Réseaux Télématiques)"
+  },
+  {
+     "abbreviation":"SERV"
+    ,"meaning":"Shared services (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"SES"
+    ,"meaning":"Structure of Earnings Survey"
+  },
+  {
+     "abbreviation":"SFTC"
+    ,"meaning":"Standard Foreign Trade Classification (COMECON)"
+  },
+  {
+     "abbreviation":"SG"
+    ,"meaning":"Secretariat-General"
+  },
+  {
+     "abbreviation":"SGF"
+    ,"meaning":"Statistical Geospatial Framework"
+  },
+  {
+     "abbreviation":"SGM"
+    ,"meaning":"Standard gross margin"
+  },
+  {
+     "abbreviation":"SHODI"
+    ,"meaning":"Simple HOt Deck Imputation"
+  },
+  {
+     "abbreviation":"SHS"
+    ,"meaning":"Securities Holdings Statistics"
+  },
+  {
+     "abbreviation":"SI"
+    ,"meaning":"Structural Indicators"
+  },
+  {
+     "abbreviation":"SI2"
+    ,"meaning":"See SINCOM"
+  },
+  {
+     "abbreviation":"SICAF"
+    ,"meaning":"Société d’investissement à capital fixe / closed-ended investment company"
+  },
+  {
+     "abbreviation":"SICAR"
+    ,"meaning":"Société d’investissement en capital à risque / Investment company in risk capital"
+  },
+  {
+     "abbreviation":"SICAV"
+    ,"meaning":"Société d’investissement à capital variable open-ended investment company"
+  },
+  {
+     "abbreviation":"SICON"
+    ,"meaning":"Secure Infrastructure for Confidential Data Access"
+  },
+  {
+     "abbreviation":"Sicovam"
+    ,"meaning":"Société Interprofessionnelle pour la Compensation des Valeurs Mobilières / French securities identifier"
+  },
+  {
+     "abbreviation":"SICS"
+    ,"meaning":"Statistical Indicators Common Sites - e.g. Euro SICS"
+  },
+  {
+     "abbreviation":"SICTA"
+    ,"meaning":"Standard International Classification of Tourism Activities"
+  },
+  {
+     "abbreviation":"SIF"
+    ,"meaning":"Specialised Investment Fund/Statistics in Focus"
+  },
+  {
+     "abbreviation":"SILC"
+    ,"meaning":"Statistics on Income and Living Conditions"
+  },
+  {
+     "abbreviation":"SIM"
+    ,"meaning":"Service Impact Manager"
+  },
+  {
+     "abbreviation":"SIMPLE"
+    ,"meaning":"Single Integrated Management PLan for Eurostat"
+  },
+  {
+     "abbreviation":"SIMS"
+    ,"meaning":"Single Integrated Metadata Structure"
+  },
+  {
+     "abbreviation":"SIMSTAT"
+    ,"meaning":"Single Market Statistics (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"SINCOM"
+    ,"meaning":"System for follow up of financial transactions in the Commission"
+  },
+  {
+     "abbreviation":"SIRE"
+    ,"meaning":"European infra-regional information system (Système d’informations infrarégionales européen)"
+  },
+  {
+     "abbreviation":"SISAI"
+    ,"meaning":"Statistical Information Systems Architecture and Integration"
+  },
+  {
+     "abbreviation":"SITC"
+    ,"meaning":"Standard Industrial Trade Classification"
+  },
+  {
+     "abbreviation":"SJ"
+    ,"meaning":"Legal Service"
+  },
+  {
+     "abbreviation":"SLA"
+    ,"meaning":"Service Level Agreement"
+  },
+  {
+     "abbreviation":"SLIM"
+    ,"meaning":"Simpler Legislation in the Internal Market/Simpler Legislation for the Internal Market - a European Council initiative"
+  },
+  {
+     "abbreviation":"SME"
+    ,"meaning":"Small and Medium-sized Enterprises"
+  },
+  {
+     "abbreviation":"SMT"
+    ,"meaning":"Service Management tool"
+  },
+  {
+     "abbreviation":"SNA"
+    ,"meaning":"System of National Accounts (United Nations)"
+  },
+  {
+     "abbreviation":"SNA 93"
+    ,"meaning":"System of National Accounts from 1993 (United Nations)"
+  },
+  {
+     "abbreviation":"SO"
+    ,"meaning":"Standard Output/System Owner"
+  },
+  {
+     "abbreviation":"SOA"
+    ,"meaning":"Service Oriented Architecture"
+  },
+  {
+     "abbreviation":"SODI"
+    ,"meaning":"SDMX Open Data Interchange (an alignment project under SDMX, a proof of its concept of data sharing, within the European Statistical System)"
+  },
+  {
+     "abbreviation":"SOEC"
+    ,"meaning":"Statistical Office of the European Communities (Eurostat)"
+  },
+  {
+     "abbreviation":"SoQ"
+    ,"meaning":"Sponsorship on Quality"
+  },
+  {
+     "abbreviation":"SoS"
+    ,"meaning":"Sponsorship on Standardisation"
+  },
+  {
+     "abbreviation":"SOS"
+    ,"meaning":"Staff Opinion Survey"
+  },
+  {
+     "abbreviation":"SPC"
+    ,"meaning":"Statistical Programme Committee"
+  },
+  {
+     "abbreviation":"SPE"
+    ,"meaning":"Special Purpose Entities"
+  },
+  {
+     "abbreviation":"SPLUNK"
+    ,"meaning":"An IT tool which makes machine data accessible across an organization and identifies data patterns, provides metrics, diagnoses problems and provides intelligence for business operation. Software to support system monitoring (http://www.splunk.com/)"
+  },
+  {
+     "abbreviation":"SPOC"
+    ,"meaning":"Single Point of Contact"
+  },
+  {
+     "abbreviation":"SPP-ABM"
+    ,"meaning":"Strategic Planning Process - Activity Based Management"
+  },
+  {
+     "abbreviation":"SpS"
+    ,"meaning":"Sponsorship on Standardization"
+  },
+  {
+     "abbreviation":"SPS"
+    ,"meaning":"Statistical Products and Services"
+  },
+  {
+     "abbreviation":"SQ"
+    ,"meaning":"Sponsorship on Quality"
+  },
+  {
+     "abbreviation":"SRC"
+    ,"meaning":"Statistical Requirements Compendium"
+  },
+  {
+     "abbreviation":"SRE"
+    ,"meaning":"Statistical Regions of Europe"
+  },
+  {
+     "abbreviation":"SRI"
+    ,"meaning":"SDMX-RI (Reference Infrastructure based on the SDMX (Statistical Data and Metadata Exchange) standard)"
+  },
+  {
+     "abbreviation":"SS"
+    ,"meaning":"System Supplier"
+  },
+  {
+     "abbreviation":"SSA"
+    ,"meaning":"Supported Self-Assessment"
+  },
+  {
+     "abbreviation":"STA"
+    ,"meaning":"Scientific and Technological Activities"
+  },
+  {
+     "abbreviation":"STADIUM"
+    ,"meaning":"STAtistical Data Interchange Universal Monitor"
+  },
+  {
+     "abbreviation":"STAP"
+    ,"meaning":"Statistics Accessibility and Presentation group"
+  },
+  {
+     "abbreviation":"STATEC"
+    ,"meaning":"Institut national de la statistique et des études économiques du Grand-Duché de Luxembourg / National Statistical Institute of Luxembourg"
+  },
+  {
+     "abbreviation":"STATEL"
+    ,"meaning":"STAtistical TELetransmission"
+  },
+  {
+     "abbreviation":"STATPUB"
+    ,"meaning":"Tool for publication flow management"
+  },
+  {
+     "abbreviation":"StBa"
+    ,"meaning":"Statistisches Bundesamt (Statistical office of Germany)"
+  },
+  {
+     "abbreviation":"STECF"
+    ,"meaning":"Scientific, Technical and Economic Committee for Fisheries"
+  },
+  {
+     "abbreviation":"sTESTA"
+    ,"meaning":"Pan-European communication platform; network alternatives like CCN/CSI (see this entry)"
+  },
+  {
+     "abbreviation":"STET"
+    ,"meaning":"Scientific and Technical Education and Training"
+  },
+  {
+     "abbreviation":"STI"
+    ,"meaning":"Science, Technology and Innovation"
+  },
+  {
+     "abbreviation":"STNE"
+    ,"meaning":"Statistics Telematic Network and EDI"
+  },
+  {
+     "abbreviation":"STPFS"
+    ,"meaning":"Short Term Public Finance Statistics"
+  },
+  {
+     "abbreviation":"STRIDE"
+    ,"meaning":"Science and Technology for Regional Innovation and Development in Europe"
+  },
+  {
+     "abbreviation":"STRUVAL"
+    ,"meaning":"Structural Validation"
+  },
+  {
+     "abbreviation":"STS"
+    ,"meaning":"Short-Term Statistics/Scientific and Technological Services"
+  },
+  {
+     "abbreviation":"STS-R"
+    ,"meaning":"Council Regulation on Short Term Statistics"
+  },
+  {
+     "abbreviation":"SVC"
+    ,"meaning":"Statistical Value Chain"
+  },
+  {
+     "abbreviation":"SWOT"
+    ,"meaning":"Strengths, Weaknesses, Opportunities, Threats"
+  },
+  {
+     "abbreviation":"SWP"
+    ,"meaning":"Statistical Work Programme"
+  },
+  {
+     "abbreviation":"SYSLOG"
+    ,"meaning":"System for follow up of training in the Commission"
+  },
+  {
+     "abbreviation":"SYSPER"
+    ,"meaning":"Information system considered to cover all needs concerning the treatment of information for the Commission’s management of Human Resources"
+  },
+  {
+     "abbreviation":"SYSRES"
+    ,"meaning":"SYStème de REServation online de salles de réunion (BECH et JMO)"
+  },
+  {
+     "abbreviation":"TAB"
+    ,"meaning":"Technical Advisory Board"
+  },
+  {
+     "abbreviation":"Tacis"
+    ,"meaning":"EU technical assistance programme for the Commonwealth of the independent states and the beneficiary countries hereof"
+  },
+  {
+     "abbreviation":"TAIEX"
+    ,"meaning":"Technical Assistance and Information Exchange Instrument"
+  },
+  {
+     "abbreviation":"TAPAS"
+    ,"meaning":"Technical Action Plans for Agricultural Statistics"
+  },
+  {
+     "abbreviation":"TARIC"
+    ,"meaning":"Integrated Tariff of the European Communities"
+  },
+  {
+     "abbreviation":"TAXUD"
+    ,"meaning":"Directorate-General \"Taxation and Customs Union\""
+  },
+  {
+     "abbreviation":"TBP"
+    ,"meaning":"Technology Balance of Payments"
+  },
+  {
+     "abbreviation":"TCAB"
+    ,"meaning":"Technical Consultancy Advisory Board"
+  },
+  {
+     "abbreviation":"TCO"
+    ,"meaning":"Total Cost of Ownership/Transmission Coordinator"
+  },
+  {
+     "abbreviation":"TDS"
+    ,"meaning":"Target Data Storage, generic database model"
+  },
+  {
+     "abbreviation":"TEG"
+    ,"meaning":"Transnational Enterprise Group"
+  },
+  {
+     "abbreviation":"TF"
+    ,"meaning":"Task Force"
+  },
+  {
+     "abbreviation":"TFC"
+    ,"meaning":"Total final consumption"
+  },
+  {
+     "abbreviation":"TFEU"
+    ,"meaning":"Treaty on the Functioning of the European Union"
+  },
+  {
+     "abbreviation":"TFIDC"
+    ,"meaning":"Task Force on International Data Cooperation"
+  },
+  {
+     "abbreviation":"TF PS"
+    ,"meaning":"Task Force on Priority Setting"
+  },
+  {
+     "abbreviation":"TF SPS"
+    ,"meaning":"Task Force \"Statistical Products and Services\""
+  },
+  {
+     "abbreviation":"TGM"
+    ,"meaning":"Table, Graphs and Maps; presentation tool in the dissemination database"
+  },
+  {
+     "abbreviation":"TIC"
+    ,"meaning":"Technical Implementation Committee"
+  },
+  {
+     "abbreviation":"TMT"
+    ,"meaning":"Tree Management Tool (Application allowing the creation of hierarchies for dissemination)"
+  },
+  {
+     "abbreviation":"Toblerone units"
+    ,"meaning":"Group of Heads of Unit in Eurostat with special horizontal responsibilities"
+  },
+  {
+     "abbreviation":"TOR"
+    ,"meaning":"Terms of Reference"
+  },
+  {
+     "abbreviation":"TOGAF"
+    ,"meaning":"The Open Group Architecture Framework"
+  },
+  {
+     "abbreviation":"TPP"
+    ,"meaning":"Technological product & process"
+  },
+  {
+     "abbreviation":"TQM"
+    ,"meaning":"Total Quality Management"
+  },
+  {
+     "abbreviation":"TRADE"
+    ,"meaning":"Directorate-General \"Trade\""
+  },
+  {
+     "abbreviation":"TREN"
+    ,"meaning":"Directorate-General \"Energy and Transport\""
+  },
+  {
+     "abbreviation":"TRIS"
+    ,"meaning":"TRansport Information System"
+  },
+  {
+     "abbreviation":"TSA"
+    ,"meaning":"Tourism Satellite Accounts"
+  },
+  {
+     "abbreviation":"TSD"
+    ,"meaning":"Total Survey Design"
+  },
+  {
+     "abbreviation":"TSV"
+    ,"meaning":"tab separated values"
+  },
+  {
+     "abbreviation":"TUS"
+    ,"meaning":"Time Use Survey"
+  },
+  {
+     "abbreviation":"TWG"
+    ,"meaning":"Technical Working Group"
+  },
+  {
+     "abbreviation":"UAA"
+    ,"meaning":"Utilized Agricultural Area"
+  },
+  {
+     "abbreviation":"UCI"
+    ,"meaning":"Undertakings for Collective Investment"
+  },
+  {
+     "abbreviation":"UCITS"
+    ,"meaning":"Undertakings for Collective Investment in Transferable Securities"
+  },
+  {
+     "abbreviation":"UGESA"
+    ,"meaning":"User Group for ESS Statistical Applications (ESS = European Statistical System)"
+  },
+  {
+     "abbreviation":"UHP"
+    ,"meaning":"Unit of homogeneous production"
+  },
+  {
+     "abbreviation":"UN"
+    ,"meaning":"United Nations"
+  },
+  {
+     "abbreviation":"LOCODE"
+    ,"meaning":"5 character code where the first two characters are the ISO 3166 country codes while the remaining three are derived from Recommendation 16 from the UNECE in Geneva, together with Eurostat supplied codes for ports not yet included in the UN system"
+  },
+  {
+     "abbreviation":"SPSC"
+    ,"meaning":"United Nations Standard Product and Service Classifications"
+  },
+  {
+     "abbreviation":"UNCCS"
+    ,"meaning":"United Nations Common Coding System"
+  },
+  {
+     "abbreviation":"UNDP"
+    ,"meaning":"United Nations Development Programme"
+  },
+  {
+     "abbreviation":"UNECE"
+    ,"meaning":"Economic Commission for Europe of the United Nations"
+  },
+  {
+     "abbreviation":"UNECE CES"
+    ,"meaning":"United Nations Economic Commission for Europe Conference of European Statisticians"
+  },
+  {
+     "abbreviation":"UNESCAP"
+    ,"meaning":"Economic and Social Commission for Asia and the Pacific (UNESCAP or ESCAP)"
+  },
+  {
+     "abbreviation":"UNESCO"
+    ,"meaning":"United Nations Educational, Scientific and Cultural Organisation"
+  },
+  {
+     "abbreviation":"UNFCCC"
+    ,"meaning":"United Nations Framework Convention on Climate Change"
+  },
+  {
+     "abbreviation":"UNFPA"
+    ,"meaning":"United Nations Population Fund"
+  },
+  {
+     "abbreviation":"UNGGIM"
+    ,"meaning":"United Nations Global Geospatial Information Management"
+  },
+  {
+     "abbreviation":"UNICEF"
+    ,"meaning":"United Nations Children's Fund"
+  },
+  {
+     "abbreviation":"UNIPEDE"
+    ,"meaning":"International Union of Producers and Distributors of Electrical Energy (in 2002 merged with Eurelectric, and is now European Grouping of Electricity Undertakings, EEIG)"
+  },
+  {
+     "abbreviation":"UNSC"
+    ,"meaning":"United Nations Statistical Commission"
+  },
+  {
+     "abbreviation":"UNSD"
+    ,"meaning":"United Nations Statistics Division"
+  },
+  {
+     "abbreviation":"UOE"
+    ,"meaning":"UNESCO-UIS / OECD / EUROSTAT (The administrative data collection on education systems, jointly managed by the UNESCO Institute for Statistics, the OECD and Eurostat)"
+  },
+  {
+     "abbreviation":"USPTO"
+    ,"meaning":"United States Patent and Trademark Office"
+  },
+  {
+     "abbreviation":"USS"
+    ,"meaning":"User Satisfaction Survey"
+  },
+  {
+     "abbreviation":"UTC"
+    ,"meaning":"User and Technical Committee"
+  },
+  {
+     "abbreviation":"VALIDATION"
+    ,"meaning":"Common data validation policy (part of the ESS Vision 2020 portfolio)"
+  },
+  {
+     "abbreviation":"VAT"
+    ,"meaning":"Value added tax"
+  },
+  {
+     "abbreviation":"VBB"
+    ,"meaning":"Virtual Blue Book"
+  },
+  {
+     "abbreviation":"VFAX"
+    ,"meaning":"Virtual Fax"
+  },
+  {
+     "abbreviation":"VIG"
+    ,"meaning":"Vision Implementation Group"
+  },
+  {
+     "abbreviation":"VIN"
+    ,"meaning":"Vision Implementation Network (network of high-level contacts in national statistical institutes for all Vision related matters)"
+  },
+  {
+     "abbreviation":"VIP"
+    ,"meaning":"Vision Implementation Project"
+  },
+  {
+     "abbreviation":"VIP EDC"
+    ,"meaning":"Vision Implementation Project : Enhanced Dissemination Chain"
+  },
+  {
+     "abbreviation":"VIP ICT"
+    ,"meaning":"Vision Implementation Project : Information and Communication Technologies"
+  },
+  {
+     "abbreviation":"VIP SICON"
+    ,"meaning":"Vision Implementation Project : Secure Infrastructure for Confidential Data Exchange"
+  },
+  {
+     "abbreviation":"VIP WINS"
+    ,"meaning":"Vision Implementation Project : Web Infrastructure for Statistics"
+  },
+  {
+     "abbreviation":"VRM"
+    ,"meaning":"Validation Rule Manager"
+  },
+  {
+     "abbreviation":"VSS WINS"
+    ,"meaning":"Virtual Statistical System"
+  },
+  {
+     "abbreviation":"VTL"
+    ,"meaning":"Validation and Transformation Language"
+  },
+  {
+     "abbreviation":"WACS"
+    ,"meaning":"Web and Audio Conferencing service"
+  },
+  {
+     "abbreviation":"WAEMO"
+    ,"meaning":"West African Economic and Monetary Union"
+  },
+  {
+     "abbreviation":"WAR"
+    ,"meaning":"Weekly activity report"
+  },
+  {
+     "abbreviation":"WB"
+    ,"meaning":"World Bank"
+  },
+  {
+     "abbreviation":"WBS"
+    ,"meaning":"Work Breakdown Structure (Project Management Methodology)"
+  },
+  {
+     "abbreviation":"WCO"
+    ,"meaning":"World Customs Organization (former CCC - Customs Cooperation Council)"
+  },
+  {
+     "abbreviation":"Webinar"
+    ,"meaning":"Web-based seminar"
+  },
+  {
+     "abbreviation":"WG"
+    ,"meaning":"Working Group"
+  },
+  {
+     "abbreviation":"WGSC"
+    ,"meaning":"Working Group on Statistical Confidentiality"
+  },
+  {
+     "abbreviation":"WGSIM"
+    ,"meaning":"Working Group of Statistical Information Management"
+  },
+  {
+     "abbreviation":"WHO"
+    ,"meaning":"World Health Organisation"
+  },
+  {
+     "abbreviation":"WINS"
+    ,"meaning":"Web Infrastructure for Statistics"
+  },
+  {
+     "abbreviation":"WIPO"
+    ,"meaning":"World Intellectual Property Organisation"
+  },
+  {
+     "abbreviation":"WKN"
+    ,"meaning":"Wertpapierkennnummer / German securities identifier"
+  },
+  {
+     "abbreviation":"WSC"
+    ,"meaning":"World Statistics Congress"
+  },
+  {
+     "abbreviation":"WTO"
+    ,"meaning":"World Trade Organisation/World Tourism Organisation"
+  },
+  {
+     "abbreviation":"XBRL"
+    ,"meaning":"eXtensible Business Reporting Language (a language for the electronic communication of business and financial data)"
+  },
+  {
+     "abbreviation":"X-DIS"
+    ,"meaning":"XML for Data Interoperability in Statistics"
+  },
+  {
+     "abbreviation":"XML"
+    ,"meaning":"eXtensible Markup Language"
+  },
+  {
+     "abbreviation":"XT-NET"
+    ,"meaning":"External Trade Network"
+  },
+  {
+     "abbreviation":"YPSILON"
+    ,"meaning":"Young Professional Statisticians Induction And Learning Offer"
+  },
+  {
+     "abbreviation":"5YP"
+    ,"meaning":"Statistical Five-year Programme"
+  }]

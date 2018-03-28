@@ -26,14 +26,32 @@ module.exports = {
         });
 
         this.db = admin.firestore();
-        
+
         //this.readFromFirestore(); // just for testing .. 
 
 
     },
 
+    addAbbreviationData: function() {
+        var abbreviationJSON = require('../import-data/eu-abbreviations.json');
+        console.log("Looping through abbreviationJSON ... _______-")
+        for (var key in abbreviationJSON) {
+            console.log("key: ", key);
+            console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
+            /*db.collection('abbreviations').doc(key).set(key.);
+            db.collection('abbreviations').add({
+                name: 'Tokyo',
+                country: 'Japan'
+            }).then(ref => {
+                console.log('Added document with ID: ', ref.id);
+            });
+            */
+        }
+
+    },
+
     readFromFirestoreHarcCoded: function() {
-                //this is to get sth out of the database 
+        //this is to get sth out of the database 
         this.db.collection('abbreviations').get()
             .then((snapshot) => {
                 snapshot.forEach((doc) => {
@@ -43,36 +61,36 @@ module.exports = {
             .catch((err) => {
                 console.log('Error getting documents', err);
             });
-        
+
     },
 
-    readFromFirestore: function(firestoreCollection, documentField) {   //this is to get sth out of the database 
-    return new Promise((resolve, reject) => {
-        this.db.collection(firestoreCollection).get(documentField)
-            .then((snapshot) => {
-                snapshot.forEach((doc) => {
-                    console.log("readFromFirestore: ",doc.id, '=>', doc.data());
-                    
-                    console.log("doc: ",doc);
-                    let returnObject = doc.data();
-                    console.log("returnObject ", returnObject);
-                    //console.log("returnObject.documentField ", returnObject.documentField);
-                    /*
-                    let returnValue = 'this is the return value';
-                    for (var key in returnObject) {
-                        console.log("key", key);
-                        console.log("returnObject.key", returnObject.key);
-                        returnValue = returnObject.key;
-                    }
-                    */
-                    resolve(JSON.stringify(returnObject));
+    readFromFirestore: function(firestoreCollection, documentField) { //this is to get sth out of the database 
+        return new Promise((resolve, reject) => {
+            this.db.collection(firestoreCollection).get(documentField)
+                .then((snapshot) => {
+                    snapshot.forEach((doc) => {
+                        console.log("readFromFirestore: ", doc.id, '=>', doc.data());
+
+                        console.log("doc: ", doc);
+                        let returnObject = doc.data();
+                        console.log("returnObject ", returnObject);
+                        //console.log("returnObject.documentField ", returnObject.documentField);
+                        /*
+                        let returnValue = 'this is the return value';
+                        for (var key in returnObject) {
+                            console.log("key", key);
+                            console.log("returnObject.key", returnObject.key);
+                            returnValue = returnObject.key;
+                        }
+                        */
+                        resolve(JSON.stringify(returnObject));
+                    });
+                })
+                .catch((err) => {
+                    console.log('Error getting documents', err);
+                    reject('Error getting documents', err);
                 });
-            })
-            .catch((err) => {
-                console.log('Error getting documents', err);
-                reject('Error getting documents', err);
-            });
-    })
+        })
     }
-     
+
 }
