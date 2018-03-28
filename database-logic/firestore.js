@@ -34,7 +34,9 @@ module.exports = {
 
     addAbbreviationData: function() {
         var abbreviationJSON = require('../import-data/eu-abbreviations.json');
-        console.log("Looping through abbreviationJSON ... _______-")
+        console.log("Adding abbreviationJSON ... _______-")
+
+        this.db.collection('abbreviations').doc('new-city-id').set({ test: "terst" });
         for (var key in abbreviationJSON) {
             //console.log("key: ", key);
             //console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
@@ -42,18 +44,19 @@ module.exports = {
                 abbreviation: abbreviationJSON[key].abbreviation,
                 meaning: abbreviationJSON[key].meaning
             };
-            let documentId = "'" + abbreviationJSON[key].abbreviation + "'";
+            let documentId = abbreviationJSON[key].abbreviation;
+
+/*
+
             this.db.collection('abbreviations').doc(documentId).set(data)
                 .then(ref => {
                     console.log('Added document with ID: ', ref.id);
                 });
-            /*
-            this.db.collection('abbreviations').add({
-                abbreviation: abbreviationJSON[key].abbreviation,
-                meaning: abbreviationJSON[key].meaning
-            }).then(ref => {
-                console.log('Added document with ID: ', ref.id);
-            });
+/*
+            this.db.collection('abbreviations').add(data)
+                .then(ref => {
+                    console.log('Added document with ID: ', ref.id);
+                });
             //*/
         }
 
@@ -92,31 +95,32 @@ module.exports = {
                     console.log('Error getting document', err);
                     reject('Error getting documents', err);
                 });
-/*
-            .then((snapshot) => {
-                    snapshot.forEach((doc) => {
-                        console.log("readFromFirestore: ", doc.id, '=>', doc.data());
+            /*
+                        .then((snapshot) => {
+                                snapshot.forEach((doc) => {
+                                    console.log("readFromFirestore: ", doc.id, '=>', doc.data());
 
-                        //console.log("doc: ", doc);
-                        let returnObject = doc.data();
-                        //console.log("returnObject ", returnObject);
-                        //console.log("returnObject.documentField ", returnObject.documentField);
-                        /*
-                        let returnValue = 'this is the return value';
-                        for (var key in returnObject) {
-                            console.log("key", key);
-                            console.log("returnObject.key", returnObject.key);
-                            returnValue = returnObject.key;
-                        }
-                        *//*
-                        resolve(returnObject);
-                    });
-                })
-                .catch((err) => {
-                    console.log('Error getting documents', err);
-                    reject('Error getting documents', err);
-                });
-                */
+                                    //console.log("doc: ", doc);
+                                    let returnObject = doc.data();
+                                    //console.log("returnObject ", returnObject);
+                                    //console.log("returnObject.documentField ", returnObject.documentField);
+                                    /*
+                                    let returnValue = 'this is the return value';
+                                    for (var key in returnObject) {
+                                        console.log("key", key);
+                                        console.log("returnObject.key", returnObject.key);
+                                        returnValue = returnObject.key;
+                                    }
+                                    */
+            /*
+                                    resolve(returnObject);
+                                });
+                            })
+                            .catch((err) => {
+                                console.log('Error getting documents', err);
+                                reject('Error getting documents', err);
+                            });
+                            */
         })
     }
 
