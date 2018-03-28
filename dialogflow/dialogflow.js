@@ -165,7 +165,7 @@ module.exports = {
 
         },
 
-        'random_EU_abbreviation': () => {
+        'EU_abbreviation_random': () => {
           console.log("EU_abbreviation case: _________");
           console.log("parameters from dialogflow: ", parameters.abbreviations);
           
