@@ -380,8 +380,12 @@
     ,"meaning":"Classification of Commodities by Industrial Origin"
   },
   {
-     "abbreviation":"CCN/CSI"
-    ,"meaning":"Common Communication Network & Common System Interface (network alternative like sTesta)"
+     "abbreviation":"CCN"
+    ,"meaning":"Common Communication Network "
+  },
+  {
+     "abbreviation":"CSIS"
+    ,"meaning":"Common System Interface (network alternative like sTesta)"
   },
   {
      "abbreviation":"CCSA"
@@ -1058,10 +1062,6 @@
   {
      "abbreviation":"DW"
     ,"meaning":"Data Warehouse"
-  },
-  {
-     "abbreviation":"j+1,2,1"
-    ,"meaning":"Data without Boundaries"
   },
   {
      "abbreviation":"DWG"
@@ -2904,10 +2904,6 @@
     ,"meaning":"National Accounts"
   },
   {
-     "abbreviation":"NA/BOP"
-    ,"meaning":"National Accounts / Balance of Payments"
-  },
-  {
      "abbreviation":"NABS"
     ,"meaning":"Nomenclature for the Analysis and Comparison of Science Programmes and Budgets"
   },
@@ -2922,10 +2918,6 @@
   {
      "abbreviation":"NACE Rev. 1"
     ,"meaning":"Statistical classification of economic activities in the European Community, Revision 1 (NACE stands for Nomenclature générale des activités économiques dans les Communautés européennes)"
-  },
-  {
-     "abbreviation":"NACE/CLIO"
-    ,"meaning":"General Industrial Classification of Economic Activities in the European Communities - version used for the input-output tables (European System of Accounts 1979)"
   },
   {
      "abbreviation":"NAFO"
@@ -3070,10 +3062,6 @@
   {
      "abbreviation":"NSS"
     ,"meaning":"National statistical system"
-  },
-  {
-     "abbreviation":"NST/R"
-    ,"meaning":"Standard Goods Classification for Transport Statistics, revised"
   },
   {
      "abbreviation":"NTTS"
