@@ -1,6 +1,4 @@
-module.exports = {
-
-    euAbbreviationArray: [
+module.exports = [
         "AAP",
         "AAR",
         "AAU",
@@ -1090,5 +1088,3 @@ module.exports = {
         "YPSILON",
         "5YP"
     ]
-
-}

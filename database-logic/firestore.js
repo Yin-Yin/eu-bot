@@ -36,7 +36,7 @@ module.exports = {
         var abbreviationJSON = require('../data/eu-abbreviations.json');
         console.log("Adding abbreviationJSON ... _______-")
 
-    //    this.db.collection('abbreviations').doc('CCN/CSI').set({ test: "terst" });
+        // this.db.collection('abbreviations').doc('CCN/CSI').set({ test: "terst" });
         for (var key in abbreviationJSON) {
             //console.log("key: ", key);
             //console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
@@ -46,12 +46,12 @@ module.exports = {
             };
             let documentId = abbreviationJSON[key].abbreviation;
 
-            this.db.collection('abbreviations').doc(documentId).set(data)
+            this.db.collection('abbreviations').doc(documentId).set(data) // add document with self defined id
                 .then(ref => {
                     console.log('Added document with ID: ', ref.id);
                 });
-/*
-            this.db.collection('abbreviations').add(data)
+            /*
+            this.db.collection('abbreviations').add(data)   // add document with system generated id
                 .then(ref => {
                     console.log('Added document with ID: ', ref.id);
                 });
