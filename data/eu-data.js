@@ -1089,9 +1089,6 @@ module.exports = {
         "XT-NET",
         "YPSILON",
         "5YP"
-    ],
-
-
-    euAbbreviationArraySize: this.euAbbreviationArray.size
+    ]
 
 }
