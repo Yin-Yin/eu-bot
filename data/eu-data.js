@@ -1091,5 +1091,5 @@ const abreviationArray = [
     
     
 module.exports = {
-    abreviationArray: abreviationArray
+    euAbbreviationArray: abreviationArray
 };
