@@ -170,9 +170,9 @@ module.exports = {
           //console.log("parameters from dialogflow: ", parameters.abbreviations);
           //console.log("tyoe of euAbbreviationArray", typeof(euData.euAbbreviationArray));
           console.log("tyoe of euData", typeof(euData));
-          console.log("euData",euData);
-          let euAbbreviationArray = euData;
-          let euAbbreviationArraySize = euData.size;
+          console.log("euData", euData);
+          let euAbbreviationArray = euData.euAbbreviationArray;
+          let euAbbreviationArraySize = euAbbreviationArray.size;
           let randomAbbreviationNumber = Math.floor(Math.random() * euAbbreviationArraySize);
           console.log("Array.size: ", euAbbreviationArraySize);
           console.log("Getting nr.: ", randomAbbreviationNumber);

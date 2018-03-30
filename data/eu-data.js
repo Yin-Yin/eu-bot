@@ -1,4 +1,4 @@
-module.exports = [
+module.exports.euAbbreviationArray = [
         "AAP",
         "AAR",
         "AAU",
@@ -1087,4 +1087,4 @@ module.exports = [
         "XT-NET",
         "YPSILON",
         "5YP"
-    ]
+    ];
