@@ -1,4 +1,4 @@
-module.exports.euAbbreviationArray = [
+const abreviationArray = [
         "AAP",
         "AAR",
         "AAU",
@@ -1088,3 +1088,8 @@ module.exports.euAbbreviationArray = [
         "YPSILON",
         "5YP"
     ];
+    
+    
+module.exports = {
+    abreviationArray: abreviationArray
+};

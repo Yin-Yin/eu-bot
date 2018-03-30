@@ -172,7 +172,7 @@ module.exports = {
           console.log("tyoe of euData", typeof(euData));
           console.log("tyoe of euData.euAbbreviationArray", typeof(euData.euAbbreviationArray));
           console.log("euData", euData);
-          let euAbbreviationArray = euData.euAbbreviationArray;
+          let euAbbreviationArray = euData.abreviationArray;
           let euAbbreviationArraySize = euAbbreviationArray.size;
           let randomAbbreviationNumber = Math.floor(Math.random() * euAbbreviationArraySize);
           console.log("Array.size: ", euAbbreviationArraySize);
