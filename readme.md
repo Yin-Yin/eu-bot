@@ -1,37 +1,19 @@
 # EU Bot #
 
-Webhook for a EU bot. Based on the quoteBot project.
+Webhook for a bot about EU questions.
 
 
 Current functionality: 
-    -Trump Quote
-    -Joke
-
-
-Demo: https://bot.dialogflow.com/ ...
-
-
-This is what the bot can do at the moment: 
-- __Quote__ Get a  random inspirational quote. from API: http://forismatic.com/en/api/ _Example:_ "quote"
-- __Programming Quote__ Get a random programming quote. from API: http://quotes.stormconsultancy.co.uk/api _Example:_ "programming", "programmer"
-- __Trump Quote__ Get a random Trump quote. from API: https://whatdoestrumpthink.com/api-docs/index.html#introduction _Example:_ "Trump"
-- __Chuck Nottis Fact__ from API: https://api.chucknorris.io/#! (alternative: http://www.icndb.com/api/ or https://www.programmableweb.com/api/chuck-norris-facts) "chuck norris"
-- __Start Up Idea__ from API: http://itsthisforthat.com/ "startup"
-- __Cat Fact__ from: https://catfact.ninja/ "cat", "cat fact"
-- __Dog Fact__ from: https://fact.birb.pw/ "dog", "dog fact"
-- __Random Year Fact__ from: http://numbersapi.com/#random/trivia "year"
-- __Random Number Fact__ from: http://numbersapi.com/#random/trivia "number"
-- __Yes or no__ from: https://yesno.wtf/#api "yes or no", "yes", "no"
+- __EU Parliament Election__ The bot can give you some information about the vote of the election of the European parliament. _Example:_ "Why should I vote?"
+- __EU facts__ Gives you some trivia about Europe.  _Example:_ "eu fact"
+- __Abbreviation__ Let the bot explain you a abbreviation that you give him. _Example:_ "MEP". 
+- __Random Abbreviation__ Ask the bot for a random abbreviation from the EU and he will give you a random abbreviation. _Example:_ "Random abbreviation"
+- __Trump Quote__ Ask the bot for a trump quote and he will reply with a random Trump quote. _Example:_ "trump quote"
+- __Small Talk__ The bot knows some small talk.
 
 __Possible improvements__
-- Add some more content with maps
-- Reduce size of functions, eliminate duplicate code
 
-__toDo__
-- The current api to fetch quotes causes sometimes bugs because the parsing of their json: they have characters like "'" or spaces that cause problems. -> Use different API to avoid-
 
-more quote APIs that could be used
-- https://theysaidso.com/api/ TheySaidSo Famous Quotes API
-- https://www.forbes.com/forbesapi/thought/uri.json?enrich=true&query=1&relatedlimit=1
-- https://en.wikiquote.org/w/api.php
-- https://talaikis.com/random_quotes_api/
+__toDos__
+- enhance the information about the eu parliament election, make the dialog more natural, add outputContexts to make it like a tutorial
+- add some entertaining information

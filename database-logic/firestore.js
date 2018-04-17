@@ -26,17 +26,12 @@ module.exports = {
         });
 
         this.db = admin.firestore();
-
-        //this.readFromFirestore(); // just for testing .. 
-
-
     },
 
     addAbbreviationData: function() {
         var abbreviationJSON = require('../data/eu-abbreviations.json');
         console.log("Adding abbreviationJSON ... _______-")
 
-        // this.db.collection('abbreviations').doc('CCN/CSI').set({ test: "terst" });
         for (var key in abbreviationJSON) {
             //console.log("key: ", key);
             //console.log("abbreviationJSON[key].meaning: ", abbreviationJSON[key].meaning);
