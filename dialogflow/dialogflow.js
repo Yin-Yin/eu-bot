@@ -167,17 +167,6 @@ module.exports = {
 
         'EU_abbreviation_random': () => {
           console.log("random EU_abbreviation case: _________");
-          //console.log("parameters from dialogflow: ", parameters.abbreviations);
-          //console.log("tyoe of euAbbreviationArray", typeof(euData.euAbbreviationArray));
-          //console.log("tyoe of euData", typeof(euData));
-          //console.log("tyoe of euData.euAbbreviationArray", typeof(euData.euAbbreviationArray));
-          //console.log("euData", euData);
-          //let euAbbreviationArray = euData.euAbbreviationArray;
-          //let euAbbreviationArraySize = euAbbreviationArray.size;
-          //let randomAbbreviationNumber = Math.floor(Math.random() * euAbbreviationArraySize);
-          //console.log("Array.size: ", euAbbreviationArraySize);
-          //console.log("Getting nr.: ", randomAbbreviationNumber);
-          // let randomAbbreviation = euAbbreviationArray[randomAbbreviationNumber]; // get a random joke from the jokesMap
           let randomAbbreviation = euData.randomEUAbbreviation();
           console.log("Random abbreviation is: ", randomAbbreviation);
           firestoreModule.readFromFirestore('abbreviations', randomAbbreviation).then(
@@ -200,11 +189,10 @@ module.exports = {
 
 
       if (!intent) {
-
-
+        console.error("intent missing");
       }
       else {
-        console.log("Fullfilling: ", intent)
+        console.log("Fullfilling: ", intent);
         intenHandlers[intent]();
       }
 
