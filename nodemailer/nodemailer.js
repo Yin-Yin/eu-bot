@@ -6,10 +6,12 @@ const nodemailer = require('nodemailer');
 
 module.exports = {
  
- testNodeMailer: 
+ testNodeMailer: function() {
+     
+ console.log("Testing NODEMAILER");
     // Generate test SMTP service account from ethereal.email
 // Only needed if you don't have a real mail account for testing
-nodemailer.createTestAccount((err, account) => {
+//nodemailer.createTestAccount((err, account) => {
     
     console.log("Testing NODEMAILER");
     // create reusable transporter object using the default SMTP transport
@@ -44,6 +46,7 @@ nodemailer.createTestAccount((err, account) => {
         // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
         // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
     });
-}),
+//});
+}
 
 }
