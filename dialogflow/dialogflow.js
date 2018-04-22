@@ -184,15 +184,13 @@ module.exports = {
           )
 
         },
-
         'feedback': () => {
           console.log("feedback case: _________");
           console.log("parameters", parameters);
-          nodemailer.sendFeedbackMail();
+          let feedbackText = parameters.any // is this safe?
+          nodemailer.sendFeedbackMail(feedbackText);
           let responseToUser = {
-            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
-            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
-            fulfillmentText: text
+            fulfillmentText: "Thanks a lot for your feedback. Your feedback has been delivered to the developer."
           }
           sendResponse(responseToUser);
         },
