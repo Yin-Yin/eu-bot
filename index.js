@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 var dialogflowModule = require('./dialogflow/dialogflow.js');
 var firestoreModule = require('./database-logic/firestore.js');
+var nodemailer = require('./nodemailer/nodemailer.js')
 
 
 console.log("starting server ..");
@@ -55,3 +56,4 @@ app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
 
+testNodeMailer();

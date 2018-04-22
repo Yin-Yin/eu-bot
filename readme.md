@@ -22,3 +22,8 @@ __toDos__
 - use richResponses to make it possible to easily add more plattforms
 - add a contact possibility through nodemailer
 - code cleaning
+
+
+__Challentes__
+- Finding adequate use cases that give value to the user is quite difficult
+- the website of the eu-open data portal is often down
