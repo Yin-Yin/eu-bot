@@ -2,6 +2,7 @@ const quoteModule = require('../functional-logic/quotes/quotes.js');
 const euInfoModule = require('../functional-logic/eu-info/eu-info.js');
 const firestoreModule = require('../database-logic/firestore.js');
 const euData = require('../data/eu-data.js');
+const nodemailer = require('./nodemailer/nodemailer.js');
 var response = {};
 
 
@@ -134,7 +135,7 @@ module.exports = {
             //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
             fulfillmentText: text
           }
-          sendResponse(responseToUser)
+          sendResponse(responseToUser);
         },
         'QUOTE_eu-fact': () => {
           console.log("intenHandlers called")
@@ -144,7 +145,7 @@ module.exports = {
             //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
             fulfillmentText: text
           }
-          sendResponse(responseToUser)
+          sendResponse(responseToUser);
         },
 
         'EU_abbreviation': () => {
@@ -182,6 +183,18 @@ module.exports = {
             }
           )
 
+        },
+
+        'feedback': () => {
+          console.log("feedback case: _________");
+          console.log("parameters", parameters);
+          nodemailer.sendFeedbackMail();
+          let responseToUser = {
+            //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
+            //outputContexts: [{ 'name': `${session}/contexts/weather`, 'lifespanCount': 2, 'parameters': {'city': 'Rome'} }], // Optional, uncomment to enable
+            fulfillmentText: text
+          }
+          sendResponse(responseToUser);
         },
       };
 
@@ -242,5 +255,5 @@ module.exports = {
   getRandomJokeV2: function() {
     return quoteModule.getRandomJoke();
   }
-  
+
 }

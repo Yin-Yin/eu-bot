@@ -27,3 +27,7 @@ __toDos__
 __Challentes__
 - Finding adequate use cases that give value to the user is quite difficult
 - the website of the eu-open data portal is often down
+
+__ideas__
+- Use the thesaurus of the European Union: http://eurovoc.europa.eu/drupal/ 
+- get some interesting data from the EU Open Data Portal http://data.europa.eu/euodp/en/developerscorner

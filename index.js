@@ -4,7 +4,6 @@ var express = require('express');
 var app = express();
 var dialogflowModule = require('./dialogflow/dialogflow.js');
 var firestoreModule = require('./database-logic/firestore.js');
-var nodemailer = require('./nodemailer/nodemailer.js')
 
 
 console.log("starting server ..");
@@ -30,30 +29,8 @@ app.post('/dialogflow', function(req, res) {
     res.send(responseJSON); 
     console.log("responding with" + responseJSON);
   });
-  
-  /*
-  // console.log("req.body",req.body)
-  let intentName = req.body.result.metadata.intentName;
-  let parameters = req.body.result.parameters;
-  let contexts = req.body.result.contexts;
-  //console.log("contexts",contexts);
-  //console.log("parameters",parameters);
-  //es.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
-  
-  dialogflowModule.getResponse(intentName,parameters,contexts).then((response) =>
-  res.send(JSON.stringify({
-    //"speech" is the spoken version of the response, "displayText" is the visual version, "messages" are for the different messengers, "contextOut" is the context for api.ai
-    "speech": response.speech,
-    "displayText": response.displayText,
-    "messages": response.messages,
-    "contextOut": response.contextOut
-  }))
-  )
-  */
 })
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
-console.log("nodemailer" + nodemailer);
-nodemailer.testNodeMailer();

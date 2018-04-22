@@ -1,35 +1,24 @@
 'use strict';
 const nodemailer = require('nodemailer');
-
+const transporter = nodemailer.createTransport({
+    host: process.env.MAIL_HOST,
+    port: 587,
+    secure: false, // true for 465, false for other ports
+    auth: {
+        user: process.env.MAIL_USER, // generated ethereal user
+        pass: process.env.MAIL_PASSWORD // generated ethereal password
+    }
+});
 
 module.exports = {
 
-    testNodeMailer: function() {
-
-        console.log("Testing NODEMAILER");
-        // Generate test SMTP service account from ethereal.email
-        // Only needed if you don't have a real mail account for testing
-        //nodemailer.createTestAccount((err, account) => {
-
-        console.log("Testing NODEMAILER");
-        // create reusable transporter object using the default SMTP transport
-        let transporter = nodemailer.createTransport({
-            host: 'smtp.ethereal.email',
-            port: 587,
-            secure: false, // true for 465, false for other ports
-            auth: {
-                user: process.env.ETHEREAL_MAIL, // generated ethereal user
-                pass: process.env.ETHEREAL_PASSWORD // generated ethereal password
-            }
-        });
-
-        // setup email data with unicode symbols
+    sendFeedbackMail: function(feedbackText) {
         let mailOptions = {
-            from: '"Fred Foo 👻" <foo@example.com>', // sender address
-            to: 'bar@example.com, baz@example.com', // list of receivers
-            subject: 'Hello ✔', // Subject line
-            text: 'Hello world?', // plain text body
-            html: '<b>Hello world?</b>' // html body
+            from: 'EU Bot Feedback', // sender address
+            to: process.env.MAIL_FEEDBACKTO, // list of receivers
+            subject: 'EU BOT Feedback', // Subject line
+            text: feedbackText, // plain text body
+            //html: '<b>Hello world?</b>' // html body
         };
 
         // send mail with defined transport object
@@ -37,14 +26,7 @@ module.exports = {
             if (error) {
                 return console.log(error);
             }
-            console.log('Message sent: %s', info.messageId);
-            // Preview only available when sending through an Ethereal account
-            console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-
-            // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-            // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-        })();
-        //});
+            console.log('Message sent: %s', info.messageId, feedbackText);
+        });
     }
-
 }
