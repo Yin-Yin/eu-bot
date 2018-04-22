@@ -187,12 +187,14 @@ module.exports = {
         'feedback': () => {
           console.log("feedback case: _________");
           console.log("parameters", parameters);
-          let feedbackText = parameters.any // is this safe?
+          /* // determine first how safe this is, then reactivate this function
+          let feedbackText = parameters.any
           nodemailer.sendFeedbackMail(feedbackText);
           let responseToUser = {
             fulfillmentText: "Thanks a lot for your feedback. Your feedback has been delivered to the developer."
           }
           sendResponse(responseToUser);
+          */
         },
       };
 
