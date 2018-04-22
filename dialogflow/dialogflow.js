@@ -2,7 +2,7 @@ const quoteModule = require('../functional-logic/quotes/quotes.js');
 const euInfoModule = require('../functional-logic/eu-info/eu-info.js');
 const firestoreModule = require('../database-logic/firestore.js');
 const euData = require('../data/eu-data.js');
-const nodemailer = require('./nodemailer/nodemailer.js');
+const nodemailer = require('../nodemailer/nodemailer.js');
 var response = {};
 
 
