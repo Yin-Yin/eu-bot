@@ -31,3 +31,9 @@ __Challentes__
 __ideas__
 - Use the thesaurus of the European Union: http://eurovoc.europa.eu/drupal/ 
 - get some interesting data from the EU Open Data Portal http://data.europa.eu/euodp/en/developerscorner
+
+__Lessons learned__
+- While starting the project I didn`t do a lot of research and didn't put a lot of thought into the planning. I just thought it is a great idea and started working. Right now I question wether the bot is really useful for any target audience. 
+    - There are two audiences the bot might be interesting for: 
+        - specialised workers in the EU that need help with detailed questions that the bot might be able to answer. (it gives abbreviations which is nice, but not sufficient, I assume)
+        - an EU citizen that wants to get more information about the EU ( -> it doesn't appeal enough to a normal citizen. An interesting incenctive is missing. Why should I use the bot?)
