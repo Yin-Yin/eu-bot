@@ -2,6 +2,7 @@
 
 Webhook for a bot about EU questions.
 
+Telegram: __@EUvote2019bot__
 
 Current functionality: 
 - __EU Parliament Election__ The bot can give you some information about the vote of the election of the European parliament. _Example:_ "Why should I vote?"
