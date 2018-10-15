@@ -25,7 +25,7 @@ __toDos__
 - code cleaning
 
 
-__Challentes__
+__Challenges__
 - Finding adequate use cases that give value to the user is quite difficult
 - the website of the eu-open data portal is often down
 
