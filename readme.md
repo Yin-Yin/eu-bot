@@ -4,7 +4,15 @@ Webhook for a bot about EU questions.
 
 Telegram: __@EUvote2019bot__
 
-Current functionality: 
+## Our idea
+Our idea was to create a bot that helps citizens to inform themselves about the European Parliament elections in an interactive, new and entertaining format.  
+Our vision:
+Make a chatbot that helps EU citizens to engage more and have an additional source of information.
+
+We believe that the make or break of this bot lies in making the most simple and pleasant user experience possible.
+
+
+## Current functionality: 
 - __EU Parliament Election__ The bot can give you some information about the vote of the election of the European parliament. _Example:_ "Why should I vote?"
 - __EU facts__ Gives you some trivia about Europe. _Example:_ "eu fact"
 - __Abbreviation__ Let the bot explain you a abbreviation that you give him. _Example:_ "MEP". 
