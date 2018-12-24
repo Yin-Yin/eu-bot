@@ -8,7 +8,17 @@ var response = {};
 
 // new Code
 
-/*
+const richResponseV2Card = {
+  'title': 'Title: this is a title',
+  'subtitle': 'This is an subtitle.  Text can include unicode characters including emoji 📱.',
+  'imageUri': 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
+  'buttons': [{
+    'text': 'This is a button',
+    'postback': 'https://assistant.google.com/'
+  }]
+};
+
+
 const richResponsesV2 = [{
     'platform': 'ACTIONS_ON_GOOGLE',
     'simple_responses': {
@@ -42,9 +52,12 @@ const richResponsesV2 = [{
   {
     'platform': 'SLACK',
     'card': richResponseV2Card
+  },
+  {
+    'platform': 'TELEGRAM',
+    'card': richResponseV2Card
   }
 ];
-*/
 
 
 module.exports = {
@@ -194,6 +207,7 @@ module.exports = {
           console.log("parameters", parameters);
           //let feedbackText = parameters.any
           let text = "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
+          /*
           let richResponsesV2 = [{
             'title': '',
             'subtitle': '',
@@ -216,7 +230,7 @@ module.exports = {
               }
             ]
 
-          }];
+          }];*/
           // constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium", standardButtons);
           let responseToUser = {
             fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable,
