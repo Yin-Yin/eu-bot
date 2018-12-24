@@ -7,7 +7,7 @@ var response = {};
 
 
 // new Code
-function constructRichResponseV2Card(title, subtitle, imageUri, buttons) {
+const constructRichResponseV2Card = function(title, subtitle, imageUri, buttons) {
   return {
     'title': title,
     'subtitle': subtitle,
