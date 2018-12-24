@@ -7,33 +7,6 @@ var response = {};
 
 
 // new Code
-const constructRichResponseV2Card = function(title, subtitle, imageUri, buttons) {
-  return {
-    'title': title,
-    'subtitle': subtitle,
-    'imageUri': imageUri,
-    'buttons': buttons
-
-  }
-};
-
-const standardButtons = [{
-    'text': 'What?'
-  },
-  {
-    'text': 'Who?'
-  }, {
-    'text': 'Why?'
-  }, {
-    'text': 'When?'
-  }, {
-    'text': 'How?'
-  }, {
-    'text': 'EU Meme'
-  }, {
-    'text': 'EU fact'
-  }
-];
 
 /*
 const richResponsesV2 = [{
@@ -95,7 +68,6 @@ module.exports = {
       let session = (request.body.session) ? request.body.session : undefined;
 
       let intent = request.body.queryResult.intent.displayName; // toDo: is it cleaner to add here something in case it is undefined?
-
 
 
       /*
@@ -222,7 +194,30 @@ module.exports = {
           console.log("parameters", parameters);
           let feedbackText = parameters.any
           let text = "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
-          let richResponsesV2 = this.constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium" , standardButtons);
+          let richResponsesV2 = {
+            'title': '',
+            'subtitle': '',
+            'imageUri': "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium",
+            'buttons': [{
+                'text': 'What?'
+              },
+              {
+                'text': 'Who?'
+              }, {
+                'text': 'Why?'
+              }, {
+                'text': 'When?'
+              }, {
+                'text': 'How?'
+              }, {
+                'text': 'EU Meme'
+              }, {
+                'text': 'EU fact'
+              }
+            ]
+
+          }
+          // constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium", standardButtons);
           let responseToUser = {
             fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable,
             fulfillmentText: text,
@@ -232,8 +227,6 @@ module.exports = {
         },
 
       };
-
-
 
 
       if (!intent) {
@@ -271,11 +264,38 @@ module.exports = {
           console.log('Response to Dialogflow: ' + JSON.stringify(responseJson));
           //response.json(responseJson);
           resolve(responseJson);
-        } 
+        }
       }
     })
   },
 
+  constructRichResponseV2Card: function(title, subtitle, imageUri, buttons) {
+    return {
+      'title': title,
+      'subtitle': subtitle,
+      'imageUri': imageUri,
+      'buttons': buttons
+
+    }
+  },
+
+  standardButtons: [{
+      'text': 'What?'
+    },
+    {
+      'text': 'Who?'
+    }, {
+      'text': 'Why?'
+    }, {
+      'text': 'When?'
+    }, {
+      'text': 'How?'
+    }, {
+      'text': 'EU Meme'
+    }, {
+      'text': 'EU fact'
+    }
+  ],
 
   getRandomTrumpQuoteV2: function() {
     return new Promise((resolve, reject) => {
