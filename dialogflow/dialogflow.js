@@ -208,7 +208,7 @@ module.exports = {
           //let feedbackText = parameters.any
           // let text = "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
           let imgUri = euInfoModule.getRandomEUMeme();
-          let richResponseV2Card = this.constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium", this.standardButtons);
+          let richResponseV2Card = this.constructRichResponseV2Card('', '', imgUri, this.standardButtons);
           let richResponsesV2 = [{
             'platform': 'TELEGRAM',
             'card': richResponseV2Card
