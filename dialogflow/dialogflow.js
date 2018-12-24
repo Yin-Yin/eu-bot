@@ -192,9 +192,9 @@ module.exports = {
         'EU_meme': () => {
           console.log("feedback case: EU_meme");
           console.log("parameters", parameters);
-          let feedbackText = parameters.any
+          //let feedbackText = parameters.any
           let text = "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
-          let richResponsesV2 = {
+          let richResponsesV2 = [{
             'title': '',
             'subtitle': '',
             'imageUri': "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium",
@@ -216,7 +216,7 @@ module.exports = {
               }
             ]
 
-          }
+          }];
           // constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium", standardButtons);
           let responseToUser = {
             fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable,
