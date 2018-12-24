@@ -207,31 +207,12 @@ module.exports = {
           console.log("parameters", parameters);
           //let feedbackText = parameters.any
           let text = "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
-          /*
-          let richResponsesV2 = [{
-            'title': '',
-            'subtitle': '',
-            'imageUri': "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium",
-            'buttons': [{
-                'text': 'What?'
-              },
-              {
-                'text': 'Who?'
-              }, {
-                'text': 'Why?'
-              }, {
-                'text': 'When?'
-              }, {
-                'text': 'How?'
-              }, {
-                'text': 'EU Meme'
-              }, {
-                'text': 'EU fact'
-              }
-            ]
 
-          }];*/
-          // constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium", standardButtons);
+          let richResponseV2Card = this.constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium", this.standardButtons);
+          let richResponsesV2 = [{
+            'platform': 'TELEGRAM',
+            'card': richResponseV2Card
+          }];
           let responseToUser = {
             fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable,
             fulfillmentText: text,
