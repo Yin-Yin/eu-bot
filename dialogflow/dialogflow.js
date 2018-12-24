@@ -7,15 +7,34 @@ var response = {};
 
 
 // new Code
-const richResponseV2Card = {
-  'title': 'Title: this is a title',
-  'subtitle': 'This is an subtitle.  Text can include unicode characters including emoji 📱.',
-  'imageUri': 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
-  'buttons': [{
-    'text': 'This is a button',
-    'postback': 'https://assistant.google.com/'
-  }]
+function constructRichResponseV2Card(title, subtitle, imageUri, buttons) {
+  return {
+    'title': title,
+    'subtitle': subtitle,
+    'imageUri': imageUri,
+    'buttons': buttons
+
+  }
 };
+
+const standardButtons = [{
+    'text': 'What?'
+  },
+  {
+    'text': 'Who?'
+  }, {
+    'text': 'Why?'
+  }, {
+    'text': 'When?'
+  }, {
+    'text': 'How?'
+  }, {
+    'text': 'EU Meme'
+  }, {
+    'text': 'EU fact'
+  }
+];
+
 const richResponsesV2 = [{
     'platform': 'ACTIONS_ON_GOOGLE',
     'simple_responses': {
@@ -116,7 +135,7 @@ module.exports = {
       const intenHandlers = {
         // Do we really need another handler for this???
         'QUOTE_trump-quote': () => {
-          console.log("intenHandlers called")
+          console.log("intenHandler QUOTE_trump-quote called")
           this.getRandomTrumpQuoteV2().then((text) => {
             let responseToUser = {
               //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
@@ -128,7 +147,7 @@ module.exports = {
           });
         },
         'QUOTE_joke': () => {
-          console.log("intenHandlers called")
+          console.log("intenHandler QUOTE_joke called")
           let text = quoteModule.getRandomJoke();
           let responseToUser = {
             //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
@@ -196,6 +215,20 @@ module.exports = {
           sendResponse(responseToUser);
           */
         },
+        'EU_meme': () => {
+          console.log("feedback case: EU_meme");
+          console.log("parameters", parameters);
+          let feedbackText = parameters.any
+          let text = "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
+          let richResponsesV2 = this.constructRichResponseV2Card('', '', "https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium" , standardButtons);
+          let responseToUser = {
+            fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable,
+            fulfillmentText: text,
+          }
+          sendResponse(responseToUser);
+
+        },
+
       };
 
 
@@ -236,7 +269,7 @@ module.exports = {
           console.log('Response to Dialogflow: ' + JSON.stringify(responseJson));
           //response.json(responseJson);
           resolve(responseJson);
-        }
+        } 
       }
     })
   },

@@ -9,6 +9,8 @@ euFactsMap.set(5, 'The Dark Ages in Europe lasted for twice as long as the Unite
 //euFactsMap.set(7, '');
 //euFactsMap.set(8, '');
 
+const euMemeMap = new Map();
+euMemeMap.set(1, 'The Dark Ages in Europe lasted for twice as long as the United States has been a nation');
 
 module.exports = {
  
@@ -17,6 +19,11 @@ module.exports = {
     console.log("randomNumberOfJoke: ", randomNumberOfFact);
     console.log("jokesMap.size: ", euFactsMap.size);
     return euFactsMap.get(randomNumberOfFact); // get a random joke from the jokesMap
+  },
+  
+  getRandomEUMeme: function() {
+    return "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
+      
   },
     
 }
