@@ -35,6 +35,7 @@ const standardButtons = [{
   }
 ];
 
+/*
 const richResponsesV2 = [{
     'platform': 'ACTIONS_ON_GOOGLE',
     'simple_responses': {
@@ -70,6 +71,7 @@ const richResponsesV2 = [{
     'card': richResponseV2Card
   }
 ];
+*/
 
 
 module.exports = {
