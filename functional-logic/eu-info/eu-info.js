@@ -10,7 +10,27 @@ euFactsMap.set(5, 'The Dark Ages in Europe lasted for twice as long as the Unite
 //euFactsMap.set(8, '');
 
 const euMemeMap = new Map();
-euMemeMap.set(1, 'The Dark Ages in Europe lasted for twice as long as the United States has been a nation');
+euMemeMap.set(0, 'https://pbs.twimg.com/media/Dt0BS1-XcAAMFHa?format=jpg&name=medium');
+euMemeMap.set(1, 'https://pbs.twimg.com/media/Dus9GAIWoAA-7i5?format=jpg&name=small');
+euMemeMap.set(2, 'https://pbs.twimg.com/media/DuYiLQOXQAEdwS-?format=jpg&name=small');
+euMemeMap.set(3, 'https://pbs.twimg.com/media/DuJqnS6W0AE0A9L?format=jpg&name=small');
+euMemeMap.set(4, 'https://pbs.twimg.com/media/DtONyb-WwAAmlwi?format=jpg&name=medium');
+euMemeMap.set(5, 'https://pbs.twimg.com/media/DtJPaI5XcAA0MlU?format=jpg&name=small');
+euMemeMap.set(6, 'https://pbs.twimg.com/media/DtGtJY0X4AATk2T?format=jpg&name=medium');
+euMemeMap.set(7, 'https://pbs.twimg.com/media/DtFpK70XoAAWeYJ?format=jpg&name=small');
+euMemeMap.set(8, 'https://pbs.twimg.com/media/Dssew-kXQAQHxMM?format=jpg&name=small');
+euMemeMap.set(9, 'https://pbs.twimg.com/media/DscrNyvX4AAqHTn?format=jpg&name=small');
+euMemeMap.set(10, 'https://pbs.twimg.com/media/DsDvzDCX0AYA4rM?format=jpg&name=small');
+euMemeMap.set(11, 'https://pbs.twimg.com/media/Dr-d9IgWoAEmyah?format=jpg&name=small');
+euMemeMap.set(12, 'https://pbs.twimg.com/media/DrkCQW8XgAEcRtu?format=jpg&name=medium');
+euMemeMap.set(13, 'https://pbs.twimg.com/media/DrJvjc7WoAAVfB3?format=jpg&name=medium');
+euMemeMap.set(14, 'https://pbs.twimg.com/media/DrEWZC4XgAArFcy?format=jpg&name=small');
+euMemeMap.set(15, 'https://pbs.twimg.com/media/Dq_BlzpU8AAMne5?format=jpg&name=small');
+euMemeMap.set(16, 'https://pbs.twimg.com/media/DqRqjUdXgAAOWmW?format=jpg&name=small');
+euMemeMap.set(17, 'https://pbs.twimg.com/media/DpP-wZwXcAAPTx8?format=jpg&name=small');
+euMemeMap.set(18, 'https://pbs.twimg.com/media/DpUuE9tX4AUF6ja?format=jpg&name=small');
+euMemeMap.set(19, 'https://pbs.twimg.com/media/DnhN4WYXsAA_8-M?format=jpg&name=small');
+euMemeMap.set(20, 'https://pbs.twimg.com/media/DolNPQKW0AATJ6w?format=jpg&name=small');
 
 module.exports = {
  
@@ -22,7 +42,10 @@ module.exports = {
   },
   
   getRandomEUMeme: function() {
-    return "https://twitter.com/WhyEuropeORG/status/1071013711173832704/photo/1";
+    let randomNumberOfMeme = Math.floor(Math.random() * euMemeMap.size);
+    console.log("randomNumberOfJoke: ", randomNumberOfMeme);
+    console.log("jokesMap.size: ", euFactsMap.size);
+    return euMemeMap.get(randomNumberOfMeme);
       
   },
     
