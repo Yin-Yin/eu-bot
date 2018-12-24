@@ -202,7 +202,7 @@ module.exports = {
           sendResponse(responseToUser);
           */
         },
-        'ELECTION_why': () => {
+        'EU_meme': () => {
           console.log("feedback case: EU_meme");
           console.log("parameters", parameters);
           //let feedbackText = parameters.any
