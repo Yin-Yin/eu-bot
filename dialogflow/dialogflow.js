@@ -155,15 +155,15 @@ module.exports = {
     // ***** Genreral *****
 
     function welcome() {
-      agent.add("Welcome to the EU parliament election 2019 bot! I am here to inform you about the election and about the EU.");
+      agent.add('Welcome to the EU parliament election 2019 bot! I am here to inform you about the election and about the EU. Try to talk naturally with me or select from the menu below. If you get stuck, you can always type "help". Have fun! :)');
       addStandardButtons();
     }
 
     function help() {
       agent.add(new Card({
         title: `EU Bot Help`,
-        text: "Hello there, I am the EU Bot. Select on of the options below to get information or try to talk naturally with me. Have fun!",
-        buttonText: '[Open Github page of the bot]',
+        text: 'Hello there, I am the EU Bot. Select on of the options below to get information or try to talk naturally with me. You can select or type "Feedback" to send feedback to the developers.',
+        buttonText: '[Open info page of the bot]',
         buttonUrl: 'https://github.com/Yin-Yin/eu-bot'
       }));
       addStandardButtons();
@@ -183,7 +183,8 @@ module.exports = {
     // ***** Menus *****
 
     function helpMenu() {
-      addStandardButtons();
+      agent.add(new Suggestion(`Feedback`));
+      agent.add(new Suggestion(`Menu`));
     }
 
     function helpFun() {
