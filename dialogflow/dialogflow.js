@@ -34,7 +34,7 @@ module.exports = {
           (text) => {
             console.log("trump quote ", text);
             agent.add(text);
-            addStandardButtons();
+            helpFun();
             resolve();
           });
       });
@@ -43,14 +43,14 @@ module.exports = {
     function quoteJoke() {
       let text = quoteModule.getRandomJoke()
       agent.add(text);
-      addStandardButtons();
+      helpFun();
     }
 
     function quoteEUfact() {
       let text = euInfoModule.getRandomEUFact();
       console.log("joke respone text ", text)
       agent.add(text);
-      addStandardButtons();
+      helpFun();
     }
 
     function euAbreviation() {
@@ -103,7 +103,7 @@ module.exports = {
         title: `EU Meme:`,
         imageUrl: imgUri
       }));
-      addStandardButtons();
+      helpFun();
     }
 
     function electionWhat() {
