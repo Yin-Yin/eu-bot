@@ -247,6 +247,13 @@ module.exports = {
     function quoteTrump() {
       return new Promise((resolve, reject) => {
         console.log("intenHandler QUOTE_trump-quote called")
+        quoteModule.getRandomTrumpQuote().then(
+          (text) => {
+            console.log("trump quote ", text);
+            agent.add(text);
+            resolve();
+          });
+        /*
         this.getRandomTrumpQuoteV2().then((resText) => {
           agent.add(resText);
           resolve();
@@ -258,14 +265,15 @@ module.exports = {
             //fulfillmentText: 'This is from Dialogflow\'s Cloud Functions for Firebase editor! :-)' // displayed response
           }
           sendResponse(responseToUser)
-          */
-        });
+          
+      });*/
       });
     }
 
     function quoteJoke() {
       console.log("intenHandler QUOTE_joke called")
-      agent.add(quoteModule.getRandomJoke());
+      let text = quoteModule.getRandomJoke()
+      agent.add(text);
       /*
       let responseToUser = {
         //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
@@ -278,7 +286,9 @@ module.exports = {
 
     function quoteEUfact() {
       console.log("intenHandlers called")
-      agent.add(euInfoModule.getRandomEUFact());
+      let text = euInfoModule.getRandomEUFact();
+      console.log("joke respone text ", text)
+      agent.add(text);
       /*
       let responseToUser = {
         //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
