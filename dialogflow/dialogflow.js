@@ -25,10 +25,11 @@ module.exports = {
     let session = (request.body.session) ? request.body.session : undefined;
 
     let intent = request.body.queryResult.intent.displayName; // toDo: is it cleaner to add here something in case it is undefined?
+    
+    console.log("intent: " + intent + " ---------------- ")
 
     function quoteTrump() {
       return new Promise((resolve, reject) => {
-        console.log("intenHandler QUOTE_trump-quote called")
         quoteModule.getRandomTrumpQuote().then(
           (text) => {
             console.log("trump quote ", text);
@@ -40,14 +41,12 @@ module.exports = {
     }
 
     function quoteJoke() {
-      console.log("intenHandler QUOTE_joke called")
       let text = quoteModule.getRandomJoke()
       agent.add(text);
       addStandardButtons();
     }
 
     function quoteEUfact() {
-      console.log("intenHandlers called")
       let text = euInfoModule.getRandomEUFact();
       console.log("joke respone text ", text)
       agent.add(text);
@@ -56,7 +55,7 @@ module.exports = {
 
     function euAbreviation() {
       return new Promise((resolve, reject) => {
-        console.log("EU_abbreviation case: _________");
+        console.log("EU_abbreviation _________");
         console.log("parameters from dialogflow: ", parameters.abbreviations);
         firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
           returnObject => {
@@ -72,7 +71,7 @@ module.exports = {
 
     function euAbreviationRandom() {
       return new Promise((resolve, reject) => {
-        console.log("random EU_abbreviation case: _________");
+        console.log("random EU_abbreviatio _________");
         let randomAbbreviation = euData.randomEUAbbreviation();
         console.log("Random abbreviation is: ", randomAbbreviation);
         firestoreModule.readFromFirestore('abbreviations', randomAbbreviation).then(
@@ -88,7 +87,7 @@ module.exports = {
     }
 
     function feedback() {
-      console.log("feedback case: _________");
+      console.log("feedback _________");
       console.log("parameters", parameters);
       let feedbackText = parameters.any
       nodemailer.sendFeedbackMail(feedbackText);
@@ -97,7 +96,7 @@ module.exports = {
     }
 
     function euMeme() {
-      console.log("feedback case: EU_meme");
+      console.log("EU_meme");
       console.log("parameters", parameters);
       let imgUri = euInfoModule.getRandomEUMeme();
       agent.add(new Card({
@@ -111,7 +110,7 @@ module.exports = {
       agent.add(new Card({
         title: `What to vote?`,
         text: "Every five years EU citizens choose who represents them in the European Parliament, the directly-elected institution that holds up their interests in the EU decision-making process. Voting practices vary across the EU, but there are also some common elements. The next Elections to the European Parliament are held on May 23 to 26 2019.",
-        buttonText: '[Video]: The European parliament in 40 seconds',
+        buttonText: '[Open Video]: The European parliament in 40 seconds',
         buttonUrl: 'https://www.youtube.com/watch?v=BNlk64E4Fco'
       }));
       //agent.add("https://www.youtube.com/watch?v=BNlk64E4Fco");
