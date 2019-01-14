@@ -150,7 +150,7 @@ module.exports = {
     intentMap.set('feedback', feedback);
     intentMap.set('EU_meme', euMeme);
     intentMap.set('help_fun', helpFun);
-    intentMap.set('ELECTION_what_video', electionWhat);
+    intentMap.set('ELECTION_what', electionWhat);
     intentMap.set('help_fun', helpFun);
 
 
