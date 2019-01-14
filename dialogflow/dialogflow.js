@@ -162,6 +162,7 @@ module.exports = {
       agent.add(new Suggestion(`EU fact`));
       agent.add(new Suggestion(`Joke`));
       agent.add(new Suggestion(`Trump quote`));
+      agent.add(new Suggestion(`back`));
     }
 
 
