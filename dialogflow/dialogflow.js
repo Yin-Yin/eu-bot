@@ -25,7 +25,7 @@ module.exports = {
     let session = (request.body.session) ? request.body.session : undefined;
 
     let intent = request.body.queryResult.intent.displayName; // toDo: is it cleaner to add here something in case it is undefined?
-    
+
     console.log("intent: " + intent + " ---------------- ")
 
     function quoteTrump() {
@@ -149,12 +149,22 @@ module.exports = {
       addStandardButtons();
     }
 
+    function help() {
+      agent.add(new Card({
+        title: `EU Bot Help`,
+        text: "Hello there, I am the EU Bot. Select on of the options below to get information or try to talk naturally with me. Have fun!",
+        buttonText: '[Open Github page of the bot]',
+        buttonUrl: 'https://github.com/Yin-Yin/eu-bot'
+      }));
+      addStandardButtons();
+    }
+
 
     function helpMenu() {
       addStandardButtons();
     }
-    
-    
+
+
     function helpFun() {
       console.log("feedback case: help_fun");
       agent.add(new Suggestion(`EU meme`));
@@ -192,7 +202,8 @@ module.exports = {
     intentMap.set('ELECTION_how', electionHow);
     intentMap.set('ELECTION_when', electionWhen);
     intentMap.set('help_menu', helpMenu);
-    
+    intentMap.set('help', help);
+
 
 
     agent.handleRequest(intentMap);
