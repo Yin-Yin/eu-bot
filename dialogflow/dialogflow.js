@@ -10,7 +10,7 @@ const nodemailer = require('../nodemailer/nodemailer.js');
 
 module.exports = {
 
-  handleRequest: function(request, response) {
+  handleRequest: (request, response) => {
     const agent = new WebhookClient({ request, response });
 
     // An action is a string used to identify what needs to be done in fulfillment
@@ -28,83 +28,8 @@ module.exports = {
 
     console.log("intent: " + intent + " ---------------- ")
 
-    function quoteTrump() {
-      return new Promise((resolve, reject) => {
-        quoteModule.getRandomTrumpQuote().then(
-          (text) => {
-            console.log("trump quote ", text);
-            agent.add(text);
-            helpFun();
-            resolve();
-          });
-      });
-    }
 
-    function quoteJoke() {
-      let text = quoteModule.getRandomJoke()
-      agent.add(text);
-      helpFun();
-    }
-
-    function quoteEUfact() {
-      let text = euInfoModule.getRandomEUFact();
-      console.log("joke respone text ", text)
-      agent.add(text);
-      helpFun();
-    }
-
-    function euAbreviation() {
-      return new Promise((resolve, reject) => {
-        console.log("EU_abbreviation _________");
-        console.log("parameters from dialogflow: ", parameters.abbreviations);
-        firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
-          returnObject => {
-            let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
-            console.log("Text that is being sent to user: ", text);
-            agent.add(text);
-            addStandardButtons();
-            resolve();
-          });
-      });
-
-    }
-
-    function euAbreviationRandom() {
-      return new Promise((resolve, reject) => {
-        console.log("random EU_abbreviatio _________");
-        let randomAbbreviation = euData.randomEUAbbreviation();
-        console.log("Random abbreviation is: ", randomAbbreviation);
-        firestoreModule.readFromFirestore('abbreviations', randomAbbreviation).then(
-          returnObject => {
-            let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
-            console.log("Text that is being sent to user: ", text);
-            agent.add(text);
-            addStandardButtons();
-            resolve();
-          });
-      });
-
-    }
-
-    function feedback() {
-      console.log("feedback _________");
-      console.log("parameters", parameters);
-      let feedbackText = parameters.any
-      nodemailer.sendFeedbackMail(feedbackText);
-      agent.add("Thanks a lot for your feedback. Your feedback has been delivered to the developer.");
-      addStandardButtons();
-    }
-
-    function euMeme() {
-      console.log("EU_meme");
-      console.log("parameters", parameters);
-      let imgUri = euInfoModule.getRandomEUMeme();
-      agent.add(new Card({
-        title: `EU Meme:`,
-        imageUrl: imgUri
-      }));
-      helpFun();
-    }
+    // ***** Election *****
 
     function electionWhat() {
       agent.add(new Card({
@@ -149,6 +74,91 @@ module.exports = {
       addStandardButtons();
     }
 
+
+    // ***** EU stuff *****
+
+    function euAbreviation() {
+      return new Promise((resolve, reject) => {
+        console.log("EU_abbreviation _________");
+        console.log("parameters from dialogflow: ", parameters.abbreviations);
+        firestoreModule.readFromFirestore('abbreviations', parameters.abbreviations).then(
+          returnObject => {
+            let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
+            console.log("Text that is being sent to user: ", text);
+            agent.add(text);
+            addStandardButtons();
+            resolve();
+          });
+      });
+
+    }
+
+    function euAbreviationRandom() {
+      return new Promise((resolve, reject) => {
+        console.log("random EU_abbreviatio _________");
+        let randomAbbreviation = euData.randomEUAbbreviation();
+        console.log("Random abbreviation is: ", randomAbbreviation);
+        firestoreModule.readFromFirestore('abbreviations', randomAbbreviation).then(
+          returnObject => {
+            let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
+            console.log("Text that is being sent to user: ", text);
+            agent.add(text);
+            addStandardButtons();
+            resolve();
+          });
+      });
+
+    }
+
+
+    // ***** FUN *****
+
+    function quoteTrump() {
+      return new Promise((resolve, reject) => {
+        quoteModule.getRandomTrumpQuote().then(
+          (text) => {
+            console.log("trump quote ", text);
+            agent.add(text);
+            helpFun();
+            resolve();
+          });
+      });
+    }
+
+    function quoteJoke() {
+      let text = quoteModule.getRandomJoke()
+      agent.add(text);
+      helpFun();
+    }
+
+    function quoteEUfact() {
+      let text = euInfoModule.getRandomEUFact();
+      console.log("joke respone text ", text)
+      agent.add(text);
+      helpFun();
+    }
+
+
+    function euMeme() {
+      console.log("EU_meme");
+      console.log("parameters", parameters);
+      let imgUri = euInfoModule.getRandomEUMeme();
+      agent.add(new Card({
+        title: `EU Meme:`,
+        imageUrl: imgUri
+      }));
+      helpFun();
+    }
+
+
+
+    // ***** Genreral *****
+
+    function welcome() {
+      agent.add("Welcome to the EU parliament election 2019 bot! I am here to inform you about the election and about the EU.");
+      addStandardButtons();
+    }
+
     function help() {
       agent.add(new Card({
         title: `EU Bot Help`,
@@ -159,11 +169,22 @@ module.exports = {
       addStandardButtons();
     }
 
+    function feedback() {
+      console.log("feedback _________");
+      console.log("parameters", parameters);
+      let feedbackText = parameters.any
+      nodemailer.sendFeedbackMail(feedbackText);
+      agent.add("Thanks a lot for your feedback. Your feedback has been delivered to the developer.");
+      addStandardButtons();
+    }
+
+
+
+    // ***** Menus *****
 
     function helpMenu() {
       addStandardButtons();
     }
-
 
     function helpFun() {
       console.log("feedback case: help_fun");
@@ -173,7 +194,6 @@ module.exports = {
       agent.add(new Suggestion(`Trump quote`));
       agent.add(new Suggestion(`back`));
     }
-
 
 
     function addStandardButtons() {
@@ -186,8 +206,10 @@ module.exports = {
       agent.add(new Suggestion(`Fun`));
     }
 
+    // ***** Intent handling *****
+
     let intentMap = new Map();
-    //intentMap.set('Default Welcome Intent', welcome);
+    intentMap.set('Default Welcome Intent', welcome);
     //intentMap.set('Default Fallback Intent', fallback);
     intentMap.set('QUOTE_trump-quote', quoteTrump);
     intentMap.set('QUOTE_joke', quoteJoke);
@@ -209,6 +231,4 @@ module.exports = {
     agent.handleRequest(intentMap);
 
   },
-
-
 }
