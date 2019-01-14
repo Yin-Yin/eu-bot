@@ -26,7 +26,7 @@ module.exports = {
 
     let intent = request.body.queryResult.intent.displayName; // toDo: is it cleaner to add here something in case it is undefined?
 
-    console.log("intent: " + intent + " ---------------- ")
+    console.log("intent:" + " ---------------- " + intent + " ---------------- ")
 
 
     // ***** Election *****
