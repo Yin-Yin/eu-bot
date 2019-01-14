@@ -395,6 +395,14 @@ module.exports = {
 
     }
 
+    function helpFun() {
+      console.log("feedback case: help_fun");
+      agent.add(new Suggestion(`EU meme`));
+      agent.add(new Suggestion(`EU fact`));
+      agent.add(new Suggestion(`Joke`));
+      agent.add(new Suggestion(`Trump quote`));
+    }
+
     /*
     if (!intent) {
       console.error("intent missing");
@@ -447,15 +455,24 @@ module.exports = {
     intentMap.set('EU_abbreviation_random', euAbreviationRandom);
     intentMap.set('feedback', feedback);
     intentMap.set('EU_meme', euMeme);
+    intentMap.set('help_fun', helpFun);
+
+
     agent.handleRequest(intentMap);
 
 
     // })
   },
-  
-    
-  addStandardButtons: function()  {
-    
+
+
+  addStandardButtons: function(agent) {
+    agent.add(new Suggestion(`Help`));
+    agent.add(new Suggestion(`What?`));
+    agent.add(new Suggestion(`Who?`));
+    agent.add(new Suggestion(`Why?`));
+    agent.add(new Suggestion(`When?`));
+    agent.add(new Suggestion(`How?`));
+    agent.add(new Suggestion(`Fun`));
   },
 
   constructRichResponseV2Card: function(title, subtitle, imageUri, buttons) {
