@@ -107,6 +107,18 @@ module.exports = {
       addStandardButtons();
     }
 
+    function electionWhat() {
+      agent.add(new Card({
+        title: `What to vote?`,
+        text: "Every five years EU citizens choose who represents them in the European Parliament, the directly-elected institution that holds up their interests in the EU decision-making process. Voting practices vary across the EU, but there are also some common elements. The next Elections to the European Parliament are held on May 23 to 26 2019.",
+        buttonText: '[Video]: The European parliament in 40 seconds',
+        buttonUrl: 'https://www.youtube.com/watch?v=BNlk64E4Fco'
+      }));
+      addStandardButtons();
+    }
+
+
+
     function helpFun() {
       console.log("feedback case: help_fun");
       agent.add(new Suggestion(`EU meme`));
@@ -114,6 +126,8 @@ module.exports = {
       agent.add(new Suggestion(`Joke`));
       agent.add(new Suggestion(`Trump quote`));
     }
+
+
 
     function addStandardButtons() {
       agent.add(new Suggestion(`Help`));
@@ -136,6 +150,9 @@ module.exports = {
     intentMap.set('feedback', feedback);
     intentMap.set('EU_meme', euMeme);
     intentMap.set('help_fun', helpFun);
+    intentMap.set('ELECTION_what_video', electionWhat);
+    intentMap.set('help_fun', helpFun);
+
 
 
     agent.handleRequest(intentMap);
