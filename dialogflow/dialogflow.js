@@ -188,10 +188,12 @@ module.exports = {
     intentMap.set('feedback', feedback);
     intentMap.set('EU_meme', euMeme);
     intentMap.set('help_fun', helpFun);
+    intentMap.set('ELECTION_who', electionWho);
     intentMap.set('ELECTION_what', electionWhat);
     intentMap.set('ELECTION_how', electionHow);
     intentMap.set('ELECTION_when', electionWhen);
     intentMap.set('help_menu', helpMenu);
+    
 
 
     agent.handleRequest(intentMap);
