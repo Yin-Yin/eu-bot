@@ -1,8 +1,13 @@
+'use strict';
+const { WebhookClient } = require('dialogflow-fulfillment');
+const { Card, Suggestion } = require('dialogflow-fulfillment');
+
 const quoteModule = require('../functional-logic/quotes/quotes.js');
 const euInfoModule = require('../functional-logic/eu-info/eu-info.js');
 const firestoreModule = require('../database-logic/firestore.js');
 const euData = require('../data/eu-data.js');
 const nodemailer = require('../nodemailer/nodemailer.js');
+
 var response = {};
 
 
@@ -63,6 +68,8 @@ const richResponsesV2 = [{
 module.exports = {
 
   handleRequest: function(request, res) {
+    const agent = new WebhookClient({ request, response });
+
     return new Promise((resolve, reject) => {
       console.log("request", request.body);
       if (!request.body) { // do we really need this?
@@ -193,14 +200,13 @@ module.exports = {
         'feedback': () => {
           console.log("feedback case: _________");
           console.log("parameters", parameters);
-          /* // determine first how safe this is, then reactivate this function
+          // determine first how safe this is, then reactivate this function
           let feedbackText = parameters.any
           nodemailer.sendFeedbackMail(feedbackText);
           let responseToUser = {
             fulfillmentText: "Thanks a lot for your feedback. Your feedback has been delivered to the developer."
           }
           sendResponse(responseToUser);
-          */
         },
         'EU_meme': () => {
           console.log("feedback case: EU_meme");
@@ -261,6 +267,19 @@ module.exports = {
           resolve(responseJson);
         }
       }
+
+      /*
+      let intentMap = new Map();
+      intentMap.set('Default Welcome Intent', welcome);
+      intentMap.set('Default Fallback Intent', fallback);
+      intentMap.set('kanji.explain', kanjiExplain);
+      intentMap.set('kanji.random', randomKanji);
+      intentMap.set('kanji.examples', kanjiExamples);
+      intentMap.set('quiz.start', quizTest);
+      intentMap.set('quiz.checkTest', quizCheckTest);
+      agent.handleRequest(intentMap);
+      */
+
     })
   },
 
