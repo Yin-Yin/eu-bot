@@ -39,7 +39,7 @@ module.exports = {
         buttonUrl: 'https://www.youtube.com/watch?v=BNlk64E4Fco'
       }));
       //agent.add("https://www.youtube.com/watch?v=BNlk64E4Fco");
-      addStandardButtons();
+      menuVote();
     }
 
     function electionWho() {
@@ -50,7 +50,7 @@ module.exports = {
         //buttonUrl: 'https://www.youtube.com/watch?v=a6yEdZMFlIU'
       }));
       agent.add("https://www.youtube.com/watch?v=a6yEdZMFlIU");
-      addStandardButtons();
+      menuVote();
     }
 
     function electionHow() {
@@ -61,7 +61,7 @@ module.exports = {
         buttonText: '[Open Graphic] 2019 election rules',
         buttonUrl: 'http://www.europarl.europa.eu/resources/library/images/20181018PHT16579/20181018PHT16579_original.png'
       }));
-      addStandardButtons();
+      menuVote();
     }
 
     function electionWhen() {
@@ -71,7 +71,7 @@ module.exports = {
         buttonText: '[Open Video] Get ready to vote in the European elections!',
         buttonUrl: 'https://www.youtube.com/watch?v=RTj7KWPajsY'
       }));
-      addStandardButtons();
+      menuVote();
     }
 
 
@@ -86,7 +86,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
-            addStandardButtons();
+            menuMore();
             resolve();
           });
       });
@@ -103,7 +103,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
-            addStandardButtons();
+            menuMore();
             resolve();
           });
       });
@@ -119,7 +119,7 @@ module.exports = {
           (text) => {
             console.log("trump quote ", text);
             agent.add(text);
-            helpFun();
+            menuFun();
             resolve();
           });
       });
@@ -128,14 +128,14 @@ module.exports = {
     function quoteJoke() {
       let text = quoteModule.getRandomJoke()
       agent.add(text);
-      helpFun();
+      menuFun();
     }
 
     function quoteEUfact() {
       let text = euInfoModule.getRandomEUFact();
       console.log("joke respone text ", text)
       agent.add(text);
-      helpFun();
+      menuFun();
     }
 
 
@@ -147,12 +147,12 @@ module.exports = {
         title: `EU Meme:`,
         imageUrl: imgUri
       }));
-      helpFun();
+      menuFun();
     }
 
 
 
-    // ***** Genreral *****
+    // ***** General *****
 
     function welcome() {
       agent.add('Welcome to the EU parliament election 2019 bot! I am here to inform you about the election and about the EU. Try to talk naturally with me or select from the menu below. If you get stuck, you can always type "help". Have fun! :)');
@@ -183,50 +183,69 @@ module.exports = {
 
     // ***** Menus *****
 
-    function helpMenu() {
+    function menuHelp() {
       addStandardButtons();
     }
 
-    function helpFun() {
-      console.log("feedback case: help_fun");
+    function menuFun() {
       agent.add(new Suggestion(`EU meme`));
       agent.add(new Suggestion(`EU fact`));
       agent.add(new Suggestion(`Joke`));
       agent.add(new Suggestion(`Trump quote`));
       agent.add(new Suggestion(`back`));
     }
-
-
-    function addStandardButtons() {
-      agent.add(new Suggestion(`Help`));
+    
+    function menuVote() {
       agent.add(new Suggestion(`What?`));
       agent.add(new Suggestion(`Who?`));
       agent.add(new Suggestion(`Why?`));
       agent.add(new Suggestion(`When?`));
       agent.add(new Suggestion(`How?`));
-      agent.add(new Suggestion(`Fun`));
+      agent.add(new Suggestion(`back`));
     }
+    
+    function menuMore() {
+      agent.add(new Suggestion(`EU abbreviation`));
+      agent.add(new Suggestion(`Random EU abbreviation`));
+      agent.add(new Suggestion(`back`));
+    }
+
+
+    function addStandardButtons() {
+      agent.add(new Suggestion(`Vote`));
+      agent.add(new Suggestion(`Fun`));
+      agent.add(new Suggestion(`More`));
+      agent.add(new Suggestion(`Help`));
+    }
+    
 
     // ***** Intent handling *****
 
     let intentMap = new Map();
-    intentMap.set('Default Welcome Intent', welcome);
-    //intentMap.set('Default Fallback Intent', fallback);
+    
     intentMap.set('QUOTE_trump-quote', quoteTrump);
     intentMap.set('QUOTE_joke', quoteJoke);
     intentMap.set('QUOTE_eu-fact', quoteEUfact);
+    
+    intentMap.set('EU_meme', euMeme);
     intentMap.set('EU_abbreviation', euAbreviation);
     intentMap.set('EU_abbreviation_random', euAbreviationRandom);
-    intentMap.set('feedback', feedback);
-    intentMap.set('EU_meme', euMeme);
-    intentMap.set('help_fun', helpFun);
+    
     intentMap.set('ELECTION_who', electionWho);
     intentMap.set('ELECTION_what', electionWhat);
     intentMap.set('ELECTION_how', electionHow);
     intentMap.set('ELECTION_when', electionWhen);
-    intentMap.set('help_menu', helpMenu);
+    
+    intentMap.set('Default Welcome Intent', welcome);
+    //intentMap.set('Default Fallback Intent', fallback);
     intentMap.set('help', help);
-
+    intentMap.set('feedback', feedback);
+    intentMap.set('menu_fun', menuFun);
+    intentMap.set('menu_help', menuHelp);
+    intentMap.set('menu_more', menuMore);
+    intentMap.set('menu_vote', menuVote);
+    
+    
 
 
     agent.handleRequest(intentMap);
