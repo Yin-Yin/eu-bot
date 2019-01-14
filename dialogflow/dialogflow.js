@@ -251,6 +251,7 @@ module.exports = {
           (text) => {
             console.log("trump quote ", text);
             agent.add(text);
+            this.addStandardButtons();
             resolve();
           });
         /*
@@ -274,6 +275,7 @@ module.exports = {
       console.log("intenHandler QUOTE_joke called")
       let text = quoteModule.getRandomJoke()
       agent.add(text);
+      this.addStandardButtons();
       /*
       let responseToUser = {
         //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
@@ -289,6 +291,7 @@ module.exports = {
       let text = euInfoModule.getRandomEUFact();
       console.log("joke respone text ", text)
       agent.add(text);
+      this.addStandardButtons();
       /*
       let responseToUser = {
         //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
@@ -309,6 +312,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
+            this.addStandardButtons();
             resolve();
             /*
             let responseToUser = {
@@ -333,6 +337,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
+            this.addStandardButtons();
             resolve();
             /*
             let responseToUser = {
@@ -354,6 +359,8 @@ module.exports = {
       let feedbackText = parameters.any
       nodemailer.sendFeedbackMail(feedbackText);
       agent.add("Thanks a lot for your feedback. Your feedback has been delivered to the developer.");
+
+      this.addStandardButtons();
       /*
       let responseToUser = {
         fulfillmentText: "Thanks a lot for your feedback. Your feedback has been delivered to the developer."
@@ -373,6 +380,7 @@ module.exports = {
         title: `EU Meme:`,
         imageUrl: imgUri
       }));
+      this.addStandardButtons();
       /*
             agent.add(new Card({
         title: `Title: this is a card title`,
@@ -460,8 +468,6 @@ module.exports = {
 
     agent.handleRequest(intentMap);
 
-
-    // })
   },
 
 
