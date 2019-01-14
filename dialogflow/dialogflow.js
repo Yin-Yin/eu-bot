@@ -52,7 +52,7 @@ module.exports = {
           (text) => {
             console.log("trump quote ", text);
             agent.add(text);
-            this.addStandardButtons();
+            addStandardButtons();
             resolve();
           });
       });
@@ -62,7 +62,7 @@ module.exports = {
       console.log("intenHandler QUOTE_joke called")
       let text = quoteModule.getRandomJoke()
       agent.add(text);
-      this.addStandardButtons();
+      addStandardButtons();
     }
 
     function quoteEUfact() {
@@ -70,7 +70,7 @@ module.exports = {
       let text = euInfoModule.getRandomEUFact();
       console.log("joke respone text ", text)
       agent.add(text);
-      this.addStandardButtons();
+      addStandardButtons();
     }
 
     function euAbreviation() {
@@ -82,7 +82,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
-            this.addStandardButtons();
+            addStandardButtons();
             resolve();
           });
       });
@@ -99,7 +99,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
-            this.addStandardButtons();
+            addStandardButtons();
             resolve();
           });
       });
@@ -112,7 +112,7 @@ module.exports = {
       let feedbackText = parameters.any
       nodemailer.sendFeedbackMail(feedbackText);
       agent.add("Thanks a lot for your feedback. Your feedback has been delivered to the developer.");
-      this.addStandardButtons();
+      addStandardButtons();
     }
 
     function euMeme() {
@@ -123,7 +123,7 @@ module.exports = {
         title: `EU Meme:`,
         imageUrl: imgUri
       }));
-      this.addStandardButtons();
+      addStandardButtons();
     }
 
     function helpFun() {
@@ -132,6 +132,16 @@ module.exports = {
       agent.add(new Suggestion(`EU fact`));
       agent.add(new Suggestion(`Joke`));
       agent.add(new Suggestion(`Trump quote`));
+    }
+
+    function addStandardButtons() {
+      agent.add(new Suggestion(`Help`));
+      agent.add(new Suggestion(`What?`));
+      agent.add(new Suggestion(`Who?`));
+      agent.add(new Suggestion(`Why?`));
+      agent.add(new Suggestion(`When?`));
+      agent.add(new Suggestion(`How?`));
+      agent.add(new Suggestion(`Fun`));
     }
 
     let intentMap = new Map();
@@ -151,13 +161,5 @@ module.exports = {
 
   },
 
-  addStandardButtons: function(agent) {
-    agent.add(new Suggestion(`Help`));
-    agent.add(new Suggestion(`What?`));
-    agent.add(new Suggestion(`Who?`));
-    agent.add(new Suggestion(`Why?`));
-    agent.add(new Suggestion(`When?`));
-    agent.add(new Suggestion(`How?`));
-    agent.add(new Suggestion(`Fun`));
-  },
+
 }
