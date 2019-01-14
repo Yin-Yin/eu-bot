@@ -309,6 +309,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
+            resolve();
             /*
             let responseToUser = {
               //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
@@ -332,6 +333,7 @@ module.exports = {
             let text = returnObject.abbreviation + " is short for " + returnObject.meaning;
             console.log("Text that is being sent to user: ", text);
             agent.add(text);
+            resolve();
             /*
             let responseToUser = {
               //fulfillmentMessages: richResponsesV2, // Optional, uncomment to enable
@@ -450,6 +452,11 @@ module.exports = {
 
     // })
   },
+  
+    
+  addStandardButtons: function()  {
+    
+  },
 
   constructRichResponseV2Card: function(title, subtitle, imageUri, buttons) {
     return {
@@ -478,6 +485,7 @@ module.exports = {
       'text': 'EU fact'
     }
   ],
+
 
   getRandomTrumpQuoteV2: function() {
     return new Promise((resolve, reject) => {
