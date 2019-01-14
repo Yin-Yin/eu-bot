@@ -62,7 +62,7 @@ const richResponsesV2 = [{
 
 module.exports = {
 
-  handleRequest: function(request, res) {
+  handleRequest: function(request, response) {
     const agent = new WebhookClient({ request, response });
 
     // return new Promise((resolve, reject) => {
