@@ -166,7 +166,8 @@ module.exports = {
         buttonText: '[Open info page of the bot]',
         buttonUrl: 'https://github.com/Yin-Yin/eu-bot'
       }));
-      addStandardButtons();
+      agent.add(new Suggestion(`Feedback`));
+      agent.add(new Suggestion(`Menu`));
     }
 
     function feedback() {
@@ -183,8 +184,7 @@ module.exports = {
     // ***** Menus *****
 
     function helpMenu() {
-      agent.add(new Suggestion(`Feedback`));
-      agent.add(new Suggestion(`Menu`));
+      addStandardButtons();
     }
 
     function helpFun() {

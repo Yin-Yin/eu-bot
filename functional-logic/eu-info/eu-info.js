@@ -1,4 +1,6 @@
 
+// toDo: make this as arrays?!
+
 const euFactsMap = new Map();
 euFactsMap.set(1, 'The etymology for the word “Europe” is uncertain up to the present time. Some people like to think that it came from Europa, one of Zeus’s many wives in Greek mythology.');
 euFactsMap.set(2, 'With a land area of only 4,000,000 square miles, Europe is the second smallest continent in the world, just behind Australia.');
