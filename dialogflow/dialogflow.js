@@ -167,7 +167,7 @@ module.exports = {
         buttonUrl: 'https://github.com/Yin-Yin/eu-bot'
       }));
       agent.add(new Suggestion(`Feedback`));
-      agent.add(new Suggestion(`Menu`));
+      agent.add(new Suggestion(`back`));
     }
 
     function feedback() {
@@ -183,7 +183,7 @@ module.exports = {
 
     // ***** Menus *****
 
-    function menuHelp() {
+    function menuMain() {
       addStandardButtons();
     }
 
@@ -212,7 +212,7 @@ module.exports = {
 
 
     function addStandardButtons() {
-      agent.add(new Suggestion(`Vote`));
+      agent.add(new Suggestion(`Vote Info`));
       agent.add(new Suggestion(`Fun`));
       agent.add(new Suggestion(`More`));
       agent.add(new Suggestion(`Help`));
@@ -241,7 +241,7 @@ module.exports = {
     intentMap.set('help', help);
     intentMap.set('feedback', feedback);
     intentMap.set('menu_fun', menuFun);
-    intentMap.set('menu_help', menuHelp);
+    intentMap.set('menu_main', menuMain);
     intentMap.set('menu_more', menuMore);
     intentMap.set('menu_vote', menuVote);
     
