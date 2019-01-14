@@ -151,6 +151,11 @@ module.exports = {
     }
 
 
+    function helpMenu() {
+      addStandardButtons();
+    }
+    
+    
     function helpFun() {
       console.log("feedback case: help_fun");
       agent.add(new Suggestion(`EU meme`));
@@ -185,6 +190,7 @@ module.exports = {
     intentMap.set('ELECTION_what', electionWhat);
     intentMap.set('ELECTION_how', electionHow);
     intentMap.set('ELECTION_when', electionWhen);
+    intentMap.set('help_menu', helpMenu);
 
 
     agent.handleRequest(intentMap);
