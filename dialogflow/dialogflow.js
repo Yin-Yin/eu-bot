@@ -257,9 +257,6 @@ module.exports = {
     intentMap.set('menu_vote', menuVote);
 
 
-
-
     agent.handleRequest(intentMap);
-
   },
 }

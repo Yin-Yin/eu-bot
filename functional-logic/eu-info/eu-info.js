@@ -43,24 +43,17 @@ module.exports = {
 
     getRandomEUFact: function() {
         let randomNumberOfFact = Math.floor(Math.random() * euFacts.length);
-        console.log("randomNumberOfFact: ", randomNumberOfFact);
-        console.log("euFacts.size: ", euFacts.length);
         return euFacts[randomNumberOfFact];
     },
 
     getRandomEUMeme: function() {
         let randomNumberOfMeme = Math.floor(Math.random() * euMemes.length);
-        console.log("randomNumberOfEUMeme: ", randomNumberOfMeme);
-        console.log("euMemes.length: ", euMemes.length);
         return euMemes[randomNumberOfMeme];
     },
 
     getRandomEUWhy: function() {
         let randomNumberOfWhy = Math.floor(Math.random() * euWhyImgs.length);
-        console.log("randomNumberOfWhy: ", randomNumberOfWhy);
-        console.log("jokesMap.size: ", euWhyImgs.length);
         return euWhyImgs[randomNumberOfWhy];
-
     },
 
 }
