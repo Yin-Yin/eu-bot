@@ -48,8 +48,6 @@ module.exports = {
   */
   getRandomJoke: function() {
     let randomNumberOfJoke = Math.floor(Math.random() * jokes.length);
-    console.log("randomNumberOfJoke: ", randomNumberOfJoke);
-    console.log("jokesMap.size: ", jokes.length);
     return jokes[randomNumberOfJoke];
   },
 
