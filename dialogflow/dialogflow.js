@@ -137,6 +137,18 @@ module.exports = {
       let text = quoteModule.getRandomJoke()
       agent.add(text);
       menuFun();
+    }    
+    
+    function quoteQuote() {
+      return new Promise((resolve, reject) => {
+        quoteModule.getForismaticQuote().then(
+          (text) => {
+            console.log("forismatic quote ", text);
+            agent.add(text);
+            menuFun();
+            resolve();
+          });
+      });
     }
 
     function quoteEUfact() {
@@ -200,6 +212,7 @@ module.exports = {
       agent.add(new Suggestion(`EU fact`));
       agent.add(new Suggestion(`Joke`));
       agent.add(new Suggestion(`Trump quote`));
+      agent.add(new Suggestion(`Quote`));
       agent.add(new Suggestion(`back`));
     }
 
@@ -234,6 +247,7 @@ module.exports = {
     intentMap.set('QUOTE_trump-quote', quoteTrump);
     intentMap.set('QUOTE_joke', quoteJoke);
     intentMap.set('QUOTE_eu-fact', quoteEUfact);
+    intentMap.set('QUOTE_quote', quoteQuote);
 
     intentMap.set('EU_meme', euMeme);
     intentMap.set('EU_abbreviation', euAbreviation);
