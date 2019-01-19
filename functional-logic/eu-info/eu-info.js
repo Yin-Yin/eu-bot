@@ -1,7 +1,7 @@
 // toDo: make this as arrays?!
 
 const euFactsMap = new Map();
-euFactsMap.set(1, 'The etymology for the word “Europe" is uncertain up to the present time. Some people like to think that it came from Europa, one of Zeus’s many wives in Greek mythology.');
+euFactsMap.set(1, 'The etymology for the word "Europe" is uncertain up to the present time. Some people like to think that it came from Europa, one of Zeus’s many wives in Greek mythology.');
 euFactsMap.set(2, 'With a land area of only 4,000,000 square miles, Europe is the second smallest continent in the world, just behind Australia.');
 euFactsMap.set(3, 'Europe’s most visited tourist destination is neither the Eiffel Tower nor the Big Ben, but Disneyland in Paris.');
 euFactsMap.set(4, "Europe is technically not a continent. It's separation from Asia was actually a Greek idea.");
@@ -33,6 +33,27 @@ euMemeMap.set(18, 'https://pbs.twimg.com/media/DpUuE9tX4AUF6ja?format=jpg&name=s
 euMemeMap.set(19, 'https://pbs.twimg.com/media/DnhN4WYXsAA_8-M?format=jpg&name=small');
 euMemeMap.set(20, 'https://pbs.twimg.com/media/DolNPQKW0AATJ6w?format=jpg&name=small');
 
+
+const euMemes = [
+    "https://pbs.twimg.com/media/DvvRthIXgAIZJhQ.jpg:large",
+    "https://pbs.twimg.com/media/Dv0crAGX4AAbcJy.jpg:large",
+    "https://pbs.twimg.com/media/DwoAO5LWsAAcX7x.jpg:large",
+    "https://pbs.twimg.com/media/DtONyb-WwAAmlwi?format=jpg&name=medium",
+    "https://pbs.twimg.com/media/DtJPaI5XcAA0MlU?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DtGtJY0X4AATk2T?format=jpg&name=medium",
+    "ttps://pbs.twimg.com/media/DtFpK70XoAAWeYJ?format=jpg&name=small",
+    "https://pbs.twimg.com/media/Dssew-kXQAQHxMM?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DsDvzDCX0AYA4rM?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DrkCQW8XgAEcRtu?format=jpg&name=medium",
+    "https://pbs.twimg.com/media/DrEWZC4XgAArFcy?format=jpg&name=small",
+    "https://pbs.twimg.com/media/Dq_BlzpU8AAMne5?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DqRqjUdXgAAOWmW?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DpP-wZwXcAAPTx8?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DpUuE9tX4AUF6ja?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DnhN4WYXsAA_8-M?format=jpg&name=small",
+    "https://pbs.twimg.com/media/DolNPQKW0AATJ6w?format=jpg&name=small"
+];
+
 const euWhyImgs = [
     "https://pbs.twimg.com/media/DvvRthIXgAIZJhQ.jpg:large",
     "https://pbs.twimg.com/media/DwoAO5LWsAAcX7x.jpg:large",
@@ -56,10 +77,10 @@ module.exports = {
     },
 
     getRandomEUMeme: function() {
-        let randomNumberOfMeme = Math.floor(Math.random() * euMemeMap.size);
+        let randomNumberOfMeme = Math.floor(Math.random() * euMemes.length);
         console.log("randomNumberOfEUMeme: ", randomNumberOfMeme);
-        console.log("jokesMap.size: ", euFactsMap.size);
-        return euMemeMap.get(randomNumberOfMeme);
+        console.log("jokesMap.size: ", euMemes.length);
+        return euMemes[randomNumberOfMeme];
 
     },
 
