@@ -74,6 +74,16 @@ module.exports = {
       menuVote();
     }
 
+    function electionWhy() {
+      let imgUri = euInfoModule.getRandomEUWhy();
+      agent.add(new Card({
+        title: `Why vote?`,
+        imageUrl: imgUri,
+        text: "The EU is really important for the lifes of all of us."
+      }));
+      menuVote();
+    }
+
 
     // ***** EU stuff *****
 
@@ -194,7 +204,7 @@ module.exports = {
       agent.add(new Suggestion(`Trump quote`));
       agent.add(new Suggestion(`back`));
     }
-    
+
     function menuVote() {
       agent.add(new Suggestion(`What?`));
       agent.add(new Suggestion(`Who?`));
@@ -203,7 +213,7 @@ module.exports = {
       agent.add(new Suggestion(`How?`));
       agent.add(new Suggestion(`back`));
     }
-    
+
     function menuMore() {
       agent.add(new Suggestion(`EU abbreviation`));
       agent.add(new Suggestion(`Random EU abbreviation`));
@@ -217,25 +227,26 @@ module.exports = {
       agent.add(new Suggestion(`More`));
       agent.add(new Suggestion(`Help`));
     }
-    
+
 
     // ***** Intent handling *****
 
     let intentMap = new Map();
-    
+
     intentMap.set('QUOTE_trump-quote', quoteTrump);
     intentMap.set('QUOTE_joke', quoteJoke);
     intentMap.set('QUOTE_eu-fact', quoteEUfact);
-    
+
     intentMap.set('EU_meme', euMeme);
     intentMap.set('EU_abbreviation', euAbreviation);
     intentMap.set('EU_abbreviation_random', euAbreviationRandom);
-    
+
     intentMap.set('ELECTION_who', electionWho);
     intentMap.set('ELECTION_what', electionWhat);
     intentMap.set('ELECTION_how', electionHow);
     intentMap.set('ELECTION_when', electionWhen);
-    
+    intentMap.set('ELECTION_why', electionWhy);
+
     intentMap.set('Default Welcome Intent', welcome);
     //intentMap.set('Default Fallback Intent', fallback);
     intentMap.set('help', help);
@@ -244,8 +255,8 @@ module.exports = {
     intentMap.set('menu_main', menuMain);
     intentMap.set('menu_more', menuMore);
     intentMap.set('menu_vote', menuVote);
-    
-    
+
+
 
 
     agent.handleRequest(intentMap);
