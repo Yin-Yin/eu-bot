@@ -64,9 +64,9 @@ module.exports = {
     },
 
     getRandomEUWhy: function() {
-        let randomNumberOfWhy = Math.floor(Math.random() * euWhyImgs.size);
+        let randomNumberOfWhy = Math.floor(Math.random() * euWhyImgs.length);
         console.log("randomNumberOfWhy: ", randomNumberOfWhy);
-        console.log("jokesMap.size: ", euWhyImgs.size);
+        console.log("jokesMap.size: ", euWhyImgs.length);
         return euWhyImgs[randomNumberOfWhy];
 
     },
