@@ -65,7 +65,7 @@ module.exports = {
 
     getRandomEUWhy: function() {
         let randomNumberOfWhy = Math.floor(Math.random() * euWhyImgs.size);
-        console.log("randomNumberOfWhy: ", euWhyImgs);
+        console.log("randomNumberOfWhy: ", randomNumberOfWhy);
         console.log("jokesMap.size: ", euWhyImgs.size);
         return euWhyImgs[randomNumberOfWhy];
 
