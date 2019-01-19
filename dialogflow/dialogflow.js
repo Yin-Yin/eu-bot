@@ -46,10 +46,9 @@ module.exports = {
       agent.add(new Card({
         title: `Who to vote?`,
         text: "Elections are contested by national political parties but once MEPs are elected, most opt to become part of transnational political groups. Most national parties are affiliated to a European-wide political party.\n  Which of these European groupings will exert greater influence in the next legislative term (2019-2024)? This is the big question on election night and depends who gets elected by citizens like you and me (ok, I am bot…). So, it is up to you!",
-        //buttonText: '[Video]: How do MEPs represent me?',
-        //buttonUrl: 'https://www.youtube.com/watch?v=a6yEdZMFlIU'
+        buttonText: '[Open Video]: How do MEPs represent me?',
+        buttonUrl: 'https://www.youtube.com/watch?v=a6yEdZMFlIU'
       }));
-      agent.add("https://www.youtube.com/watch?v=a6yEdZMFlIU");
       menuVote();
     }
 
