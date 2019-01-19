@@ -38,7 +38,6 @@ module.exports = {
         buttonText: '[Open Video]: The European parliament in 40 seconds',
         buttonUrl: 'https://www.youtube.com/watch?v=BNlk64E4Fco'
       }));
-      //agent.add("https://www.youtube.com/watch?v=BNlk64E4Fco");
       menuVote();
     }
 
@@ -184,7 +183,7 @@ module.exports = {
       console.log("parameters", parameters);
       let feedbackText = parameters.any
       nodemailer.sendFeedbackMail(feedbackText);
-      agent.add("Thanks a lot for your feedback. Your feedback has been delivered to the developer.");
+      agent.add("Thanks a lot for your feedback. Your feedback has been delivered to the developers.");
       addStandardButtons();
     }
 
