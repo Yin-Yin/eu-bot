@@ -34,7 +34,7 @@ module.exports = {
     function electionWhat() {
       agent.add(new Card({
         title: `What to vote?`,
-        text: "Every five years EU citizens choose who represents them in the European Parliament, the directly-elected institution that holds up their interests in the EU decision-making process. Voting practices vary across the EU, but there are also some common elements. The next Elections to the European Parliament are held on May 23 to 26 2019.",
+        text: "Every five years EU citizens choose who will represent them in the European Parliament. The Parliament is the directly-elected institution that holds up citizens’ interests in the European Union. It is the centre stage for the democratic debate at EU level. \n In a nutshell, the elections are about selecting who will speak out for your interests, will take crucial decisions for the future of Europe and is accountable only to you, the voter.",
         buttonText: '[Open Video]: The European parliament in 40 seconds',
         buttonUrl: 'https://www.youtube.com/watch?v=BNlk64E4Fco'
       }));
@@ -44,7 +44,7 @@ module.exports = {
     function electionWho() {
       agent.add(new Card({
         title: `Who to vote?`,
-        text: "Elections are contested by national political parties but once MEPs are elected, most opt to become part of transnational political groups. Most national parties are affiliated to a European-wide political party.\n  Which of these European groupings will exert greater influence in the next legislative term (2019-2024)? This is the big question on election night and depends who gets elected by citizens like you and me (ok, I am bot…). So, it is up to you!",
+        text: "You can vote for candidates in the country in which you are registered to vote. These candidates can be experienced politicians or ordinary citizens and all have different backgrounds, experience, qualifications and preferences for the future Europe. Once they are elected, they can shape and decide on new legislation, vote on new trade agreements, scrutinise the EU institutions and how your tax money is spent, as well as launch investigations into specific issues.\n Most elected candidates opt to join other Members of the European Parliament from across Europe in transnational political groups. Which of these political groups will exert greater influence in the next five years? This is the big question on election night. It all depends who gets elected by citizens like you and me (ok, I am bot…). So, it is up to you!",
         buttonText: '[Open Video]: How do MEPs represent me?',
         buttonUrl: 'https://www.youtube.com/watch?v=a6yEdZMFlIU'
       }));
@@ -54,7 +54,7 @@ module.exports = {
     function electionHow() {
       agent.add(new Card({
         title: `How to vote?`,
-        text: "The European elections is about selecting who you want to represent you as a Member of the European Parliament (MEP) and defend your interests in the EU. Not only can MEPs shape and decide on new legislation, they also vote on new trade agreements, scrutinise the EU institutions and how your tax money is spent, as well as launch investigations into specific issues.\n \n Basically, you need to be an EU citizen and be at least 18 years old. However, there can be more specific regulations depending on the EU member state you reside in.",
+        text: "Basically, you need to be an EU citizen and at least 18 years old. You can choose between political parties, individual candidates or both, depending on the voting rules of the country you vote in. Did you know that voting for the European Parliament is compulsory in Bulgaria, Belgium, Luxemburg, Cyprus and Greece? \n As you can see, there are different voting systems and rules across Europe. Luckily, there is an infographic with an overview of the rules:",
         imageUrl: "http://www.europarl.europa.eu/resources/library/images/20181018PHT16579/20181018PHT16579_original.png",
         buttonText: '[Open Graphic] 2019 election rules',
         buttonUrl: 'http://www.europarl.europa.eu/resources/library/images/20181018PHT16579/20181018PHT16579_original.png'
@@ -77,13 +77,25 @@ module.exports = {
       agent.add(new Card({
         title: `Why vote?`,
         imageUrl: imgUri,
-        text: "The EU is really important for the lifes of all of us."
+        text: "Because the elections let you decide on who will shape the future of the European Union in the five coming years. The elections allow you to have your say in how the EU will affect yours and many others EU citizens’ lives. It is time that we all take responsibility. The easiest way to start doing so is voting."
       }));
       menuVote();
     }
 
 
     // ***** EU stuff *****
+
+    function euGetInvolved() {
+      let imgUri = euInfoModule.getRandomEUWhy();
+      agent.add(new Card({
+        title: `Get involved`,
+        imageUrl: imgUri,
+        text: 'There are many ways to ensure that as many people as possible will cast their vote. You can join a political party in its campaigning efforts, support local groups that mobilise voters or talk with your friends, colleagues and family about the elections. \n If you would like to join a community of supporters to help encourage a higher voter turnout at the European Elections with events nearby you, check out the “this time I am voting" campaign:',
+        buttonText: "[Open Website] This time I'm voting",
+        buttonUrl: 'https://www.thistimeimvoting.eu/'
+      }));
+      menuVote();
+    }
 
     function euAbreviation() {
       return new Promise((resolve, reject) => {
@@ -137,8 +149,8 @@ module.exports = {
       let text = quoteModule.getRandomJoke()
       agent.add(text);
       menuFun();
-    }    
-    
+    }
+
     function quoteQuote() {
       return new Promise((resolve, reject) => {
         quoteModule.getForismaticQuote().then(
@@ -226,6 +238,7 @@ module.exports = {
     }
 
     function menuMore() {
+      agent.add(new Suggestion(`Get Involved`));
       agent.add(new Suggestion(`EU abbreviation`));
       agent.add(new Suggestion(`Random EU abbreviation`));
       agent.add(new Suggestion(`back`));
@@ -252,6 +265,7 @@ module.exports = {
     intentMap.set('EU_meme', euMeme);
     intentMap.set('EU_abbreviation', euAbreviation);
     intentMap.set('EU_abbreviation_random', euAbreviationRandom);
+    intentMap.set('EU_getInvolved', euGetInvolved);
 
     intentMap.set('ELECTION_who', electionWho);
     intentMap.set('ELECTION_what', electionWhat);
