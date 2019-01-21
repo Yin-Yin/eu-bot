@@ -86,10 +86,8 @@ module.exports = {
     // ***** EU stuff *****
 
     function euGetInvolved() {
-      let imgUri = euInfoModule.getRandomEUWhy();
       agent.add(new Card({
         title: `Get involved`,
-        imageUrl: imgUri,
         text: 'There are many ways to ensure that as many people as possible will cast their vote. You can join a political party in its campaigning efforts, support local groups that mobilise voters or talk with your friends, colleagues and family about the elections. \n If you would like to join a community of supporters to help encourage a higher voter turnout at the European Elections with events nearby you, check out the “this time I am voting" campaign:',
         buttonText: "[Open Website] This time I'm voting",
         buttonUrl: 'https://www.thistimeimvoting.eu/'
