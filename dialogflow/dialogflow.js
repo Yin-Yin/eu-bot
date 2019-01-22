@@ -185,7 +185,7 @@ module.exports = {
     // ***** General *****
 
     function welcome() {
-      agent.add('Welcome to the EU parliament election 2019 bot! I am here to inform you about the election and about the EU. Try to talk naturally with me or select from the menu below. If you get stuck, you can always type "help". Have fun! :)');
+      agent.add('Hi there! I am the EU Vote Bot. I am here to inform you about the election and about the EU and to entertain you. Try to talk naturally with me or select from the menu below. If you get stuck, you can always type "help". Have fun! :)');
       addStandardButtons();
     }
 
