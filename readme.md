@@ -2,7 +2,7 @@
 
 Webhook for a bot about EU questions.
 
-Telegram: __@EUvote2019bot__
+Telegram: __[@euVoteBot](http://t.me/euVoteBot)__
 
 ## Our idea
 Our idea was to create a bot that helps citizens to inform themselves about the European Parliament elections in an interactive, new and entertaining format.  
@@ -35,9 +35,6 @@ __toDos__
 - add some entertaining information (brainstorm what that could be) - have a reason why the users should use the bot
     - country guessing game
 - activate the existing features that are in the code already (also decide which are needed)
-- use richResponses to make it possible to easily add more plattforms
-- add a contact possibility through nodemailer
-- code cleaning
 
 
 __Challenges__
