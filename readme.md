@@ -27,8 +27,9 @@ We believe that the make or break of this bot lies in making the most simple and
 ### General
 - __Help__ Explains the bot. _Example:_ "help". 
 
-__Possible improvements__
 
+
+## Work in progress 
 
 __toDos__
 - enhance the information about the eu parliament election, make the dialog more natural, add outputContexts to make it like a tutorial
