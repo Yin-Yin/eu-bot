@@ -128,7 +128,6 @@ module.exports = {
 
     }
 
-
     // ***** FUN *****
 
     function quoteTrump() {
@@ -212,7 +211,6 @@ module.exports = {
 
 
     // ***** Menus *****
-
     function menuMain() {
       addStandardButtons();
     }
@@ -221,7 +219,6 @@ module.exports = {
       agent.add(new Suggestion(`EU meme`));
       agent.add(new Suggestion(`EU fact`));
       agent.add(new Suggestion(`Joke`));
-      agent.add(new Suggestion(`Trump quote`));
       agent.add(new Suggestion(`Quote`));
       agent.add(new Suggestion(`back`));
     }
@@ -241,7 +238,6 @@ module.exports = {
       agent.add(new Suggestion(`Random EU abbreviation`));
       agent.add(new Suggestion(`back`));
     }
-
 
     function addStandardButtons() {
       agent.add(new Suggestion(`Vote Info`));
