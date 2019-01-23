@@ -1,6 +1,8 @@
 # EU Vote Bot #
 
-Webhook for a bot about EU questions.
+A chatbot that educates users about the elections of the European Parliament.
+
+This is the NodeJS webhook for dialogflow.
 
 Telegram: __[@euVoteBot](http://t.me/euVoteBot)__
 
