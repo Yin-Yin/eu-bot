@@ -6,6 +6,7 @@ var dialogflowModule = require('./dialogflow/dialogflow.js');
 var gatewayModule = require('./dialogflow-gateway/gateway.js');
 var firestoreModule = require('./database-logic/firestore.js');
 
+/*
 app.use((req, res, next) => {
 
   // -----------------------------------------------------------------------
@@ -29,6 +30,7 @@ app.use((req, res, next) => {
   next()
 
 })
+*/
 
 console.log("starting server ..");
 firestoreModule.initializeDatabase();
