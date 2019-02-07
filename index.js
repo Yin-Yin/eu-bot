@@ -3,6 +3,7 @@ var bodyParser = require('body-parser')
 var express = require('express');
 var app = express();
 var dialogflowModule = require('./dialogflow/dialogflow.js');
+var gatewayModule = require('./dialogflow-gateway/gateway.js');
 var firestoreModule = require('./database-logic/firestore.js');
 
 app.use((req, res, next) => {
@@ -44,6 +45,11 @@ app.use(express.static(__dirname + '/public'));
 app.post('/dialogflow', function(req, res) {
   console.log("app post /dialogflow");
   dialogflowModule.handleRequest(req, res);
+})
+
+app.post('/dialogflowGateway', function(req, res) {
+  console.log("app post /dialogflowGateway");
+  gatewayModule.handleGatewayRequest(req, res);
 })
 
 app.listen(app.get('port'), function() {
