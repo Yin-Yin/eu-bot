@@ -36,7 +36,7 @@ module.exports = {
     handleGatewayRequest: (req, res) => {
         
         console.log("Executing handleGatewayRequest ... ");
-        
+        console.log("agentsClient ... ", agentsClient);
 
         /* On GET request return the information about the agent */
         if (req.method == "GET") {

@@ -51,7 +51,7 @@ app.post('/dialogflow', function(req, res) {
 
 app.get('/dialogflowGateway', function(req, res) {
   console.log("dialogflowGateway called");
-  console.log("app post /dialogflowGateway");
+  console.log("app get /dialogflowGateway");
   gatewayModule.handleGatewayRequest(req, res);
 })
 
