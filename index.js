@@ -49,7 +49,7 @@ app.post('/dialogflow', function(req, res) {
   dialogflowModule.handleRequest(req, res);
 })
 
-app.post('/dialogflowGateway', function(req, res) {
+app.get('/dialogflowGateway', function(req, res) {
   console.log("dialogflowGateway called");
   console.log("app post /dialogflowGateway");
   gatewayModule.handleGatewayRequest(req, res);
