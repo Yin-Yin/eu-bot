@@ -37,6 +37,8 @@ module.exports = {
         
         console.log("Executing handleGatewayRequest ... ");
         console.log("agentsClient ... ", agentsClient);
+        console.log("privApiKey ... ", privApiKey);
+        
 
         /* On GET request return the information about the agent */
         if (req.method == "GET") {
