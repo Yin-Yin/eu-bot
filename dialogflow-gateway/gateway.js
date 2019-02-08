@@ -235,11 +235,13 @@ module.exports = {
 
                             res.set(headers)
                             res.send(formatted)
+                            console.log("res",res);
                         }
 
                         else {
                             res.set(headers)
                             res.send(responses[0])
+                            console.log("res",res);
                         }
                     })
                     .catch(err => {
