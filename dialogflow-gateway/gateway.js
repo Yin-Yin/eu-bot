@@ -38,7 +38,11 @@ module.exports = {
         
         console.log("Executing handleGatewayRequest ... ");
         console.log("agentsClient ... ", agentsClient);
+        try {
         console.log("agentsClient details ... ", agentsClient.auth.jsonContent);
+        } catch (e) {
+            console.error(e);
+        }
         console.log("privApiKey ... ", privApiKey);
         
 
