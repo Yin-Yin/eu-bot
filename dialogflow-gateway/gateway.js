@@ -3,7 +3,8 @@
 const dialogflow = require('dialogflow')
 
 // const serviceAccount = require('./service_account.json')  // <-- change service_account to yours
-let privApiKey = process.env.serviceAccount_private_key.replace(String.fromCharCode(92,02),String.fromCharCode(92));
+//let privApiKey = process.env.serviceAccount_private_key.replace(String.fromCharCode(92,02),String.fromCharCode(92));
+let privApiKey = process.env.serviceAccount_private_key.replace(String.fromCharCode(92,92),String.fromCharCode(92));
 
 /* AgentsClient retrieves information about the agent */
 const agentsClient = new dialogflow.AgentsClient({
